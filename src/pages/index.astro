@@ -136,8 +136,9 @@ const lastSweep = meta.last_sweep
   const loadMore = document.querySelector<HTMLButtonElement>("#load-more");
   const remaining = document.querySelector<HTMLElement>("#remaining");
 
-  const PAGE_SIZE = 24; // 初期表示件数。「さらに表示」で増える
-  let shownCount = PAGE_SIZE;
+  const INITIAL = 5; // 初期表示件数
+  const STEP = 10; // 「さらに表示」1回で増える件数
+  let shownCount = INITIAL;
   let matched: HTMLElement[] = cards;
 
   // 絞り込みに一致するカードだけ matched に入れ、上から shownCount 件だけ表示する
@@ -163,12 +164,12 @@ const lastSweep = meta.last_sweep
         amountMatches(card.dataset.amount ?? "", amount?.value ?? "") &&
         (!query || card.dataset.title?.includes(query))
     );
-    shownCount = PAGE_SIZE; // 絞り込みを変えたら1ページ目に戻す
+    shownCount = INITIAL; // 絞り込みを変えたら1ページ目に戻す
     paint();
   };
 
   loadMore?.addEventListener("click", () => {
-    shownCount += PAGE_SIZE;
+    shownCount += STEP;
     paint();
   });
 
