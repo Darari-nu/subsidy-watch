@@ -1,0 +1,47 @@
+version: 1
+
+sources:
+  - id: jgrants
+    type: api
+    enabled: true
+    name: jGrants 公開API
+    base_url: https://api.jgrants-portal.go.jp/exp/v1/public
+    public_base_url: https://www.jgrants-portal.go.jp/subsidy
+    keywords:
+      - 事業
+      - 支援
+      - 補助
+      - 中小
+      - IT
+      - ものづくり
+      - 設備
+      - 雇用
+      - 省エネ
+      - 創業
+
+  - id: jnet21
+    type: rss
+    enabled: false
+    name: J-Net21 支援情報
+    url: https://j-net21.smrj.go.jp/snavi/support/support.xml
+    include_keywords:
+      - 補助金
+      - 助成金
+
+  - id: mirasapo
+    type: rss
+    enabled: false
+    name: ミラサポplus
+    url: https://mirasapo-plus.go.jp/feed/
+    include_keywords:
+      - 補助金
+      - 助成金
+
+  - id: mhlw
+    type: rss
+    enabled: false
+    name: 厚生労働省 新着情報
+    url: https://www.mhlw.go.jp/stf/news.rdf
+    include_keywords:
+      - 補助金
+      - 助成金

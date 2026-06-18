@@ -1,0 +1,156 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Filters from "../components/Filters.astro";
+import Footer from "../components/Footer.astro";
+import SubsidyCard from "../components/SubsidyCard.astro";
+import subsidies from "../../data/subsidies.json";
+import meta from "../../data/meta.json";
+
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Tokyo",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(new Date());
+const activeSubsidies = subsidies
+  .filter((item) => item.end >= today)
+  .sort((a, b) => a.end.localeCompare(b.end, "ja"));
+const areas = [...new Set(activeSubsidies.map((item) => item.area))].sort((a, b) =>
+  a.localeCompare(b, "ja")
+);
+const employees = [
+  ...new Set(activeSubsidies.map((item) => item.employees))
+].sort((a, b) => a.localeCompare(b, "ja"));
+const closingCount = activeSubsidies.filter(
+  (item) => item.status === "closing_soon"
+).length;
+const lastSweep = meta.last_sweep
+  ? new Intl.DateTimeFormat("ja-JP", {
+      timeZone: "Asia/Tokyo",
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    }).format(new Date(meta.last_sweep))
+  : "未巡回";
+---
+
+<Layout>
+  <section class="border-b border-line bg-white">
+    <div class="container-page grid gap-8 py-10 lg:grid-cols-[1fr_auto] lg:items-end lg:py-14">
+      <div>
+        <p class="mb-3 text-xs font-black tracking-[0.18em] text-green">
+          中小企業向け・受付中の制度
+        </p>
+        <h1 class="max-w-3xl text-3xl leading-tight font-black tracking-tight sm:text-5xl">
+          締切から逆算して、<br class="hidden sm:block" />使える補助金を見つける。
+        </h1>
+        <p class="mt-5 max-w-2xl text-sm leading-7 text-muted sm:text-base">
+          jGrantsの公開情報を毎日取得し、受付中の補助金を締切が近い順に整理しています。
+        </p>
+      </div>
+      <dl class="grid min-w-64 grid-cols-2 overflow-hidden rounded-xl border border-line bg-paper">
+        <div class="border-r border-line p-4">
+          <dt class="text-xs font-bold text-muted">受付中</dt>
+          <dd class="mt-1 text-3xl font-black">{activeSubsidies.length}<small class="ml-1 text-sm">件</small></dd>
+        </div>
+        <div class="p-4">
+          <dt class="text-xs font-bold text-danger">30日以内</dt>
+          <dd class="mt-1 text-3xl font-black text-danger">{closingCount}<small class="ml-1 text-sm">件</small></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="container-page py-8">
+    <div class="mb-5 flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
+      <p>最終巡回：<strong class="text-ink">{lastSweep}</strong></p>
+      <p class:list={["font-bold", meta.status === "ok" ? "text-green" : "text-gold"]}>
+        取得状態：{meta.status === "ok" ? "正常" : meta.status === "partial" ? "一部取得" : "要確認"}
+      </p>
+    </div>
+
+    <Filters areas={areas} employees={employees} />
+
+    <div class="mt-8 flex items-baseline justify-between gap-4">
+      <h2 class="text-xl font-black">締切が近い順</h2>
+      <p class="text-sm text-muted"><span id="result-count">{activeSubsidies.length}</span>件を表示</p>
+    </div>
+
+    <div id="subsidy-list" class="mt-4 grid gap-4 lg:grid-cols-2">
+      {
+        activeSubsidies.map((subsidy, index) => (
+          <SubsidyCard subsidy={subsidy} today={today} index={index} />
+        ))
+      }
+    </div>
+
+    <div
+      id="empty-state"
+      class="mt-4 hidden rounded-xl border border-dashed border-line bg-white p-10 text-center"
+    >
+      <p class="font-bold">条件に一致する補助金はありません。</p>
+      <p class="mt-2 text-sm text-muted">条件を減らして、もう一度お試しください。</p>
+    </div>
+  </div>
+
+  <Footer />
+</Layout>
+
+<script>
+  const area = document.querySelector<HTMLSelectElement>("#filter-area");
+  const employees =
+    document.querySelector<HTMLSelectElement>("#filter-employees");
+  const amount = document.querySelector<HTMLSelectElement>("#filter-amount");
+  const keyword = document.querySelector<HTMLInputElement>("#filter-keyword");
+  const reset = document.querySelector<HTMLButtonElement>("#filter-reset");
+  const cards = [
+    ...document.querySelectorAll<HTMLElement>(".subsidy-card")
+  ];
+  const resultCount = document.querySelector<HTMLElement>("#result-count");
+  const emptyState = document.querySelector<HTMLElement>("#empty-state");
+
+  const amountMatches = (rawValue: string, filter: string) => {
+    if (!filter) return true;
+    if (!rawValue) return filter === "unknown";
+    const value = Number(rawValue);
+    if (filter === "under-1m") return value < 1_000_000;
+    if (filter === "1m-5m") return value >= 1_000_000 && value < 5_000_000;
+    if (filter === "5m-10m") return value >= 5_000_000 && value < 10_000_000;
+    if (filter === "over-10m") return value >= 10_000_000;
+    return true;
+  };
+
+  const applyFilters = () => {
+    const query = keyword?.value.trim().toLocaleLowerCase("ja") ?? "";
+    let visible = 0;
+
+    for (const card of cards) {
+      const matches =
+        (!area?.value || card.dataset.area === area.value) &&
+        (!employees?.value ||
+          card.dataset.employees === employees.value) &&
+        amountMatches(card.dataset.amount ?? "", amount?.value ?? "") &&
+        (!query || card.dataset.title?.includes(query));
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    }
+
+    if (resultCount) resultCount.textContent = String(visible);
+    emptyState?.classList.toggle("hidden", visible !== 0);
+  };
+
+  for (const control of [area, employees, amount]) {
+    control?.addEventListener("change", applyFilters);
+  }
+  keyword?.addEventListener("input", applyFilters);
+  reset?.addEventListener("click", () => {
+    if (area) area.value = "";
+    if (employees) employees.value = "";
+    if (amount) amount.value = "";
+    if (keyword) keyword.value = "";
+    applyFilters();
+  });
+  applyFilters();
+</script>

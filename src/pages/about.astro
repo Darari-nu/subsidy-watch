@@ -1,0 +1,52 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="このサイトについて | 補助金ウォッチ">
+  <article class="container-page max-w-3xl py-12 sm:py-16">
+    <p class="mb-3 text-xs font-black tracking-[0.18em] text-green">ABOUT</p>
+    <h1 class="text-3xl font-black sm:text-4xl">このサイトについて</h1>
+
+    <div class="mt-10 space-y-10 text-sm leading-8 text-muted sm:text-base">
+      <section>
+        <h2 class="mb-3 text-xl font-bold text-ink">補助金ウォッチとは</h2>
+        <p>
+          中小企業の経営者・経理担当者・申請支援者が、受付中の補助金を締切順に確認するための静的ダッシュボードです。
+          デジタル庁が運営するjGrantsの公開APIから情報を自動取得しています。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-xl font-bold text-ink">掲載内容と更新</h2>
+        <p>
+          複数の検索キーワードでjGrantsを巡回し、同じ制度をIDで重複排除しています。
+          締切、上限額、対象地域、従業員規模などは公開APIの構造化データをそのまま整理し、独自のAI要約は行っていません。
+        </p>
+      </section>
+
+      <section class="rounded-xl border border-danger/25 bg-danger-soft p-5 text-ink">
+        <h2 class="mb-3 text-xl font-bold text-danger">免責事項</h2>
+        <p>
+          本サイトは公開情報の自動集約であり、制度の網羅性、情報の完全性・最新性、申請資格や採択可能性を保証しません。
+          募集内容は変更される場合があります。申請にあたっては、必ずjGrantsおよび実施機関の公式ページで最新の公募要領をご確認ください。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-xl font-bold text-ink">データ出典</h2>
+        <p>
+          <a
+            href="https://www.jgrants-portal.go.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-green"
+          >
+            jGrants（デジタル庁）
+          </a>
+        </p>
+      </section>
+    </div>
+  </article>
+  <Footer />
+</Layout>

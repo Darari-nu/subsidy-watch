@@ -1,0 +1,24 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<footer class="mt-16 border-t border-line bg-white">
+  <div class="container-page py-8 text-sm leading-7 text-muted">
+    <p class="font-bold text-ink">ご利用にあたって</p>
+    <p class="mt-2">
+      本サイトはjGrants等の公開情報の自動集約であり、申請可否・情報の完全性・最新性を保証しません。
+      申請前に必ず各制度の公式ページで最新情報をご確認ください。
+    </p>
+    <p class="mt-3">
+      データ出典：
+      <a
+        href="https://www.jgrants-portal.go.jp/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-bold text-green">jGrants（デジタル庁）</a
+      >
+      ／ <a href={`${base}about/`} class="font-bold text-green">このサイトについて</a>
+    </p>
+    <p class="mt-5 text-xs">© 補助金ウォッチ</p>
+  </div>
+</footer>

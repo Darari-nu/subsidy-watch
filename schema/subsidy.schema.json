@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://subsidy-watch.local/schema/subsidy.schema.json",
+  "title": "補助金ウォッチ正規化データ",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "title",
+      "max_limit",
+      "area",
+      "employees",
+      "start",
+      "end",
+      "status",
+      "source",
+      "jgrants_url",
+      "official_url",
+      "catch",
+      "first_seen"
+    ],
+    "properties": {
+      "id": { "type": "string", "minLength": 1 },
+      "title": { "type": "string", "minLength": 1 },
+      "max_limit": { "type": ["integer", "null"], "minimum": 0 },
+      "area": { "type": "string", "minLength": 1 },
+      "employees": { "type": "string", "minLength": 1 },
+      "start": { "type": ["string", "null"], "format": "date" },
+      "end": { "type": "string", "format": "date" },
+      "status": { "enum": ["new", "closing_soon", "open"] },
+      "source": { "const": "jgrants" },
+      "jgrants_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://www\\.jgrants-portal\\.go\\.jp/subsidy/"
+      },
+      "official_url": { "type": ["string", "null"], "format": "uri" },
+      "catch": { "type": "string" },
+      "first_seen": { "type": "string", "format": "date" }
+    }
+  }
+}

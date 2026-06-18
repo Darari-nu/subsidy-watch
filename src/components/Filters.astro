@@ -1,0 +1,64 @@
+---
+interface Props {
+  areas: string[];
+  employees: string[];
+}
+
+const { areas, employees } = Astro.props;
+---
+
+<section
+  class="rounded-xl border border-line bg-panel p-4 shadow-sm sm:p-5"
+  aria-labelledby="filter-heading"
+>
+  <div class="mb-4 flex items-end justify-between gap-4">
+    <div>
+      <p class="mb-1 text-xs font-bold tracking-[0.14em] text-green">絞り込み</p>
+      <h2 id="filter-heading" class="text-lg font-bold">条件から探す</h2>
+    </div>
+    <button
+      id="filter-reset"
+      type="button"
+      class="rounded-md border border-line bg-white px-3 py-2 text-xs font-bold text-muted hover:border-green hover:text-green"
+    >
+      条件をクリア
+    </button>
+  </div>
+  <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <label class="filter-label">
+      地域
+      <select id="filter-area" class="filter-control">
+        <option value="">すべての地域</option>
+        {areas.map((area) => <option value={area}>{area}</option>)}
+      </select>
+    </label>
+    <label class="filter-label">
+      従業員規模
+      <select id="filter-employees" class="filter-control">
+        <option value="">すべての規模</option>
+        {employees.map((employee) => <option value={employee}>{employee}</option>)}
+      </select>
+    </label>
+    <label class="filter-label">
+      上限金額
+      <select id="filter-amount" class="filter-control">
+        <option value="">すべての金額</option>
+        <option value="under-1m">100万円未満</option>
+        <option value="1m-5m">100万〜500万円未満</option>
+        <option value="5m-10m">500万〜1,000万円未満</option>
+        <option value="over-10m">1,000万円以上</option>
+        <option value="unknown">金額未掲載</option>
+      </select>
+    </label>
+    <label class="filter-label">
+      フリーワード
+      <input
+        id="filter-keyword"
+        class="filter-control"
+        type="search"
+        placeholder="例：省エネ、設備"
+        autocomplete="off"
+      />
+    </label>
+  </div>
+</section>

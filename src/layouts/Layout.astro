@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "補助金ウォッチ",
+  description = "受付中の補助金を締切が近い順に確認できる、中小企業向け締切ダッシュボード"
+} = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="border-b border-line bg-green-dark text-white">
+      <div class="container-page flex min-h-16 items-center justify-between gap-4 py-3">
+        <a href={base} class="flex items-center gap-3 text-white no-underline">
+          <span
+            class="grid size-9 place-items-center rounded-md border border-white/30 bg-white/10 text-lg font-black"
+            aria-hidden="true">〆</span
+          >
+          <span>
+            <strong class="block text-base tracking-wide">補助金ウォッチ</strong>
+            <small class="hidden text-[0.68rem] text-white/70 sm:block"
+              >SUBSIDY DEADLINE DASHBOARD</small
+            >
+          </span>
+        </a>
+        <nav aria-label="メインナビゲーション" class="flex gap-5 text-sm font-bold">
+          <a href={base} class="text-white/90 hover:text-white">一覧</a>
+          <a href={`${base}about/`} class="text-white/90 hover:text-white">このサイトについて</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
