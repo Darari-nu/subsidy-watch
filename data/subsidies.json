@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYuNMAX",
-    "title": "令和 8 年度 情報処理・サービス・製造産業事業費補助金（重要鉱物に係るサプライチェーン強靱化事業）",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-15",
-    "end": "2026-06-18",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuNMAX",
-    "official_url": "https://cm-ssc.jp/",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYoyMAH",
     "title": "「ＮＥＤＯ研究開発資産管理業務の高度化に向けた検討に係る調査事業／ＮＥＤＯ研究開発資産を用いた成果最大化に向けた先行事例調査」の公募",
     "max_limit": 0,
@@ -1440,6 +1425,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDa1WMAT",
+    "title": "【二次公募】令和８年度　二酸化炭素排出抑制対策事業費等補助金　再エネ等熱利用設備導入事業 【再エネ熱】",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-18",
+    "end": "2026-07-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1WMAT",
+    "official_url": "https://www.eta.or.jp/inquiry.php",
+    "catch": "",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": "a0WJ200000CDPL5MAP",
     "title": "フィンテック産業における協業基盤整備支援事業補助金",
     "max_limit": 10000000,
@@ -1811,6 +1811,21 @@
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXuqMAH",
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/cybersecurity.html",
+    "catch": "",
+    "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDb6JMAT",
+    "title": "【令和７年度】二酸化炭素排出抑制対策事業費等補助金（水インフラにおける脱炭素化推進事業）［四次公募］",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-18",
+    "end": "2026-09-18",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6JMAT",
+    "official_url": "https://siz-kankyou.com/2025co2/mizuinfrastructure3/",
     "catch": "",
     "first_seen": "2026-06-18"
   },
