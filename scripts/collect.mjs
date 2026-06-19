@@ -92,6 +92,7 @@ const previousById = new Map(previous.map((record) => [record.id, record]));
 const resultsById = new Map();
 const errors = [];
 let successfulKeywords = 0;
+let keywordFailures = 0;
 
 for (const keyword of source.keywords) {
   try {
@@ -104,6 +105,7 @@ for (const keyword of source.keywords) {
     }
     console.log(`collect: "${keyword}" ${payload.result.length}件`);
   } catch (error) {
+    keywordFailures += 1;
     const message = `"${keyword}": ${error.message}`;
     errors.push(message);
     console.warn(`collect: skip ${message}`);
@@ -160,9 +162,33 @@ for (const item of resultsById.values()) {
   });
 }
 
+// データ消失防止（致命的バグ修正）：
+// 一部キーワードが失敗 or 取得が急減した場合、今回取得できなかった「前回のまだ有効なレコード」を保持してマージする。
+// 全失敗時は前回を丸ごと保持。全キーワード成功かつ件数も妥当なら、今回分を正とする（締切済み・受付終了が正しく落ちる）。
+const collectedIds = new Set(collected.map((record) => record.id));
+const previousValid = previous.filter((record) => record.end >= today);
+const suddenDrop =
+  previousValid.length > 0 && collected.length < previousValid.length * 0.5;
+
 if (successfulKeywords === 0) {
-  collected.push(...previous);
+  collected.push(...previousValid);
   errors.push("全キーワードの取得に失敗したため、前回データを保持しました");
+} else if (keywordFailures > 0 || suddenDrop) {
+  let carriedOver = 0;
+  for (const record of previousValid) {
+    if (!collectedIds.has(record.id)) {
+      collected.push(record);
+      carriedOver += 1;
+    }
+  }
+  if (carriedOver > 0) {
+    const reason =
+      keywordFailures > 0
+        ? `キーワード${keywordFailures}件失敗`
+        : `取得急減(${collected.length - carriedOver}件<前回有効${previousValid.length}件)`;
+    errors.push(`${reason}のため前回の有効データ${carriedOver}件を保持（消失防止）`);
+    console.warn(`collect: carried over ${carriedOver} records (${reason})`);
+  }
 }
 
 await mkdir(CACHE_DIR, { recursive: true });
