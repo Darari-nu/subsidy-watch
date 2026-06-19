@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDVdPMAX",
-    "title": "令和７年度臨床研修費等補助金（歯科医師）",
-    "max_limit": 0,
-    "area": "東京都",
-    "employees": "従業員数の制約なし",
-    "start": "2025-10-14",
-    "end": "2026-06-19",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVdPMAX",
-    "official_url": null,
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDY6vMAH",
-    "title": "令和８年度社会福祉施設等への非常用電源等の整備促進事業補助金",
-    "max_limit": 3750000,
-    "area": "東京都",
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-01",
-    "end": "2026-06-19",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6vMAH",
-    "official_url": "https://www.r8dengen.metro.tokyo.lg.jp",
-    "catch": "非常用電源等の整備費用を補助します！",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYttMAH",
     "title": "「デジタル技術のフロンティア領域に関する俯瞰調査」の公募",
     "max_limit": 0,
