@@ -1,6 +1,18 @@
 {
-  "last_sweep": "2026-06-23T22:19:25.081Z",
-  "status": "ok",
-  "count": 319,
-  "errors": []
+  "last_sweep": "2026-06-24T22:26:15.979Z",
+  "status": "failed",
+  "count": 316,
+  "errors": [
+    "\"事業\": This operation was aborted",
+    "\"支援\": This operation was aborted",
+    "\"補助\": This operation was aborted",
+    "\"中小\": This operation was aborted",
+    "\"IT\": This operation was aborted",
+    "\"ものづくり\": This operation was aborted",
+    "\"設備\": This operation was aborted",
+    "\"雇用\": This operation was aborted",
+    "\"省エネ\": This operation was aborted",
+    "\"創業\": This operation was aborted",
+    "全キーワードの取得に失敗したため、前回データを保持しました"
+  ]
 }
