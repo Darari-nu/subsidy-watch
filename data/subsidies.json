@@ -1,50 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDa6lMAD",
-    "title": "【宮崎県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-    "max_limit": 3000000,
-    "area": "宮崎県",
-    "employees": "300名以下",
-    "start": "2026-06-01",
-    "end": "2026-06-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa6lMAD",
-    "official_url": "https://www.mepo.or.jp/shiensaku/675.html",
-    "catch": "【宮崎県】外国出願補助金",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDZcyMAH",
-    "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-    "max_limit": 3000000,
-    "area": "青森県",
-    "employees": "300名以下",
-    "start": "2026-05-25",
-    "end": "2026-06-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZcyMAH",
-    "official_url": "https://www.aomori-ipc.jp/news/news-17406/",
-    "catch": "【青森県】令和8年度第1回外国出願補助金",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDYteMAH",
-    "title": "【令和８年度・第３回】INPIT外国出願補助金",
-    "max_limit": 3000000,
-    "area": "全国",
-    "employees": "300名以下",
-    "start": "2026-06-08",
-    "end": "2026-06-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYteMAH",
-    "official_url": "https://www.inpit.go.jp/shien/gaikoku/index.html",
-    "catch": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYh7MAH",
     "title": "「変動性再生可能エネルギー主電源化に向けた次世代系統安定化技術に関する調査」の公募",
     "max_limit": 0,
@@ -1755,6 +1710,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDcODMA1",
+    "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　３次締切分）",
+    "max_limit": 20000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-27",
+    "end": "2026-09-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcODMA1",
+    "official_url": "https://www.nef.or.jp/topics/2026/20260424.html",
+    "catch": "PFIによる発電所の運営を目的として、地方公共団体が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等、当該地点の発電所の整備・運営に係る公募を行う事業と、地方公共団体又は地方公共団体と連携する民間事業者が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業と、民間事業者等が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業をサポートします。",
+    "first_seen": "2026-06-30"
+  },
+  {
     "id": "a0WJ200000CDTzMMAX",
     "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（19次締切）",
     "max_limit": 40000000,
@@ -2398,6 +2368,21 @@
     "official_url": "https://www.city.munakata.lg.jp/kiji0034118/index.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDY2TMAX",
+    "title": "既存住宅流通活性化緊急促進事業",
+    "max_limit": 158000000,
+    "area": "北海道 / 宮城県 / 茨城県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 愛知県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 広島県 / 福岡県 / 佐賀県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-03-23",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2TMAX",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_fr3_000054.html",
+    "catch": "",
+    "first_seen": "2026-06-30"
   },
   {
     "id": "a0WJ200000CDYUlMAP",
