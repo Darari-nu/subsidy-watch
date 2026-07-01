@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYsWMAX",
-    "title": "「デコ活」（脱炭素につながる新しい豊かな暮らしを創る国民運動）推進事業（二次公募）",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-19",
-    "end": "2026-07-01",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsWMAX",
-    "official_url": "https://ondankataisaku.env.go.jp/decokatsu/common/file/20221208_cn_lifestyle.pdf",
-    "catch": "デコ活",
-    "first_seen": "2026-06-19"
-  },
-  {
-    "id": "a0WJ200000CDYknMAH",
-    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （国内資源循環体制構築に向けた再エネ関連製品及びベース素材の全体最適化実証事業）",
-    "max_limit": 278200000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-02",
-    "end": "2026-07-01",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYknMAH",
-    "official_url": "https://www.jwrf.or.jp/individual/aa22d525c524ca3e464b17168c2c257608c24aa6.pdf",
-    "catch": "太陽光パネルや車載用バッテリー等の再エネ関連製品に含有されている、非鉄金属・レアメタルを適切にリユース、リサイクルし、また、ガラス等のベース素材の代替を図るための省CO2型のリサイクル技術向上と、リサイクル原料の品質向上を図り、未利用資源の活用体制構築を促進する実証の費用の一部を補助します。",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYtjMAH",
     "title": "「精密発酵および細胞農業等における企業活動、技術開発、規制・制度整備等の分析調査」の公募",
     "max_limit": 0,
@@ -328,6 +298,21 @@
     "official_url": "https://www.nedo.go.jp/koubo/FF2_100466.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDYwlMAH",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（新市場・新分野進出コース）【令和8年度第1回】",
+    "max_limit": 10000000,
+    "area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-01",
+    "end": "2026-07-14",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYwlMAH",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/soui-challenge/shin-shijou/index.html",
+    "catch": "",
+    "first_seen": "2026-07-02"
   },
   {
     "id": "a0WJ200000CDXkTMAX",
@@ -930,6 +915,21 @@
     "first_seen": "2026-07-01"
   },
   {
+    "id": "a0WJ200000CDc0JMAT",
+    "title": "「スタートアップに対する経営管理・事業化支援人材の伴走支援モデルに係る調査事業」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-01",
+    "end": "2026-07-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0JMAT",
+    "official_url": "https://www.nedo.go.jp/koubo/CA2_100536.html",
+    "catch": "",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDXoQMAX",
     "title": "「グリーンイノベーション基金事業／食料・農林水産業のCO2等削減・吸収技術の開発」の公募",
     "max_limit": 0,
@@ -975,6 +975,36 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDaTDMA1",
+    "title": "女性の活躍推進に向けた職場環境改善奨励金　支給申請",
+    "max_limit": 1800000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTDMA1",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "id": "a0WJ200000CDaTFMA1",
+    "title": "女性活躍情報公開促進奨励金　支給申請",
+    "max_limit": 200000,
+    "area": "東京都",
+    "employees": "100名以下",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTFMA1",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDNujMAH",
     "title": "情報通信拠点機能強化支援事業費補助金",
     "max_limit": 1280000000,
@@ -988,6 +1018,51 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDcO9MAL",
+    "title": "東京都若者世代職場定着促進助成金（令和８年度第３回申請受付）",
+    "max_limit": 1260000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-30",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO9MAL",
+    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/wakamonosedai/",
+    "catch": "若者世代の早期職場定着化支援",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "id": "a0WJ200000CDcO8MAL",
+    "title": "東京都就職氷河期世代等安定就業サポート助成金（令和８年度第３回申請受付）",
+    "max_limit": 2400000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-30",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO8MAL",
+    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/hyogaki/",
+    "catch": "就職氷河期世代の方を正社員として採用し、定着を図るために計画的な指導育成の取組を行った企業に対し助成金を交付します！",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "id": "a0WJ200000CDcO3MAL",
+    "title": "東京都正規雇用転換安定化支援助成金（令和８年度第３回申請受付）",
+    "max_limit": 1900000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-30",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO3MAL",
+    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/anteika/",
+    "catch": "企業内で非正規から正規雇用に転換した従業員の方々が安心して働き続けられるよう、正社員としてのキャリアアップの研修や指導育成の取組をした企業に対し助成金を交付します！",
+    "first_seen": "2026-07-02"
   },
   {
     "id": "a0WJ200000CDVdPMAX",
@@ -1035,6 +1110,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDYkxMAH",
+    "title": "令和8年度第1回 事業承継を契機とした成長支援事業(販路開拓コース)",
+    "max_limit": 3000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkxMAH",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/shokei-seicho-hanro/index.html",
+    "catch": "更なる企業の成長を目指す後継者が取り組む新規事業展開を支援します！！",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDY71MAH",
     "title": "令和8年度病院診療情報デジタル推進事業（事務作業支援）",
     "max_limit": 3600000,
@@ -1072,12 +1162,27 @@
     "employees": "従業員数の制約なし",
     "start": "2026-06-23",
     "end": "2026-08-03",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1",
     "official_url": "https://www.env.go.jp/content/000335998.pdf",
     "catch": "地域貢献等の要件を満たす事業の廃熱を高効率で熱回収する設備（熱や電気等を施設外でも確実に利用すること）及び廃棄物から燃料を製造する設備（燃料が地域内産業で確実に使用されること）の費用の一部を補助します。",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": "a0WJ200000CDbfKMAT",
+    "title": "【愛知県・２次募集】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "max_limit": 3000000,
+    "area": "愛知県",
+    "employees": "300名以下",
+    "start": "2026-07-01",
+    "end": "2026-08-07",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbfKMAT",
+    "official_url": "https://www.aibsc.jp/support/41626/",
+    "catch": "【あいち産業振興機構】外国出願補助金",
+    "first_seen": "2026-07-02"
   },
   {
     "id": "a0WJ200000CDaMVMA1",
@@ -1378,6 +1483,36 @@
     "official_url": "https://chinage-support2026-hokkaido.jp/",
     "catch": "中小・小規模事業者の生産性向上等を図り、持続的な賃上げに踏み出せる環境を整備するため、経営改善に資する経費を支援します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDZ2OMAX",
+    "title": "令和8年度　建築GX・DX推進事業",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX",
+    "official_url": "https://gxdx.jp/",
+    "catch": "",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "id": "a0W2x000004PhCHEA0",
+    "title": "令和8年度 生放送字幕番組普及促進助成金（第３期）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-30",
+    "end": "2026-09-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000004PhCHEA0",
+    "official_url": "https://www.nict.go.jp/info-barrierfree/others/inquiry.html",
+    "catch": "生放送番組に字幕を付与する機器の整備に対して助成金を交付",
+    "first_seen": "2026-07-02"
   },
   {
     "id": "a0WJ200000CDY6tMAH",
@@ -2055,6 +2190,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDbPLMA1",
+    "title": "【久留米市】中小企業先端設備等導入支援補助金（令和8年度）",
+    "max_limit": 5000000,
+    "area": "福岡県",
+    "employees": "300名以下",
+    "start": "2026-06-30",
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPLMA1",
+    "official_url": "https://www.city.kurume.fukuoka.jp/1090sangyou/2020shoukougyou/3020joseiseido/2026-0617-1553-74.html",
+    "catch": "",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDVkeMAH",
     "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（20次締切）",
     "max_limit": 35000000,
@@ -2190,6 +2340,36 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDbYvMAL",
+    "title": "女性の活躍推進に向けた職場環境改善奨励金　変更届",
+    "max_limit": 1800000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYvMAL",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "id": "a0WJ200000CDbYuMAL",
+    "title": "女性活躍情報公開促進奨励金　変更届",
+    "max_limit": 200000,
+    "area": "東京都",
+    "employees": "100名以下",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYuMAL",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDK7OMAX",
     "title": "中小企業の外国人従業員に対する研修等支援助成金（ウクライナ避難民採用企業コース）",
     "max_limit": 500000,
@@ -2248,6 +2428,21 @@
     "official_url": "https://www.kensaibou.or.jp/support/subsidy/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDa1RMAT",
+    "title": "令和８年度における都型放課後等デイサービス事業補助金",
+    "max_limit": 443200,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-01",
+    "end": "2027-01-28",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1RMAT",
+    "official_url": "https://www.shougaifukushi.metro.tokyo.lg.jp/Lib/LibDspCatego.php?catid=108",
+    "catch": "",
+    "first_seen": "2026-07-02"
   },
   {
     "id": "a0W5h00000ZuemGEAR",
@@ -2479,7 +2674,7 @@
     "title": "小樽市省エネルギー診断補助金",
     "max_limit": 50000,
     "area": "北海道",
-    "employees": "300名以下",
+    "employees": "従業員数の制約なし",
     "start": "2026-04-15",
     "end": "2027-02-26",
     "status": "new",
@@ -2488,21 +2683,6 @@
     "official_url": "https://www.city.otaru.lg.jp/docs/2025040700015/",
     "catch": "脱炭素経営の第一歩！専門家による省エネ診断にかかる自己負担を全額（上限5万円）補助します！",
     "first_seen": "2026-06-26"
-  },
-  {
-    "id": "a0WJ200000CDXuEMAX",
-    "title": "小樽市省エネルギー診断補助金",
-    "max_limit": 50000,
-    "area": "北海道",
-    "employees": "300名以下",
-    "start": "2026-04-15",
-    "end": "2027-02-26",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXuEMAX",
-    "official_url": "https://www.city.otaru.lg.jp/docs/2025040700015/",
-    "catch": "脱炭素経営の第一歩！専門家による省エネ診断にかかる自己負担を全額（上限5万円）補助します！",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WJ200000CDZIFMA5",
@@ -2760,6 +2940,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDa42MAD",
+    "title": "令和８年度金融機関と連携したサステナビリティ経営促進事業（ＳＬＬ／ＰＩＦ）",
+    "max_limit": 2000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-30",
+    "end": "2027-03-01",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa42MAD",
+    "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/sustainability-management",
+    "catch": "サステナビリティ経営　SLL　サステナビリティリンクローン　ポジティブ・インパクト・ファイナンス　PIF 連携金融機関　中堅・中小企業　中堅中小企業　東京都　補助金",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDbyzMAD",
     "title": "橿原市業務改善支援補助金",
     "max_limit": 100000,
@@ -2773,21 +2968,6 @@
     "official_url": "https://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/18761.html",
     "catch": "国の助成金に10万円を上乗せ！橿原市の中小企業向け生産性向上・賃上げサポート",
     "first_seen": "2026-06-26"
-  },
-  {
-    "id": "a0WJ200000CDXy3MAH",
-    "title": "橿原市業務改善支援補助金",
-    "max_limit": 100000,
-    "area": "奈良県",
-    "employees": "300名以下",
-    "start": "2026-03-31",
-    "end": "2027-03-12",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXy3MAH",
-    "official_url": "https://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/18761.html",
-    "catch": "国の助成金に10万円を上乗せ！橿原市の中小企業向け生産性向上・賃上げサポート",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WJ200000CDY1kMAH",
@@ -3238,21 +3418,6 @@
     "official_url": "https://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/2/13451.html",
     "catch": "橿原市の空き店舗を活用して新たな一歩を！起業・新分野への挑戦を最大50万円サポートします。",
     "first_seen": "2026-06-26"
-  },
-  {
-    "id": "a0WJ200000CDXy8MAH",
-    "title": "橿原市起業等スタートアップ補助金",
-    "max_limit": 500000,
-    "area": "奈良県",
-    "employees": "300名以下",
-    "start": "2026-03-31",
-    "end": "2027-03-31",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXy8MAH",
-    "official_url": "https://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/2/13451.html",
-    "catch": "橿原市の空き店舗を活用して新たな一歩を！起業・新分野への挑戦を最大50万円サポートします。",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WJ200000CDYvRMAX",
@@ -3885,6 +4050,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDa6IMAT",
+    "title": "令和８年度介護休業取得応援奨励金",
+    "max_limit": 550000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-07-01",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa6IMAT",
+    "official_url": "https://www.shigotozaidan.or.jp/koyo-kankyo/boshu/kaigodenshi.html",
+    "catch": "従業員の介護休業取得・就業継続を推進する都内中小企業等を応援します！",
+    "first_seen": "2026-07-02"
+  },
+  {
     "id": "a0WJ200000CDacWMAT",
     "title": "令和８年度原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金",
     "max_limit": 55000000,
@@ -4027,7 +4207,7 @@
     "employees": "従業員数の制約なし",
     "start": "2022-09-01",
     "end": "2028-05-07",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UaiqSEAR",
     "official_url": null,
