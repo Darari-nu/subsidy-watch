@@ -4005,6 +4005,36 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDbosMAD",
+    "title": "【令和8年度】地域医療確保に係る緊急・臨時支援事業支援金",
+    "max_limit": 14541000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-05",
+    "end": "2027-05-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbosMAD",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/iryo-kinkyurinji",
+    "catch": "【東京都令和８年度事業】東京都では、都民が安心して医療を受けられる地域医療体制を確保することを目的に、長引く物価高騰等を踏まえた緊急的・臨時的な支援を実施いたします。",
+    "first_seen": "2026-07-06"
+  },
+  {
+    "id": "a0WJ200000CDaTOMA1",
+    "title": "【令和8年度】地域医療確保に係る緊急・臨時支援事業支援金及び急性期医療臨時支援事業支援金",
+    "max_limit": 15589000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-05",
+    "end": "2027-05-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTOMA1",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/iryo-kinkyurinji",
+    "catch": "【東京都令和８年度事業】東京都では、都民が安心して医療を受けられる地域医療体制を確保することを目的に、長引く物価高騰等を踏まえた緊急的・臨時的な支援を実施いたします。",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": "a0W2x000005iqyXEAQ",
     "title": "EMPの普及促進に係る補助金（新）",
     "max_limit": 51900000,
