@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDZI0MAP",
-    "title": "令和７年度補正「次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業補助金」【二次公募】",
-    "max_limit": 2700000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-05",
-    "end": "2026-07-06",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZI0MAP",
-    "official_url": "https://www.teitanso.or.jp/nextnuc/",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYoZMAX",
     "title": "「NEDO先導研究・フロンティア育成事業におけるブレインテック／ ニューロテック領域の動向および事業創出支援に関する調査」の公募",
     "max_limit": 0,
@@ -480,6 +465,21 @@
     "first_seen": "2026-07-01"
   },
   {
+    "id": "a0WJ200000CDYUSMA5",
+    "title": "【埼玉県】令和8年度企業等における省エネ・再エネ活用設備導入補助金",
+    "max_limit": 0,
+    "area": "埼玉県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-05",
+    "end": "2026-07-24",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUSMA5",
+    "official_url": "https://www.pref.saitama.lg.jp/a0503/datutanso.html",
+    "catch": "省エネ・再エネの導入を支援！脱炭素化を推進するとともに、地域のエネルギーレジリエンスの強化に役立てましょう。",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": "a0WJ200000CDZd3MAH",
     "title": "【秋田県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
     "max_limit": 3000000,
@@ -765,6 +765,21 @@
     "first_seen": "2026-07-01"
   },
   {
+    "id": "a0WJ200000CDbonMAD",
+    "title": "「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-06",
+    "end": "2026-07-28",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
+    "official_url": "https://www.nedo.go.jp/koubo/IT2_100399.html",
+    "catch": "",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": "a0WJ200000CDc0JMAT",
     "title": "「スタートアップに対する経営管理・事業化支援人材の伴走支援モデルに係る調査事業」の公募",
     "max_limit": 0,
@@ -823,6 +838,21 @@
     "official_url": "https://www.city.obu.aichi.jp/jigyo/sangyo_shinko/sogyo_yushi/1025487.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDcyEMAT",
+    "title": "【熊本県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "max_limit": 3000000,
+    "area": "熊本県",
+    "employees": "300名以下",
+    "start": "2026-07-06",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcyEMAT",
+    "official_url": "https://kd21.or.jp/r8-foreign-application/",
+    "catch": "【熊本県】外国出願補助金",
+    "first_seen": "2026-07-07"
   },
   {
     "id": "a0WJ200000CDckfMAD",
@@ -1033,6 +1063,21 @@
     "official_url": "https://www.env.go.jp/content/000335998.pdf",
     "catch": "地域貢献等の要件を満たす事業の廃熱を高効率で熱回収する設備（熱や電気等を施設外でも確実に利用すること）及び廃棄物から燃料を製造する設備（燃料が地域内産業で確実に使用されること）の費用の一部を補助します。",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": "a0WJ200000CDaL8MAL",
+    "title": "「水素利用拡大に向けた共通基盤強化のための研究開発事業／水電解技術開発ロードマップの改定」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-06",
+    "end": "2026-08-04",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaL8MAL",
+    "official_url": "https://www.nedo.go.jp/koubo/SE2_100001_00135.html",
+    "catch": "",
+    "first_seen": "2026-07-07"
   },
   {
     "id": "a0WJ200000CDbfKMAT",
@@ -1513,6 +1558,36 @@
     "official_url": "https://www.ipa.go.jp/security/jc-star/list/jc-star-product-list/index.html",
     "catch": "",
     "first_seen": "2026-06-23"
+  },
+  {
+    "id": "a0WJ200000CDczMMAT",
+    "title": "【令和８年度２次公募】国立公園等多言語解説等整備事業（国立公園等資源整備事業費補助金）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-06",
+    "end": "2026-10-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczMMAT",
+    "official_url": "https://www.heco-spc.or.jp/nprs2025_tagengo/index.html",
+    "catch": "",
+    "first_seen": "2026-07-07"
+  },
+  {
+    "id": "a0WJ200000CDczHMAT",
+    "title": "【令和８年度２次公募】国立公園等利用拠点滞在環境等上質化事業（国立公園等資源整備事業費補助金）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-06",
+    "end": "2026-10-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczHMAT",
+    "official_url": "https://www.heco-spc.or.jp/nprs2026_joshitsu/kobo02.html",
+    "catch": "",
+    "first_seen": "2026-07-07"
   },
   {
     "id": "a0WJ200000CDYzVMAX",
@@ -2548,6 +2623,21 @@
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/lift/",
     "catch": "東京都内の旅行業者が高齢者や障害者を受け入れるため、乗降用リフト装置付バスを貸切で手配し募集型企画旅行又は受注型企画旅行を催行した場合に、通常のバスの貸切バス料金と乗降用リフト装置付バスの貸切バス料金の差額について補助を行います。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDYCmMAP",
+    "title": "【堺市】余剰電力等活用型太陽光発電設備整備事業（堺エネルギー地産地消プロジェクト推進事業補助金）",
+    "max_limit": 0,
+    "area": "大阪府",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-10",
+    "end": "2027-02-26",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCmMAP",
+    "official_url": null,
+    "catch": "自家消費を最大化し、経済性の高い太陽光導入へ。これまでにない全く新しい余剰電力活用型の補助金。",
+    "first_seen": "2026-07-07"
   },
   {
     "id": "a0WJ200000CDbyyMAD",
