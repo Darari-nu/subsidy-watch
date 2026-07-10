@@ -1,50 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDap8MAD",
-    "title": "「競争的な水素サプライチェーン構築に向けた技術開発事業／総合調査研究／我が国の漁港における水素エネルギー利活用ポテンシャル調査」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-26",
-    "end": "2026-07-10",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDap8MAD",
-    "official_url": "https://www.nedo.go.jp/koubo/SE2_100001_00136.html",
-    "catch": "",
-    "first_seen": "2026-06-27"
-  },
-  {
-    "id": "a0WJ200000CDYdOMAX",
-    "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（三次公募）",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-19",
-    "end": "2026-07-10",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYdOMAX",
-    "official_url": "https://rcespa.jp/offering/r07hosei_jisso_koubo_03",
-    "catch": "施策実装支援",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDb8LMAT",
-    "title": "令和8年度 洋上風力発電人材育成事業費補助金（第1次公募）",
-    "max_limit": 500000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-19",
-    "end": "2026-07-10",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb8LMAT",
-    "official_url": "https://www.meti.go.jp/information_2/publicoffer/shimeiteishi.html",
-    "catch": "日本国内において、洋上風力発電の人材育成に資するカリキュラム、実験施設、トレーニング施設等を、自社のみならず広く社会に向けて提供することを目的とした事業を対象とする補助金です。",
-    "first_seen": "2026-06-19"
-  },
-  {
     "id": "a0WJ200000CDa47MAD",
     "title": "「バイオものづくり分野のLCAガイドラインの改善及び普及に向けた調査」の公募",
     "max_limit": 0,
@@ -373,6 +328,21 @@
     "official_url": "https://boeki-pf-hojo.org/contact",
     "catch": "令和8年度貿易PF活用補助金",
     "first_seen": "2026-06-23"
+  },
+  {
+    "id": "a0WJ200000CDYMuMAP",
+    "title": "IP360 開発プラットフォーム構築支援",
+    "max_limit": 100000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-30",
+    "end": "2026-07-21",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYMuMAP",
+    "official_url": "https://www.meti.go.jp/policy/mono_info_service/contents/menu_contents.html",
+    "catch": "開発プラットフォーム構築支援",
+    "first_seen": "2026-07-11"
   },
   {
     "id": "a0WJ200000CDO8eMAH",
@@ -780,6 +750,21 @@
     "first_seen": "2026-07-02"
   },
   {
+    "id": "a0WJ200000CDKZFMA5",
+    "title": "令和８年度_グリーンスローモビリティ等導入促進事業",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-10",
+    "end": "2026-07-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5",
+    "official_url": "http://www.mlit.go.jp/sogoseisaku/environment/sosei_environment_fr_000139.html",
+    "catch": "グリスロ",
+    "first_seen": "2026-07-11"
+  },
+  {
     "id": "a0WJ200000CDXoQMAX",
     "title": "「グリーンイノベーション基金事業／食料・農林水産業のCO2等削減・吸収技術の開発」の公募",
     "max_limit": 0,
@@ -960,6 +945,21 @@
     "first_seen": "2026-06-27"
   },
   {
+    "id": "a0WJ200000CDbnoMAD",
+    "title": "令和８年度 第２回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
+    "max_limit": 8440000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-10",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbnoMAD",
+    "official_url": "https://wakajo-shotengai.com/flow/",
+    "catch": "都内商店街での開業助成金！",
+    "first_seen": "2026-07-11"
+  },
+  {
     "id": "a0WJ200000CDamPMAT",
     "title": "令和８年度_東京大学先端科学技術研究センター共同研究創出支援事業 新技術・新製品開発事業化可能性調査事業",
     "max_limit": 2000000,
@@ -988,6 +988,21 @@
     "official_url": "https://www.isico.or.jp/site/shinseihin/u-tokyo-r4rd.html",
     "catch": "先端研に所属する教員（以下：「先端研教員」）と石川県内企業（以下：「企業」）等からなる連携体が実施する、次世代産業の基礎となる基盤技術の高度化等の新技術や次世代産業の創造に資する新製品の研究開発及び実用化研究事業に対して、東京大学先端科学技術研究センター（以下：「先端研」）及び公益財団法人石川県産業創出支援機構（以下：「ＩＳＩＣＯ」）からの補助金の交付等により支援を行います。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDY36MAH",
+    "title": "令和８年度課題解決型製品・サービス等の販路拡大助成",
+    "max_limit": 1500000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-10",
+    "end": "2026-07-31",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY36MAH",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/kadai-hanro/index.html",
+    "catch": "東京都の課題解決につながる製品・サービスの販路開拓を支援します！",
+    "first_seen": "2026-07-11"
   },
   {
     "id": "a0WJ200000CDYkxMAH",
@@ -1747,7 +1762,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-02",
     "end": "2026-11-13",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5",
     "official_url": "https://www.heco-hojo.jp/",
@@ -1902,21 +1917,6 @@
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1bMAD",
     "official_url": "https://bl-renos.jp/r8/",
     "catch": "脱炭素ビルリノベ",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDXswMAH",
-    "title": "令和8年度_団体経由産業保健活動推進助成金",
-    "max_limit": 10000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-10",
-    "end": "2026-11-30",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXswMAH",
-    "official_url": "https://www.johas.go.jp/sangyouhoken/tabid/1251/Default.aspx",
-    "catch": "",
     "first_seen": "2026-06-18"
   },
   {
