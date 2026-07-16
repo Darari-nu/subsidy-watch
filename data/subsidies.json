@@ -1,50 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYjqMAH",
-    "title": "「経済安全保障重要技術育成プログラム／高効率・高品質レーザー加工技術の開発／研究開発項目③高品質・高出力な半導体レーザーの研究開発及び当該半導体レーザーを用いた車載用LiDARの構築」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-15",
-    "end": "2026-07-16",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjqMAH",
-    "official_url": "https://www.nedo.go.jp/koubo/IT2_100395.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDa1WMAT",
-    "title": "【二次公募】令和８年度　二酸化炭素排出抑制対策事業費等補助金　再エネ等熱利用設備導入事業 【再エネ熱】",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-18",
-    "end": "2026-07-16",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1WMAT",
-    "official_url": "https://www.eta.or.jp/inquiry.php",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDb81MAD",
-    "title": "【二次公募】令和８年度　二酸化炭素排出抑制対策事業費等補助金　駐車場型太陽光発電設備導入事業 【カーポート】",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-25",
-    "end": "2026-07-16",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb81MAD",
-    "official_url": "https://www.eta.or.jp/inquiry.php",
-    "catch": "",
-    "first_seen": "2026-06-26"
-  },
-  {
     "id": "a0WJ200000CDaSnMAL",
     "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（クーリングシェルターの普及に向けた高効率空調導入支援事業）",
     "max_limit": 10000000,
@@ -585,6 +540,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDYjqMAH",
+    "title": "「経済安全保障重要技術育成プログラム／高効率・高品質レーザー加工技術の開発／研究開発項目③高品質・高出力な半導体レーザーの研究開発及び当該半導体レーザーを用いた車載用LiDARの構築」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-06-15",
+    "end": "2026-07-27",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjqMAH",
+    "official_url": "https://www.nedo.go.jp/koubo/IT2_100395.html",
+    "catch": "",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": "a0WJ200000CDbJKMA1",
     "title": "【応募事業者】令和８年度 プラスチック等資源循環システム構築実証事業　＜二次公募＞",
     "max_limit": 0,
@@ -1005,6 +975,21 @@
     "first_seen": "2026-06-24"
   },
   {
+    "id": "a0WJ200000CDd5IMAT",
+    "title": "「プレシード・シード期の概念実証／実現可能性調査における支援方策に関する調査」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-16",
+    "end": "2026-08-04",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5IMAT",
+    "official_url": "https://www.nedo.go.jp/koubo/CA2_100538.html",
+    "catch": "",
+    "first_seen": "2026-07-17"
+  },
+  {
     "id": "a0WJ200000CDaL8MAL",
     "title": "「水素利用拡大に向けた共通基盤強化のための研究開発事業／水電解技術開発ロードマップの改定」の公募",
     "max_limit": 0,
@@ -1215,6 +1200,21 @@
     "first_seen": "2026-07-15"
   },
   {
+    "id": "a0WJ200000CDYirMAH",
+    "title": "2026年度「地域課題解決型起業支援事業」（2次募集）",
+    "max_limit": 2000000,
+    "area": "北海道",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-14",
+    "end": "2026-08-19",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYirMAH",
+    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
+    "catch": "デジタル技術を活用し、道内で地域課題を解決するために起業する方を支援します",
+    "first_seen": "2026-07-17"
+  },
+  {
     "id": "a0WJ200000CDdNjMAL",
     "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
     "max_limit": 0,
@@ -1230,6 +1230,21 @@
     "first_seen": "2026-07-15"
   },
   {
+    "id": "a0WJ200000CDckaMAD",
+    "title": "「ポスト5G情報通信システム基盤強化研究開発事業／AI用データセンターにおけるソフトウェア技術ニーズ分析とテストベッド運営基盤に関する調査」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-16",
+    "end": "2026-08-21",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDckaMAD",
+    "official_url": "https://www.nedo.go.jp/koubo/CD2_100445.html",
+    "catch": "",
+    "first_seen": "2026-07-17"
+  },
+  {
     "id": "a0WJ200000CDYtoMAH",
     "title": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）第２次募集",
     "max_limit": 3000000,
@@ -1243,6 +1258,21 @@
     "official_url": "https://www.kagawa-isf.jp/support/ip/global",
     "catch": "【香川県】海外出願補助金",
     "first_seen": "2026-07-14"
+  },
+  {
+    "id": "a0WJ200000CDYh2MAH",
+    "title": "2026年度「海外出願支援事業」（2次募集）",
+    "max_limit": 3000000,
+    "area": "北海道",
+    "employees": "300名以下",
+    "start": "2026-07-15",
+    "end": "2026-08-21",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH",
+    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
+    "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
+    "first_seen": "2026-07-17"
   },
   {
     "id": "a0WJ200000CDb8QMAT",
@@ -1288,6 +1318,21 @@
     "official_url": "https://www.gaj.or.jp/eie/shift/",
     "catch": "省CO2型システムへの改修支援事業　SHIFT事業　改修支援事業　SHIFT",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdAaMAL",
+    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （国内資源循環体制構築に向けた再エネ関連製品及びベース素材の全体最適化実証事業）（第２次公募）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-16",
+    "end": "2026-08-26",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdAaMAL",
+    "official_url": "https://www.jwrf.or.jp/individual/aa22d525c524ca3e464b17168c2c257608c24aa6.pdf",
+    "catch": "太陽光パネルや車載用バッテリー等の再エネ関連製品に含有されている、非鉄金属・レアメタルを適切にリユース、リサイクルし、また、ガラス等のベース素材の代替を図るための省CO2型のリサイクル技術向上と、リサイクル原料の品質向上を図り、未利用資源の活用体制構築を促進する実証の費用の一部を補助します。",
+    "first_seen": "2026-07-17"
   },
   {
     "id": "a0WJ200000CDPbMMAX",
@@ -1543,6 +1588,21 @@
     "official_url": "https://www.tokyo-kosha.or.jp/chizai/josei/chosa/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDaooMAD",
+    "title": "「海外研究者招へい事業（STeP JAPAN）」2027年度海外招へい研究者受入機関の募集",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-16",
+    "end": "2026-10-08",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaooMAD",
+    "official_url": "https://www.nedo.go.jp/koubo/CA2_100537.html",
+    "catch": "",
+    "first_seen": "2026-07-17"
   },
   {
     "id": "a0W2x000007Cos5EAC",
@@ -2730,21 +2790,6 @@
     "first_seen": "2026-07-07"
   },
   {
-    "id": "a0WJ200000CDbHxMAL",
-    "title": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業補助金",
-    "max_limit": 141000,
-    "area": "東京都",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-15",
-    "end": "2027-02-26",
-    "status": "new",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbHxMAL",
-    "official_url": "https://pmh-hojokin2026.metro.tokyo.lg.jp",
-    "catch": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業【東京都】",
-    "first_seen": "2026-07-16"
-  },
-  {
     "id": "a0WJ200000CDbyyMAD",
     "title": "小樽市省エネルギー診断補助金",
     "max_limit": 50000,
@@ -3082,7 +3127,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-01",
     "end": "2027-03-19",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5XMAT",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/green-subsidy",
@@ -3097,7 +3142,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-01",
     "end": "2027-03-19",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdA6MAL",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/green-subsidy",
@@ -3112,7 +3157,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-01",
     "end": "2027-03-19",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9xMAD",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/green-subsidy",
@@ -3127,7 +3172,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-01",
     "end": "2027-03-19",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9wMAD",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/green-subsidy",
@@ -3142,7 +3187,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-01",
     "end": "2027-03-19",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdABMA1",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/green-subsidy",
@@ -3448,6 +3493,21 @@
     "official_url": "https://www.city.fukuoka.lg.jp/jutaku-toshi/midorikatuyou/midori/menu1/greenbuil.html",
     "catch": "都心部に憩いや安らぎをもたらし、花と緑あふれる魅力的なまちづくりに参加しませんか？",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDbHxMAL",
+    "title": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業補助金",
+    "max_limit": 141000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-15",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbHxMAL",
+    "official_url": "https://pmh-hojokin2026.metro.tokyo.lg.jp",
+    "catch": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業【東京都】",
+    "first_seen": "2026-07-16"
   },
   {
     "id": "a0WJ200000CDYW4MAP",
