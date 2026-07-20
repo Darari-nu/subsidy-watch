@@ -1102,7 +1102,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-14",
     "end": "2026-08-20",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL",
     "official_url": "https://nourinsuisan-startup.metro.tokyo.lg.jp/",
@@ -1258,6 +1258,21 @@
     "official_url": "https://r8.gx-area-hojo.jp/",
     "catch": "【応募申請】R8年度GX地域共創補助金（1次公募）",
     "first_seen": "2026-07-18"
+  },
+  {
+    "id": "a0WJ200000CDY6vMAH",
+    "title": "令和８年度社会福祉施設等への非常用電源等の整備促進事業補助金",
+    "max_limit": 3750000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-20",
+    "end": "2026-09-04",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6vMAH",
+    "official_url": "https://www.r8dengen.metro.tokyo.lg.jp",
+    "catch": "非常用電源等の整備費用を補助します！",
+    "first_seen": "2026-07-21"
   },
   {
     "id": "a0WJ200000CDYUNMA5",
