@@ -1020,6 +1020,21 @@
     "first_seen": "2026-07-22"
   },
   {
+    "id": "a0WJ200000CDd4BMAT",
+    "title": "令和８年度東京都医療機関等物価高騰緊急対策支援金(無床診療所・歯科診療所・無床助産所、施術所・歯科技工所　申請用）",
+    "max_limit": 5511246000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-22",
+    "end": "2026-08-14",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd4BMAT",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/iryo-bukka4",
+    "catch": "【東京都令和８年度事業】東京都では、物価高騰に直面する医療機関等の負担軽減に向けた緊急対策として、\n支援金を支給します。",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "a0WJ200000CDc0sMAD",
     "title": "「次世代冷却に係るマテリアル・デバイスの開発動向に関する調査」の公募",
     "max_limit": 0,
@@ -1123,6 +1138,21 @@
     "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
     "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
     "first_seen": "2026-07-17"
+  },
+  {
+    "id": "a0WJ200000CDdSBMA1",
+    "title": "令和7年度補正　デジタルライフライン整備加速事業（ドローン航路整備事業）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-22",
+    "end": "2026-08-21",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdSBMA1",
+    "official_url": "https://pacific-hojo2.com/digital-lifeline/",
+    "catch": "",
+    "first_seen": "2026-07-23"
   },
   {
     "id": "a0WJ200000CDb8QMAT",
@@ -1815,6 +1845,21 @@
     "first_seen": "2026-06-23"
   },
   {
+    "id": "a0WJ200000CDddVMAT",
+    "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
+    "max_limit": 0,
+    "area": "山形県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-16",
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddVMAT",
+    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/saiseikanou_hojo_h31.html",
+    "catch": "",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "a0WJ200000CDZy8MAH",
     "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
     "max_limit": 0,
@@ -1882,7 +1927,7 @@
     "employees": "100名以下",
     "start": "2026-07-14",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYxMAL",
     "official_url": "https://jyokatsu-project.jp/program/",
@@ -2070,6 +2115,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDddWMAT",
+    "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+    "max_limit": 750000,
+    "area": "山形県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-01",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddWMAT",
+    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/ryuryouchousahojo.html",
+    "catch": "",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "a0WJ200000CDZyDMAX",
     "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
     "max_limit": 750000,
@@ -2083,6 +2143,21 @@
     "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/ryuryouchousahojo.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDddXMAT",
+    "title": "【山形県】令和8年度地域主導型再生可能エネルギー導入支援事業費補助金",
+    "max_limit": 240000,
+    "area": "山形県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-01",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddXMAT",
+    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/chiikishudosaiene.html",
+    "catch": "",
+    "first_seen": "2026-07-23"
   },
   {
     "id": "a0WJ200000CDZyIMAX",
@@ -2917,7 +2992,7 @@
     "employees": "300名以下",
     "start": "2026-07-14",
     "end": "2027-02-28",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYyMAL",
     "official_url": "https://jyokatsu-project.jp/program/",
@@ -4200,6 +4275,36 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ20000087jeOMAQ",
+    "title": "令和６年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
+    "max_limit": 141000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2024-09-27",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000087jeOMAQ",
+    "official_url": "https://c5f26d10.form.kintoneapp.com/public/contact",
+    "catch": "【東京都】医療機関等におけるマイナンバーカード利活用推進事業",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "a0WJ200000CDRArMAP",
+    "title": "令和７年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
+    "max_limit": 141000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2025-07-25",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDRArMAP",
+    "official_url": "https://www.digitalservice.metro.tokyo.lg.jp/business/2030vision/kodomodx/pmh/hojokin",
+    "catch": "【東京都】（令和７年度）医療機関等におけるマイナンバーカード利活用推進事業",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "a0WJ200000CDXoBMAX",
     "title": "令和８年_設備投資_事業完了後申請",
     "max_limit": 200000000,
@@ -4333,6 +4438,21 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdL9MAL",
+    "title": "令和８年度 医学技術振興事業",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-10",
+    "end": "2027-05-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdL9MAL",
+    "official_url": null,
+    "catch": "",
+    "first_seen": "2026-07-23"
   },
   {
     "id": "a0WJ200000CDYimMAH",
