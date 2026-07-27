@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYjqMAH",
-    "title": "「経済安全保障重要技術育成プログラム／高効率・高品質レーザー加工技術の開発／研究開発項目③高品質・高出力な半導体レーザーの研究開発及び当該半導体レーザーを用いた車載用LiDARの構築」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-15",
-    "end": "2026-07-27",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjqMAH",
-    "official_url": "https://www.nedo.go.jp/koubo/IT2_100395.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDbJKMA1",
-    "title": "【応募事業者】令和８年度 プラスチック等資源循環システム構築実証事業　＜二次公募＞",
-    "max_limit": 0,
-    "area": "全国 / 北海道 / 青森県 / 岩手県 / 宮城県 / 秋田県 / 山形県 / 福島県 / 茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 新潟県 / 山梨県 / 長野県 / 富山県 / 石川県 / 福井県 / 岐阜県 / 静岡県 / 愛知県 / 三重県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 奈良県 / 和歌山県 / 鳥取県 / 島根県 / 岡山県 / 広島県 / 山口県 / 徳島県 / 香川県 / 愛媛県 / 高知県 / 福岡県 / 佐賀県 / 長崎県 / 熊本県 / 大分県 / 宮崎県 / 鹿児島県 / 沖縄県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-30",
-    "end": "2026-07-27",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbJKMA1",
-    "official_url": "https://www.jora.jp/activity/26datsutanso/",
-    "catch": "『化石由来資源を代替する省CO2型バイオプラスチック等（再生可能資源）への転換及び社会実装化又はプラスチック等のリサイクル困難素材等のリサイクルプロセス構築及び省CO2化を行う事業』に要する経費の一部を補助します。",
-    "first_seen": "2026-07-01"
-  },
-  {
     "id": "a0WJ200000CDbonMAD",
     "title": "「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の公募",
     "max_limit": 0,
@@ -750,6 +720,36 @@
     "first_seen": "2026-07-25"
   },
   {
+    "id": "a0WJ200000CDcFAMA1",
+    "title": "令和８年度酒類業振興支援事業費補助金（第３期）",
+    "max_limit": 15000000,
+    "area": "北海道 / 青森県 / 岩手県 / 宮城県 / 秋田県 / 山形県 / 福島県 / 茨城県 / 栃木県 / 群馬県 / 埼玉県 / 新潟県 / 長野県 / 千葉県 / 東京都 / 神奈川県 / 山梨県 / 岐阜県 / 静岡県 / 愛知県 / 三重県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 奈良県 / 和歌山県 / 鳥取県 / 島根県 / 岡山県 / 広島県 / 山口県 / 徳島県 / 香川県 / 愛媛県 / 高知県 / 富山県 / 石川県 / 福井県 / 福岡県 / 佐賀県 / 長崎県 / 熊本県 / 大分県 / 宮崎県 / 鹿児島県 / 沖縄県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-27",
+    "end": "2026-08-17",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcFAMA1",
+    "official_url": "https://www.nta.go.jp/taxes/sake/boshujoho/hojojigyo.htm",
+    "catch": "酒類事業者向け支援",
+    "first_seen": "2026-07-28"
+  },
+  {
+    "id": "a0WJ200000CDdapMAD",
+    "title": "令和８年度地域資源活用製品等の開発・販売促進事業",
+    "max_limit": 15000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-27",
+    "end": "2026-08-17",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdapMAD",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chiikishigen/index.html",
+    "catch": "東京の地域資源活用や東京の都市・地域課題の解決に資する製品・サービスの販売促進に係る経費を一部助成します。",
+    "first_seen": "2026-07-28"
+  },
+  {
     "id": "a0WJ200000CDYirMAH",
     "title": "2026年度「地域課題解決型起業支援事業」（2次募集）",
     "max_limit": 2000000,
@@ -1050,6 +1050,21 @@
     "first_seen": "2026-07-22"
   },
   {
+    "id": "a0WJ200000CDdjkMAD",
+    "title": "令和8年度地熱発電の資源量調査事業費助成金交付事業_第3回",
+    "max_limit": 9999999999,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-17",
+    "end": "2026-08-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdjkMAD",
+    "official_url": "https://www.jogmec.go.jp/bid/bid_00159.html",
+    "catch": "",
+    "first_seen": "2026-07-28"
+  },
+  {
     "id": "a0WJ200000CDYEHMA5",
     "title": "令和8年度中小企業生産性向上促進事業費補助金",
     "max_limit": 0,
@@ -1108,6 +1123,21 @@
     "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/zeroemi_kaihatsu.html",
     "catch": "ゼロエミッションに資する製品開発、改良、規格等適合化に取り組む都内中小企業・中小企業グループに対して要する経費の一部を助成します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdQxMAL",
+    "title": "令和８年度酒類業振興支援事業費補助金（第４期）",
+    "max_limit": 15000000,
+    "area": "北海道 / 青森県 / 岩手県 / 宮城県 / 秋田県 / 山形県 / 福島県 / 茨城県 / 栃木県 / 群馬県 / 埼玉県 / 新潟県 / 長野県 / 岐阜県 / 静岡県 / 愛知県 / 三重県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 奈良県 / 和歌山県 / 鳥取県 / 島根県 / 岡山県 / 広島県 / 山口県 / 徳島県 / 香川県 / 愛媛県 / 高知県 / 福岡県 / 佐賀県 / 長崎県 / 熊本県 / 大分県 / 宮崎県 / 鹿児島県 / 沖縄県 / 千葉県 / 東京都 / 神奈川県 / 山梨県 / 富山県 / 石川県 / 福井県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-27",
+    "end": "2026-09-09",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdQxMAL",
+    "official_url": "https://www.nta.go.jp/taxes/sake/boshujoho/hojojigyo.htm",
+    "catch": "酒類事業者向け支援",
+    "first_seen": "2026-07-28"
   },
   {
     "id": "a0WJ200000CDWngMAH",
@@ -1245,6 +1275,21 @@
     "first_seen": "2026-07-18"
   },
   {
+    "id": "a0WJ200000CDdgEMAT",
+    "title": "東京都商店街デジタル化推進事業費補助金",
+    "max_limit": 15000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-30",
+    "end": "2026-09-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdgEMAT",
+    "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/shoko/chiiki/miryoku/digital/",
+    "catch": "",
+    "first_seen": "2026-07-28"
+  },
+  {
     "id": "a0WJ200000CDZ2OMAX",
     "title": "令和8年度　建築GX・DX推進事業",
     "max_limit": 0,
@@ -1378,6 +1423,36 @@
     "official_url": "https://jigyou-saikouchiku.go.jp/documents.html",
     "catch": "事業再構築補助金",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdALMA1",
+    "title": "小規模事業者持続化補助金＜一般型 災害支援枠（令和６年能登半島地震等）＞１０次公募【商工会議所地区】",
+    "max_limit": 2000000,
+    "area": "石川県",
+    "employees": "20名以下",
+    "start": "2026-07-27",
+    "end": "2026-10-16",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdALMA1",
+    "official_url": "https://r6.jizokukahojokin.info/noto/doc/r6_jshinseimanual_noto10.pdf",
+    "catch": "小規模事業者持続化補助金＜一般型 災害支援枠（令和６年能登半島地震等）＞１０次公募【商工会議所地区】",
+    "first_seen": "2026-07-28"
+  },
+  {
+    "id": "a0WJ200000CDWp3MAH",
+    "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害⽀援枠（令和６年能登半島地震等）＞10次公募【商⼯会地区】",
+    "max_limit": 2000000,
+    "area": "石川県",
+    "employees": "20名以下",
+    "start": "2026-07-27",
+    "end": "2026-10-16",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWp3MAH",
+    "official_url": "https://www.jizokukanb.com/jizokuka_r6h/saigai/shinsei.html#yosiki",
+    "catch": "⼩規模事業者持続化補助⾦＜⼀般型 災害⽀援枠（令和６年能登半島地震等）＞10次公募【商⼯会地区】",
+    "first_seen": "2026-07-28"
   },
   {
     "id": "a0WJ200000CDYaFMAX",
@@ -1665,21 +1740,6 @@
     "first_seen": "2026-07-23"
   },
   {
-    "id": "a0WJ200000CDZy8MAH",
-    "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
-    "max_limit": 0,
-    "area": "山形県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-16",
-    "end": "2026-11-30",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZy8MAH",
-    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/saiseikanou_hojo_h31.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDYEGMA5",
     "title": "【令和８年度】働き方改革推進支援助成金",
     "max_limit": 13700000,
@@ -1935,21 +1995,6 @@
     "first_seen": "2026-07-23"
   },
   {
-    "id": "a0WJ200000CDZyDMAX",
-    "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
-    "max_limit": 750000,
-    "area": "山形県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-01",
-    "end": "2026-12-25",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZyDMAX",
-    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/ryuryouchousahojo.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
     "id": "a0WJ200000CDddXMAT",
     "title": "【山形県】令和8年度地域主導型再生可能エネルギー導入支援事業費補助金",
     "max_limit": 240000,
@@ -1963,21 +2008,6 @@
     "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/chiikishudosaiene.html",
     "catch": "",
     "first_seen": "2026-07-23"
-  },
-  {
-    "id": "a0WJ200000CDZyIMAX",
-    "title": "【山形県】令和8年度地域主導型再生可能エネルギー導入支援事業費補助金",
-    "max_limit": 240000,
-    "area": "山形県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-01",
-    "end": "2026-12-25",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZyIMAX",
-    "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/chiikishudosaiene.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WJ200000CDb6dMAD",
@@ -2638,21 +2668,6 @@
     "official_url": "https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/ojo_mcity_office.html",
     "catch": "",
     "first_seen": "2026-07-25"
-  },
-  {
-    "id": "a0WJ200000CDZIFMA5",
-    "title": "松戸市事業用省エネルギー設備等導入促進事業費補助金",
-    "max_limit": 0,
-    "area": "千葉県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-01",
-    "end": "2027-02-26",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIFMA5",
-    "official_url": "https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/ojo_mcity_office.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WJ200000CDK76MAH",
