@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDc1RMAT",
-    "title": "【静岡県産業振興財団】令和8年度　研究開発助成（産学官連携型）２次募集",
-    "max_limit": 0,
-    "area": "静岡県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-07",
-    "end": "2026-07-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1RMAT",
-    "official_url": "https://www.shizuoka-shinseicho.jp/",
-    "catch": "【最大1,000万円】中小企業向け研究開発助成",
-    "first_seen": "2026-07-08"
-  },
-  {
-    "id": "a0WJ200000CDcfNMAT",
-    "title": "【静岡県産業振興財団】令和8年度　事業化推進助成（一般型）２次募集",
-    "max_limit": 0,
-    "area": "静岡県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-07",
-    "end": "2026-07-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcfNMAT",
-    "official_url": "https://www.shizuoka-shinseicho.jp/",
-    "catch": "【最大1,500万円】中小企業向け研究開発助成",
-    "first_seen": "2026-07-08"
-  },
-  {
     "id": "a0WJ200000CDc0JMAT",
     "title": "「スタートアップに対する経営管理・事業化支援人材の伴走支援モデルに係る調査事業」の公募",
     "max_limit": 0,
@@ -615,6 +585,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDdbOMAT",
+    "title": "「経済安全保障重要技術育成プログラム／先進的サイバー防御機能・分析能力強化／サイバーセキュリティにかかる国内外の動向調査」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-29",
+    "end": "2026-08-12",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdbOMAT",
+    "official_url": "https://www.nedo.go.jp/koubo/IT2_100402.html",
+    "catch": "",
+    "first_seen": "2026-07-30"
+  },
+  {
     "id": "a0WJ200000CDaTEMA1",
     "title": "女性の活躍推進に向けた職場環境改善奨励金　撤回届",
     "max_limit": 1800000,
@@ -1042,7 +1027,7 @@
     "employees": "従業員数の制約なし",
     "start": "2025-06-30",
     "end": "2026-08-29",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPbMMAX",
     "official_url": "https://jigyou-saikouchiku.go.jp/documents.html",
@@ -1057,7 +1042,7 @@
     "employees": "300名以下",
     "start": "2026-07-21",
     "end": "2026-08-31",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd46MAD",
     "official_url": "https://www.g-inf.or.jp/html/subsidy_001.html",
@@ -1237,7 +1222,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-21",
     "end": "2026-09-25",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczgMAD",
     "official_url": "https://r7h-gs-hojo-web-ukr.jp/",
@@ -1695,21 +1680,6 @@
     "first_seen": "2026-07-03"
   },
   {
-    "id": "a0WJ200000CDNDnMAP",
-    "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
-    "max_limit": 1500000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-28",
-    "end": "2026-11-13",
-    "status": "new",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP",
-    "official_url": "https://rcespa.jp/r07-scope3/r07-scope3-no1",
-    "catch": "Scope3",
-    "first_seen": "2026-07-29"
-  },
-  {
     "id": "a0WJ200000CDd3OMAT",
     "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（四次公募）",
     "max_limit": 0,
@@ -2143,6 +2113,21 @@
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/nature/",
     "catch": "障害者等が東京の豊かな自然を楽しめる体験型観光を推進するため、都内自然体験型観光提供事業者に対して、障害者向け備品等の購入経費の一部を補助します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdfpMAD",
+    "title": "令和８年度　観光産業の活性化促進事業補助金",
+    "max_limit": 25000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-03-31",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdfpMAD",
+    "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/gyoukai/index.html",
+    "catch": "観光産業の活性化を促進するため、観光関連業界団体等が行う生産性向上・新サービス開発、情報発信等の取組を支援します。",
+    "first_seen": "2026-07-30"
   },
   {
     "id": "a0WJ200000CDYTvMAP",
