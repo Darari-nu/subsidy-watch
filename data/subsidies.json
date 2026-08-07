@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDdgsMAD",
-    "title": "令和８年度皮革産業振興対策事業費補助金（団体・グループ）（２次公募）",
-    "max_limit": 33000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-03",
-    "end": "2026-08-06",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdgsMAD",
-    "official_url": "https://www.meti.go.jp/shingikai/mono_info_service/domestic_leather_industry/pdf/20250421_1.pdf",
-    "catch": "",
-    "first_seen": "2026-07-25"
-  },
-  {
     "id": "a0WJ200000CDbonMAD",
     "title": "「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の公募",
     "max_limit": 0,
@@ -600,6 +585,21 @@
     "first_seen": "2026-07-17"
   },
   {
+    "id": "a0WJ200000CDYDcMAP",
+    "title": "令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-07",
+    "end": "2026-08-27",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDcMAP",
+    "official_url": "https://www.gasproc.or.jp/",
+    "catch": "災害時にも対応可能な停電対応型の天然ガス利用設備の導入・更新を補助する事業です。",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "a0WJ200000CDdrNMAT",
     "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（二次公募）",
     "max_limit": 3000000,
@@ -915,6 +915,36 @@
     "first_seen": "2026-07-21"
   },
   {
+    "id": "a0WJ200000CDd5cMAD",
+    "title": "2026年度第2回「新エネルギー等のシーズ発掘・事業化に向けた技術研究開発事業」（新エネ中小・スタートアップ支援制度）の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-07",
+    "end": "2026-09-07",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5cMAD",
+    "official_url": "https://www.nedo.go.jp/koubo/FF2_100470.html",
+    "catch": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a0WJ200000CDdNKMA1",
+    "title": "令和８年度 エネルギー使用合理化設備導入促進対策費補助金（資源自律経済確立産官学連携加速化事業）【二次公募】",
+    "max_limit": 40000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-06",
+    "end": "2026-09-07",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNKMA1",
+    "official_url": "https://www.teitanso.or.jp/r8shigen/download/",
+    "catch": "資源循環",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "a0WJ200000CDYUNMA5",
     "title": "令和８年度ゼロエミッション推進に向けた事業転換支援事業（製品開発助成）",
     "max_limit": 0,
@@ -928,6 +958,21 @@
     "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/zeroemi_kaihatsu.html",
     "catch": "ゼロエミッションに資する製品開発、改良、規格等適合化に取り組む都内中小企業・中小企業グループに対して要する経費の一部を助成します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdKuMAL",
+    "title": "令和８年度国際ルール形成・市場創造型標準化推進事業費補助金（２次公募）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-07",
+    "end": "2026-09-08",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdKuMAL",
+    "official_url": "http://uat.yano.co.jp/standard_support/",
+    "catch": "【「デジュール規格」に着手できる前段階において、その規格開発への着手に向けて、関係する国内外の市場調査等の標準化活動に必要な事業】もしくは、【社会課題の解決と事業の持続可能性を両立させる国際的なルールの形成に向けて実施される「フォーラム標準」の構築活動に必要な事業】に関する補助金",
+    "first_seen": "2026-08-07"
   },
   {
     "id": "a0WJ200000CDdQxMAL",
@@ -973,6 +1018,21 @@
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/cybersecurity.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdNtMAL",
+    "title": "令和８年度障害者施設等物価高騰緊急対策事業",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-06",
+    "end": "2026-09-11",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL",
+    "official_url": "https://logoform.jp/form/tmgform/1521068",
+    "catch": "",
+    "first_seen": "2026-08-07"
   },
   {
     "id": "a0WJ200000CDd5SMAT",
@@ -2017,7 +2077,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-03-31",
     "end": "2026-12-25",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdfpMAD",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/gyoukai/index.html",
