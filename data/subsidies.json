@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDdbOMAT",
-    "title": "「経済安全保障重要技術育成プログラム／先進的サイバー防御機能・分析能力強化／サイバーセキュリティにかかる国内外の動向調査」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-29",
-    "end": "2026-08-12",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdbOMAT",
-    "official_url": "https://www.nedo.go.jp/koubo/IT2_100402.html",
-    "catch": "",
-    "first_seen": "2026-07-30"
-  },
-  {
     "id": "a0WJ200000CDdRhMAL",
     "title": "「国内外における土木・建設工事を含む事業実施の適正評価手法の調査業務」の公募",
     "max_limit": 0,
@@ -765,6 +750,21 @@
     "first_seen": "2026-07-18"
   },
   {
+    "id": "a0WJ200000CDYDcMAP",
+    "title": "令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-12",
+    "end": "2026-09-01",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDcMAP",
+    "official_url": "https://www.gasproc.or.jp/",
+    "catch": "災害時にも対応可能な停電対応型の天然ガス利用設備の導入・更新を補助する事業です。",
+    "first_seen": "2026-08-13"
+  },
+  {
     "id": "a0WJ200000CDctfMAD",
     "title": "令和８年度「蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業」",
     "max_limit": 720000000,
@@ -1102,7 +1102,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-04",
     "end": "2026-09-30",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdjzMAD",
     "official_url": "https://www.soumu.go.jp/menu_seisaku/ictseisaku/ictriyou/digital_kiban/index.html",
@@ -4243,6 +4243,21 @@
     "official_url": "https://www.shigotozaidan.or.jp/koyo-kankyo/boshu/es_0601.html",
     "catch": "福利厚生の充実で、若手人材の確保と定着を！",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdtMMAT",
+    "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（23次締切）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-03",
+    "end": "2028-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtMMAT",
+    "official_url": "https://portal.monodukuri-hojo.jp/",
+    "catch": "",
+    "first_seen": "2026-08-13"
   },
   {
     "id": "a0WJ200000CDOrTMAX",
