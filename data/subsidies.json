@@ -2250,6 +2250,36 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDe4nMAD",
+    "title": "令和8年度 中小企業の外国人従業員に対する研修等支援助成金（ウクライナ避難民採用企業コース）",
+    "max_limit": 500000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-09",
+    "end": "2027-01-14",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4nMAD",
+    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/jinzai/kakuho/gaikokujinkenshu/",
+    "catch": "ウクライナ避難民の就労を後押しします！",
+    "first_seen": "2026-08-14"
+  },
+  {
+    "id": "a0WJ200000CDe4iMAD",
+    "title": "令和8年度 中小企業の外国人従業員に対する研修等支援助成金（一般コース）",
+    "max_limit": 250000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-04-09",
+    "end": "2027-01-14",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4iMAD",
+    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/jinzai/kakuho/gaikokujinkenshu/",
+    "catch": "中小企業における外国人従業員の定着を促進します！",
+    "first_seen": "2026-08-14"
+  },
+  {
     "id": "a0WJ200000CDWZ9MAP",
     "title": "令和７年度補正予算　商用車等の電動化促進事業",
     "max_limit": 17500000000,
@@ -2758,6 +2788,21 @@
     "official_url": "https://jyokatsu-project.jp/program/",
     "catch": "女性が活躍できる職場づくりを全力でサポート",
     "first_seen": "2026-07-15"
+  },
+  {
+    "id": "a0WJ200000CDdm6MAD",
+    "title": "松山港利用促進インセンティブ補助金（荷主向け）",
+    "max_limit": 0,
+    "area": "愛媛県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-29",
+    "end": "2027-02-28",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdm6MAD",
+    "official_url": "https://www.pref.ehime.jp/site/port-of-matsuyama/",
+    "catch": "松山港を利用する荷主様へ。貨物の増加や新規利用で1TEUあたり最大50,000円を補助します。",
+    "first_seen": "2026-08-14"
   },
   {
     "id": "a0WJ200000CDL8JMAX",
