@@ -795,6 +795,21 @@
     "first_seen": "2026-08-07"
   },
   {
+    "id": "a0WJ200000CDZi6MAH",
+    "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+    "max_limit": 5000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-08-16",
+    "end": "2026-09-09",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH",
+    "official_url": "https://tcgi.metro.tokyo.lg.jp/company/subsidy25",
+    "catch": "海外の高度外国人材を対象にしたインターンを実施！​",
+    "first_seen": "2026-08-17"
+  },
+  {
     "id": "a0WJ200000CDdQxMAL",
     "title": "令和８年度酒類業振興支援事業費補助金（第４期）",
     "max_limit": 15000000,
@@ -937,7 +952,7 @@
     "employees": "300名以下",
     "start": "2026-08-03",
     "end": "2026-09-16",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdauMAD",
     "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/shoukei.html",
@@ -3298,6 +3313,21 @@
     "official_url": "https://pmh-hojokin2026.metro.tokyo.lg.jp",
     "catch": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業【東京都】",
     "first_seen": "2026-07-16"
+  },
+  {
+    "id": "a0WJ200000CDdtHMAT",
+    "title": "がんばろう赤磐中小企業省エネ設備更新支援補助金",
+    "max_limit": 0,
+    "area": "岡山県",
+    "employees": "900名以下",
+    "start": "2026-08-16",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtHMAT",
+    "official_url": null,
+    "catch": "エネルギー価格や物価高騰にお困りの中小企業様へ！省エネ設備更新の費用を最大200万円補助します。",
+    "first_seen": "2026-08-17"
   },
   {
     "id": "a0WJ200000CDYW4MAP",
