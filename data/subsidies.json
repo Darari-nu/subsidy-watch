@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYirMAH",
-    "title": "2026年度「地域課題解決型起業支援事業」（2次募集）",
-    "max_limit": 2000000,
-    "area": "北海道",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-14",
-    "end": "2026-08-19",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYirMAH",
-    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
-    "catch": "デジタル技術を活用し、道内で地域課題を解決するために起業する方を支援します",
-    "first_seen": "2026-07-17"
-  },
-  {
     "id": "a0WJ200000CDdNjMAL",
     "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
     "max_limit": 0,
@@ -795,6 +780,21 @@
     "first_seen": "2026-08-17"
   },
   {
+    "id": "a0WJ200000CDe7xMAD",
+    "title": "令和８年度運輸部門におけるエネルギーの使用合理化・非化石エネルギー転換推進事業費補助金（内航船革新的運航効率化・非化石エネルギー転換推進事業）（三次公募）",
+    "max_limit": 500000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-19",
+    "end": "2026-09-09",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe7xMAD",
+    "official_url": "https://www.meti.go.jp/main/yosan/yosan_fy2026/pr/pdf/pr_energy.pdf#page=69",
+    "catch": "",
+    "first_seen": "2026-08-20"
+  },
+  {
     "id": "a0WJ200000CDdQxMAL",
     "title": "令和８年度酒類業振興支援事業費補助金（第４期）",
     "max_limit": 15000000,
@@ -958,6 +958,21 @@
     "official_url": "https://www.jora.jp/activity/26datsutanso/",
     "catch": "『化石由来資源を代替する省CO2型バイオプラスチック等（再生可能資源）への転換及び社会実装化又はプラスチック等のリサイクル困難素材等のリサイクルプロセス構築及び省CO2化を行う事業』に要する経費の一部を補助します。",
     "first_seen": "2026-08-08"
+  },
+  {
+    "id": "a0WJ200000CDYmSMAX",
+    "title": "2026年度「中小企業競争力強化促進事業業」（マーケティング支援事業）［2次募集］",
+    "max_limit": 2000000,
+    "area": "北海道",
+    "employees": "300名以下",
+    "start": "2026-08-19",
+    "end": "2026-09-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYmSMAX",
+    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
+    "catch": "北海道の「北海道経済構造の転換を図るための企業立地の促進及び中小企業の競争力の強化に関する条例」に基づき、道内の中小企業が取り組む製品開発、市場開拓、技術習得等を支援します（中小企業競争力強化促進事業）",
+    "first_seen": "2026-08-20"
   },
   {
     "id": "a0WJ200000CDdauMAD",
