@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDdNjMAL",
-    "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-14",
-    "end": "2026-08-20",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL",
-    "official_url": "https://nourinsuisan-startup.metro.tokyo.lg.jp/",
-    "catch": "",
-    "first_seen": "2026-07-15"
-  },
-  {
     "id": "a0WJ200000CDckaMAD",
     "title": "「ポスト5G情報通信システム基盤強化研究開発事業／AI用データセンターにおけるソフトウェア技術ニーズ分析とテストベッド運営基盤に関する調査」の公募",
     "max_limit": 0,
@@ -1048,6 +1033,21 @@
     "official_url": "https://portal.monodukuri-hojo.jp/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDdtWMAT",
+    "title": "2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の第２回公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-20",
+    "end": "2026-09-29",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtWMAT",
+    "official_url": "https://www.nedo.go.jp/koubo/FF2_100464.html",
+    "catch": "",
+    "first_seen": "2026-08-21"
   },
   {
     "id": "a0WJ200000CDYcpMAH",
@@ -4357,7 +4357,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-03",
     "end": "2028-03-31",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtMMAT",
     "official_url": "https://portal.monodukuri-hojo.jp/",
