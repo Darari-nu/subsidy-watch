@@ -405,6 +405,21 @@
     "first_seen": "2026-08-15"
   },
   {
+    "id": "a0WJ200000CDeUWMA1",
+    "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
+    "max_limit": 3000000,
+    "area": "岡山県",
+    "employees": "300名以下",
+    "start": "2026-08-16",
+    "end": "2026-09-04",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeUWMA1",
+    "official_url": "https://www.optic.or.jp/enterprise/enterprise_detail/index/470.html",
+    "catch": "【岡山県】外国出願補助金",
+    "first_seen": "2026-08-28"
+  },
+  {
     "id": "a0WJ200000CDYh2MAH",
     "title": "2026年度「海外出願支援事業」（2次募集）",
     "max_limit": 3000000,
@@ -583,6 +598,21 @@
     "official_url": "https://www.nta.go.jp/taxes/sake/boshujoho/hojojigyo.htm",
     "catch": "酒類事業者向け支援",
     "first_seen": "2026-07-28"
+  },
+  {
+    "id": "a0WJ200000CDe3bMAD",
+    "title": "「特定半導体生産施設整備に係る建設工事の現状及び国内投資促進に向けた課題に関する調査・分析事業」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-28",
+    "end": "2026-09-11",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3bMAD",
+    "official_url": "https://www.nedo.go.jp/koubo/IT2_100403.html",
+    "catch": "",
+    "first_seen": "2026-08-28"
   },
   {
     "id": "a0WJ200000CDWngMAH",
@@ -778,6 +808,21 @@
     "official_url": "https://siz-kankyou.com/2025co2/mizuinfrastructure3/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDe8MMAT",
+    "title": "令和７年度補正　米粉商品開発等支援対策事業　2次募集",
+    "max_limit": 30950204,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-28",
+    "end": "2026-09-18",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe8MMAT",
+    "official_url": "https://komeko-koubo.jp",
+    "catch": "米粉商品開発等支援対策事業",
+    "first_seen": "2026-08-28"
   },
   {
     "id": "a0WJ200000CDdmpMAD",
@@ -1365,6 +1410,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDeSJMA1",
+    "title": "令和8年度当初予算　二次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
+    "max_limit": 60000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-27",
+    "end": "2026-10-02",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSJMA1",
+    "official_url": null,
+    "catch": "ストレージパリティ事業",
+    "first_seen": "2026-08-28"
+  },
+  {
     "id": "a0WJ200000CDdRmMAL",
     "title": "令和８年度酒類業振興支援事業費補助金（第５期）",
     "max_limit": 15000000,
@@ -1633,6 +1693,21 @@
     "official_url": "https://www.mhlw.go.jp/stf/newpage_09940.html",
     "catch": "高年齢労働者の労働災害防止のため、中小企業事業者を対象に設備の改善や補助機器等の導入、専門家による指導を受けるための経費等の一部を補助します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDXkJMAX",
+    "title": "「グリーンイノベーション基金事業／次世代型地熱技術の開発」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-28",
+    "end": "2026-11-10",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkJMAX",
+    "official_url": "https://www.nedo.go.jp/koubo/FF2_100456.html",
+    "catch": "",
+    "first_seen": "2026-08-28"
   },
   {
     "id": "a0WJ200000CDZXbMAP",
@@ -4108,6 +4183,21 @@
     "official_url": "https://www.city.imabari.ehime.jp/kigyou/kigyoricchi/001.html",
     "catch": "オフィス開設の賃料を大幅カット！今治市での新たなビジネス拠点づくりを応援します。",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDeTAMA1",
+    "title": "小郡市企業立地優遇制度",
+    "max_limit": 0,
+    "area": "福岡県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-27",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeTAMA1",
+    "official_url": "https://www.city.ogori.fukuoka.jp/205/1962/1964",
+    "catch": "小郡市内での工業系・オフィス系施設の新設や増設を強力に支援！雇用奨励金や固定資産税の課税免除で事業拡大を応援します。",
+    "first_seen": "2026-08-28"
   },
   {
     "id": "a0WJ200000CDXqMMAX",
