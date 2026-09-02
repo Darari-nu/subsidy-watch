@@ -390,6 +390,21 @@
     "first_seen": "2026-08-08"
   },
   {
+    "id": "a0W5h00000UcWryEAF",
+    "title": "東京都認定制度を活用した医師少数区域における勤務の推進事業補助金",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-08-24",
+    "end": "2026-09-15",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWryEAF",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/jinnzai-syousuukuiki_hojyo.html",
+    "catch": "",
+    "first_seen": "2026-09-03"
+  },
+  {
     "id": "a0WJ200000CDYmSMAX",
     "title": "2026年度「中小企業競争力強化促進事業業」（マーケティング支援事業）［2次募集］",
     "max_limit": 2000000,
@@ -508,6 +523,21 @@
     "official_url": "https://jaem.or.jp/",
     "catch": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "first_seen": "2026-08-25"
+  },
+  {
+    "id": "a0WJ200000CDeXgMAL",
+    "title": "【二次公募】令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-02",
+    "end": "2026-09-24",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeXgMAL",
+    "official_url": "https://www.gasproc.or.jp/",
+    "catch": "災害時にも対応可能な停電対応型の天然ガス利用設備の導入・更新を補助する事業です。",
+    "first_seen": "2026-09-03"
   },
   {
     "id": "a0WJ200000CDeQhMAL",
@@ -688,6 +718,36 @@
     "official_url": "https://www.nef.or.jp/topics/2026/20260424.html",
     "catch": "PFIによる発電所の運営を目的として、地方公共団体が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等、当該地点の発電所の整備・運営に係る公募を行う事業と、地方公共団体又は地方公共団体と連携する民間事業者が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業と、民間事業者等が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業をサポートします。",
     "first_seen": "2026-06-30"
+  },
+  {
+    "id": "a0WJ200000CDe3RMAT",
+    "title": "令和８年度外国意匠出願費用助成事業（第２回）",
+    "max_limit": 600000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-09-02",
+    "end": "2026-09-25",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3RMAT",
+    "official_url": "https://www.tokyo-kosha.or.jp/chizai/josei/isho/",
+    "catch": "",
+    "first_seen": "2026-09-03"
+  },
+  {
+    "id": "a0WJ200000CDe3WMAT",
+    "title": "令和８年度外国商標出願費用助成事業（第２回）",
+    "max_limit": 600000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-09-02",
+    "end": "2026-09-25",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3WMAT",
+    "official_url": "https://www.tokyo-kosha.or.jp/chizai/josei/shohyo/",
+    "catch": "",
+    "first_seen": "2026-09-03"
   },
   {
     "id": "a0WJ200000CDTzMMAX",
@@ -5188,6 +5248,21 @@
     "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
     "catch": "",
     "first_seen": "2026-09-01"
+  },
+  {
+    "id": "a0WJ200000CDeYjMAL",
+    "title": "【令和8年度】高齢者受入体制確保事業",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-03-26",
+    "end": "2028-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYjMAL",
+    "official_url": null,
+    "catch": "",
+    "first_seen": "2026-09-03"
   },
   {
     "id": "a0WJ200000CDe6GMAT",
