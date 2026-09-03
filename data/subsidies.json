@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDZkYMAX",
-    "title": "令和８年度TOKYO戦略的イノベーション促進事業",
-    "max_limit": 80000000,
-    "area": "東京都",
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-14",
-    "end": "2026-09-03",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZkYMAX",
-    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/tokyo-innovation.html",
-    "catch": "【最大8,000万円】中小企業向け研究開発費助成",
-    "first_seen": "2026-08-15"
-  },
-  {
     "id": "a0WJ200000CDeUWMA1",
     "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
     "max_limit": 3000000,
@@ -118,6 +103,36 @@
     "official_url": "https://www.teitanso.or.jp/r8shigen/download/",
     "catch": "資源循環",
     "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a0WJ200000CDaMaMAL",
+    "title": "GX分野のディープテック・スタートアップに対する 実用化研究開発・量産化実証支援事業第7回公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-03",
+    "end": "2026-09-08",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMaMAL",
+    "official_url": "https://www.nedo.go.jp/koubo/CA2_100521.html",
+    "catch": "",
+    "first_seen": "2026-09-04"
+  },
+  {
+    "id": "a0WJ200000CDaMfMAL",
+    "title": "ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業第10回公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-03",
+    "end": "2026-09-08",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMfMAL",
+    "official_url": "https://www.nedo.go.jp/koubo/CA2_100521.html",
+    "catch": "",
+    "first_seen": "2026-09-04"
   },
   {
     "id": "a0WJ200000CDYUNMA5",
@@ -538,6 +553,21 @@
     "official_url": "https://www.gasproc.or.jp/",
     "catch": "災害時にも対応可能な停電対応型の天然ガス利用設備の導入・更新を補助する事業です。",
     "first_seen": "2026-09-03"
+  },
+  {
+    "id": "a0W5h00000UcWrwEAF",
+    "title": "東京都専門医認定支援事業補助金",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-02",
+    "end": "2026-09-24",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWrwEAF",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/jinzai-senmoni_hojo.html",
+    "catch": "",
+    "first_seen": "2026-09-04"
   },
   {
     "id": "a0WJ200000CDeQhMAL",
