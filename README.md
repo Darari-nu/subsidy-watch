@@ -4,6 +4,23 @@
 
 APIキー、データベース、サーバーサイド処理は不要です。
 
+## 公開URL
+
+- **本番**: https://darari-nu.com/subsidy-watch/
+- 実体: https://darari-nu.github.io/subsidy-watch/
+
+配信は GitHub Pages（`.github/workflows/pipeline.yml` が日次でビルド＆デプロイ）。
+`darari-nu.com/subsidy-watch/` は別リポジトリ `Darari-nu/ai-kaizen-hub` の
+Pages Function（`functions/subsidy-watch/[[path]].js`）が GitHub Pages を
+透過中継したもの。**このリポジトリに push すれば両方に反映される。**
+
+darari-nu.com 側のパスが `/subsidy` ではなく `/subsidy-watch` なのは、Astro が
+`base='/subsidy-watch'` でビルドしていてアセットが絶対パスで書かれているため。
+**パスを縮めるとアセットが全て404になる**ので、base を変えない限りここは変えないこと。
+
+なお darari-nu.com 配下の他4本（atlas / uchinoko / bucho / sengoku）は中継先が
+Cloudflare Pages で、GitHub Pages を中継しているのはこのサイトだけ。
+
 ## ローカルセットアップ
 
 必要環境は Node.js 20.18 以上です。
@@ -82,6 +99,15 @@ npm run validate
 `.github/workflows/pipeline.yml` は毎日 UTC 21:00（JST 6:00）と手動実行で、収集、分類、検証、データコミット、Astroビルド、GitHub Pages配布を同一ワークフロー内で行います。シークレットは不要です。
 
 Pull Requestでは `.github/workflows/ci.yml` がスキーマ検証とAstroビルドを実行します。
+
+## 改訂履歴
+
+構成やデプロイ先を変えたら、ここに1行足すこと。
+
+| 日付 | 変更 |
+|---|---|
+| 2026-06-18 | 初版。GitHub Pages で公開開始 |
+| 2026-09-04 | darari-nu.com/subsidy-watch/ での配信を追加（ai-kaizen-hub の Pages Function で中継）。公開URLをREADMEに明記 |
 
 ## 免責
 
