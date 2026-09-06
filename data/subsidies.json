@@ -1260,6 +1260,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDW8bMAH",
+    "title": "令和８年度製品改良／規格適合・認証取得支援事業",
+    "max_limit": 5000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-06",
+    "end": "2026-09-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDW8bMAH",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/kairyo.html",
+    "catch": "自社製品の改良や規格・認証（CEマーキング、ISO・IEC規格等）取得を支援します！",
+    "first_seen": "2026-09-07"
+  },
+  {
     "id": "a0WJ200000CDdsqMAD",
     "title": "令和8年度第2回 事業承継を契機とした成長支援事業(一般コース)",
     "max_limit": 8000000,
@@ -1342,7 +1357,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-18",
     "end": "2026-10-07",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdRmMAL",
     "official_url": "https://www.nta.go.jp/taxes/sake/boshujoho/hojojigyo.htm",
