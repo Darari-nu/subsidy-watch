@@ -1635,6 +1635,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WfQ000003Bwa1UAC",
+    "title": "令和８年度第２回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
+    "max_limit": 20000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-13",
+    "end": "2026-10-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bwa1UAC",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/kadai-kaihatsu/index.html",
+    "catch": "東京の都市課題解決に向けた製品・サービス等の開発・改良を支援（助成限度額2,000万円、助成率２／３以内）",
+    "first_seen": "2026-09-14"
+  },
+  {
     "id": "a0WJ200000CDYbNMAX",
     "title": "エイジフレンドリー補助金",
     "max_limit": 1000000,
