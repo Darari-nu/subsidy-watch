@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDYmSMAX",
-    "title": "2026年度「中小企業競争力強化促進事業業」（マーケティング支援事業）［2次募集］",
-    "max_limit": 2000000,
-    "area": "北海道",
-    "employees": "300名以下",
-    "start": "2026-08-19",
-    "end": "2026-09-16",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYmSMAX",
-    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
-    "catch": "北海道の「北海道経済構造の転換を図るための企業立地の促進及び中小企業の競争力の強化に関する条例」に基づき、道内の中小企業が取り組む製品開発、市場開拓、技術習得等を支援します（中小企業競争力強化促進事業）",
-    "first_seen": "2026-08-20"
-  },
-  {
-    "id": "a0WJ200000CDdauMAD",
-    "title": "令和８年度 第２回 事業承継支援助成金",
-    "max_limit": 2000000,
-    "area": "東京都",
-    "employees": "300名以下",
-    "start": "2026-08-03",
-    "end": "2026-09-16",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdauMAD",
-    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/shoukei.html",
-    "catch": "",
-    "first_seen": "2026-08-04"
-  },
-  {
     "id": "a0WfQ000003I7MHUA0",
     "title": "【山形県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）２次公募",
     "max_limit": 3000000,
@@ -915,6 +885,21 @@
     "first_seen": "2026-08-25"
   },
   {
+    "id": "a0WJ200000CDYbIMAX",
+    "title": "令和８年度リスキリング・キャリアデザイン応援事業-R8",
+    "max_limit": 400000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-09-16",
+    "end": "2026-09-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbIMAX",
+    "official_url": "https://reskilling.career-design.tokyo/",
+    "catch": "社員のキャリア意識を醸成する仕組みづくり",
+    "first_seen": "2026-09-17"
+  },
+  {
     "id": "a0WJ200000CDY6tMAH",
     "title": "令和8年度医療機関におけるＡＩ技術活用促進事業（単年度型）",
     "max_limit": 10000000,
@@ -1138,6 +1123,21 @@
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/taiseiseibitokubetu",
     "catch": "",
     "first_seen": "2026-09-16"
+  },
+  {
+    "id": "a0WJ200000CDVu7MAH",
+    "title": "令和７年度勤務環境改善体制医師派遣等推進事業",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2025-10-29",
+    "end": "2026-10-02",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVu7MAH",
+    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/isihaken",
+    "catch": "医師派遣事業",
+    "first_seen": "2026-09-17"
   },
   {
     "id": "a0WJ200000CDeSJMA1",
@@ -1365,6 +1365,21 @@
     "first_seen": "2026-07-28"
   },
   {
+    "id": "a0WJ200000CDeToMAL",
+    "title": "小規模事業者持続化補助金＜一般型 災害支援枠（令和８年熊本地震）＞１次公募【商工会議所地区】",
+    "max_limit": 2000000,
+    "area": "熊本県",
+    "employees": "20名以下",
+    "start": "2026-09-16",
+    "end": "2026-10-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeToMAL",
+    "official_url": "https://r6.jizokukahojokin.info/kumamoto/doc/r6_smanual_kumamoto1.pdf",
+    "catch": "小規模事業者持続化補助金＜一般型 災害支援枠（令和８年熊本地震）＞１次公募【商工会議所地区】",
+    "first_seen": "2026-09-17"
+  },
+  {
     "id": "a0WJ200000CDKZFMA5",
     "title": "令和８年度_グリーンスローモビリティ等導入促進事業（二次公募）",
     "max_limit": 0,
@@ -1423,6 +1438,21 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-08-31"
+  },
+  {
+    "id": "a0WJ200000CDeYyMAL",
+    "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害支援枠（令和8年熊本地震）＞1次公募【商⼯会地区】",
+    "max_limit": 2000000,
+    "area": "熊本県",
+    "employees": "20名以下",
+    "start": "2026-09-16",
+    "end": "2026-10-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYyMAL",
+    "official_url": "https://www.jizokukanb.com/jizokuka_r6h/saigai/kumamoto/shinsei.html",
+    "catch": "⼩規模事業者持続化補助⾦＜⼀般型 災害⽀援枠（令和8年熊本地震）＞1次公募【商⼯会地区】",
+    "first_seen": "2026-09-17"
   },
   {
     "id": "a0WJ200000CDWp3MAH",
@@ -1633,6 +1663,21 @@
     "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/kadai-kaihatsu/index.html",
     "catch": "東京の都市課題解決に向けた製品・サービス等の開発・改良を支援（助成限度額2,000万円、助成率２／３以内）",
     "first_seen": "2026-09-14"
+  },
+  {
+    "id": "a0WJ200000CDXjwMAH",
+    "title": "【福井県】令和８年度企業の太陽光・蓄電池設備導入促進事業補助金",
+    "max_limit": 11300000,
+    "area": "福井県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-16",
+    "end": "2026-10-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjwMAH",
+    "official_url": "https://www.pref.fukui.lg.jp/doc/dengen/shin-energy/fukui-taiyokou.html",
+    "catch": "福井の企業を脱炭素化へ！太陽光＆蓄電池導入で最大1,130万円の支援チャンス",
+    "first_seen": "2026-09-17"
   },
   {
     "id": "a0WJ200000CDYbNMAX",
@@ -2143,6 +2188,36 @@
     "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/chiikishudosaiene.html",
     "catch": "",
     "first_seen": "2026-07-23"
+  },
+  {
+    "id": "a0WJ200000CDXjyMAH",
+    "title": "【福井県】電気自動車用充電インフラ整備促進事業補助金",
+    "max_limit": 1500000,
+    "area": "福井県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-16",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjyMAH",
+    "official_url": "https://www.pref.fukui.lg.jp/doc/dengen/shin-energy/jyuden.html",
+    "catch": "福井県内の商業・宿泊施設等へのEV充電器導入を支援！最大150万円の補助金",
+    "first_seen": "2026-09-17"
+  },
+  {
+    "id": "a0WJ200000CDXjxMAH",
+    "title": "【福井県】令和８年度 Ｖ２Ｈ充放電設備設置支援事業補助金",
+    "max_limit": 100000,
+    "area": "福井県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-16",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjxMAH",
+    "official_url": "https://www.pref.fukui.lg.jp/doc/dengen/shin-energy/v2hjyuuhouden.html",
+    "catch": "国の補助金と併用OK！EVの電力活用で「光熱費削減」と「もしもの備え」を支援（一律10万円）",
+    "first_seen": "2026-09-17"
   },
   {
     "id": "a0WJ200000CDddbMAD",
@@ -3555,6 +3630,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDXjzMAH",
+    "title": "【福井県】次世代自動車普及促進事業補助金",
+    "max_limit": 500000,
+    "area": "福井県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-16",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjzMAH",
+    "official_url": "https://www.pref.fukui.lg.jp/doc/dengen/shin-energy/jisedai.html",
+    "catch": "福井の脱炭素をドライブしよう！EV・PHV・FCV導入で最大50万円",
+    "first_seen": "2026-09-17"
+  },
+  {
     "id": "a0WJ200000CDYCnMAP",
     "title": "【福岡市】グリーンビル促進事業（都心部のオフィスビルなどへの緑化助成）",
     "max_limit": 30000000,
@@ -4305,6 +4395,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WfQ000003CWvFUAW",
+    "title": "燃料電池フォークリフト実装支援事業助成金",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-15",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CWvFUAW",
+    "official_url": "https://tokyo-co2down-mobi.form.kintoneapp.com/public/tokyokankyo-mobility-contact",
+    "catch": "東京都が、水素エネルギーが活用された水素社会の早期実現に向けて事業用の燃料電池フォークリフトの普及を促進するために行う助成金事業。",
+    "first_seen": "2026-09-17"
+  },
+  {
     "id": "a0WJ200000CDYSKMA5",
     "title": "廃止石油坑井封鎖事業費補助金（令和8年度：関東東北産業保安監督部）",
     "max_limit": 133280000,
@@ -4528,6 +4633,21 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-07-23"
+  },
+  {
+    "id": "a0WfQ000003DRDZUA4",
+    "title": "令和８年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
+    "max_limit": 0,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-16",
+    "end": "2027-05-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003DRDZUA4",
+    "official_url": null,
+    "catch": "",
+    "first_seen": "2026-09-17"
   },
   {
     "id": "a0WJ200000CDYimMAH",
