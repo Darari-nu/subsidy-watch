@@ -1350,6 +1350,36 @@
     "first_seen": "2026-09-12"
   },
   {
+    "id": "a0WJ200000CDeTZMA1",
+    "title": "「ポスト5G情報通信システム基盤強化研究開発事業／ロボティクス分野におけるソフトウェア開発基盤構築」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-17",
+    "end": "2026-10-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeTZMA1",
+    "official_url": "https://www.nedo.go.jp/koubo/CD2_100452.html",
+    "catch": "",
+    "first_seen": "2026-09-18"
+  },
+  {
+    "id": "a0W5h00000ZueXcEAJ",
+    "title": "ドローンを活用したツアー造成支援補助金",
+    "max_limit": 5000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-17",
+    "end": "2026-10-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000ZueXcEAJ",
+    "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/drone-accessibletourism/",
+    "catch": "ストレスフリー観光の実現に資する新技術の実装を図る取組を支援します。",
+    "first_seen": "2026-09-18"
+  },
+  {
     "id": "a0WJ200000CDdALMA1",
     "title": "小規模事業者持続化補助金＜一般型 災害支援枠（令和６年能登半島地震等）＞１０次公募【商工会議所地区】",
     "max_limit": 2000000,
@@ -1393,6 +1423,21 @@
     "official_url": "http://www.mlit.go.jp/sogoseisaku/environment/sosei_environment_fr_000139.html",
     "catch": "グリスロ",
     "first_seen": "2026-09-08"
+  },
+  {
+    "id": "a0WJ200000CDeZuMAL",
+    "title": "令和８年度データセンターのゼロエミッション化・レジリエンス強化促進事業（二次公募）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-17",
+    "end": "2026-10-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeZuMAL",
+    "official_url": "https://rcespa.jp/r08-datacenter/r08-datacenter-no2",
+    "catch": "再エネデータセンター",
+    "first_seen": "2026-09-18"
   },
   {
     "id": "a0WJ200000CDdNtMAL",
