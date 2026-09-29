@@ -1,50 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDeNDMA1",
-    "title": "「デジタル社会の将来像の実現に向けた技術課題及び社会実装方策に関する調査」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-08",
-    "end": "2026-09-28",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeNDMA1",
-    "official_url": "https://www.nedo.go.jp/koubo/NA2_100293.html",
-    "catch": "",
-    "first_seen": "2026-09-09"
-  },
-  {
-    "id": "a0WJ200000CDTzMMAX",
-    "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（19次締切）",
-    "max_limit": 40000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2025-02-14",
-    "end": "2026-09-28",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDTzMMAX",
-    "official_url": "https://portal.monodukuri-hojo.jp/",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDe3zMAD",
-    "title": "【令和８年度・第４回】INPIT外国出願補助金",
-    "max_limit": 3000000,
-    "area": "全国",
-    "employees": "300名以下",
-    "start": "2026-09-07",
-    "end": "2026-09-28",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3zMAD",
-    "official_url": "https://www.inpit.go.jp/shien/gaikoku/index.html",
-    "catch": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
-    "first_seen": "2026-09-08"
-  },
-  {
     "id": "a0WJ200000CDdtWMAT",
     "title": "2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の第２回公募",
     "max_limit": 0,
@@ -118,21 +73,6 @@
     "official_url": "https://www.nedo.go.jp/koubo/CA2_100535.html",
     "catch": "",
     "first_seen": "2026-08-27"
-  },
-  {
-    "id": "a0WJ200000CDeY5MAL",
-    "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業／普及促進事業／グローバルな液化水素サプライチェーン構築に向けた我が国技術の適用可能性等調査」の公募",
-    "max_limit": 0,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-18",
-    "end": "2026-09-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeY5MAL",
-    "official_url": "https://www.nedo.go.jp/koubo/SE2_100001_00140.html",
-    "catch": "",
-    "first_seen": "2026-09-19"
   },
   {
     "id": "a0WJ200000CDYr0MAH",
@@ -510,6 +450,21 @@
     "first_seen": "2026-07-02"
   },
   {
+    "id": "a0WJ200000CDZi6MAH",
+    "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+    "max_limit": 5000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-08-16",
+    "end": "2026-09-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH",
+    "official_url": "https://tcgi.metro.tokyo.lg.jp/company/subsidy25",
+    "catch": "海外の高度外国人材を対象にしたインターンを実施！​",
+    "first_seen": "2026-09-29"
+  },
+  {
     "id": "a0W2x000004PhCHEA0",
     "title": "令和8年度 生放送字幕番組普及促進助成金（第３期）",
     "max_limit": 0,
@@ -705,6 +660,21 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDeY5MAL",
+    "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業／普及促進事業／グローバルな液化水素サプライチェーン構築に向けた我が国技術の適用可能性等調査」の公募",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-18",
+    "end": "2026-10-02",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeY5MAL",
+    "official_url": "https://www.nedo.go.jp/koubo/SE2_100001_00140.html",
+    "catch": "",
+    "first_seen": "2026-09-19"
+  },
+  {
     "id": "a0WfQ000003DgHRUA0",
     "title": "【山口県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第2回公募）",
     "max_limit": 3000000,
@@ -778,6 +748,21 @@
     "official_url": "https://www.aomori-ipc.jp/news/news-18111/",
     "catch": "【青森県】令和8年度第2回外国出願補助金",
     "first_seen": "2026-09-16"
+  },
+  {
+    "id": "a0WfQ000003cYWnUAM",
+    "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
+    "max_limit": 150000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-27",
+    "end": "2026-10-05",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cYWnUAM",
+    "official_url": "https://soumu-contents.jp/oe-grant-2026/",
+    "catch": "",
+    "first_seen": "2026-09-29"
   },
   {
     "id": "a0WJ200000CDeZLMA1",
@@ -1275,6 +1260,21 @@
     "first_seen": "2026-09-26"
   },
   {
+    "id": "a0WfQ000003EZsDUAW",
+    "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　追加公募分）",
+    "max_limit": 20000000,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-28",
+    "end": "2026-10-28",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003EZsDUAW",
+    "official_url": "https://suiryokuhojo.nef.or.jp/jigyouseihyouka-tsuika/",
+    "catch": "PFIによる発電所の運営を目的として、地方公共団体が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等、当該地点の発電所の整備・運営に係る公募を行う事業と、地方公共団体又は地方公共団体と連携する民間事業者が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業と、民間事業者等が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業をサポートします。",
+    "first_seen": "2026-09-29"
+  },
+  {
     "id": "a0WJ200000CDPyeMAH",
     "title": "［第十三回］事業再構築補助金_GX進出類型（交付申請等）",
     "max_limit": 150000000,
@@ -1282,7 +1282,7 @@
     "employees": "従業員数の制約なし",
     "start": "2025-06-30",
     "end": "2026-10-29",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPyeMAH",
     "official_url": "https://jigyou-saikouchiku.go.jp/documents.html",
@@ -1363,6 +1363,21 @@
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/isihaken",
     "catch": "",
     "first_seen": "2026-09-19"
+  },
+  {
+    "id": "a0WJ200000CDYh2MAH",
+    "title": "2026年度「海外出願支援事業」（3次募集）",
+    "max_limit": 3000000,
+    "area": "北海道",
+    "employees": "300名以下",
+    "start": "2026-09-29",
+    "end": "2026-10-30",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH",
+    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
+    "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
+    "first_seen": "2026-09-29"
   },
   {
     "id": "a0WJ200000CDYzVMAX",
@@ -2638,6 +2653,21 @@
     "official_url": "https://kosodate-sc.jp/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WfQ000003ZH5uUAG",
+    "title": "令和８年度第２回中小企業デジタル導入促進補助事業",
+    "max_limit": 1500000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-09-28",
+    "end": "2027-01-29",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ZH5uUAG",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/digital-tool.html",
+    "catch": "都内中小企業の新たなデジタルツール導入・活用を支援します。",
+    "first_seen": "2026-09-29"
   },
   {
     "id": "a0WJ200000CDYW6MAP",
