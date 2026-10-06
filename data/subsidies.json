@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0WfQ000003I7irUAC",
-    "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）２次公募",
-    "max_limit": 3000000,
-    "area": "青森県",
-    "employees": "300名以下",
-    "start": "2026-09-07",
-    "end": "2026-10-05",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003I7irUAC",
-    "official_url": "https://www.aomori-ipc.jp/news/news-18111/",
-    "catch": "【青森県】令和8年度第2回外国出願補助金",
-    "first_seen": "2026-09-16"
-  },
-  {
-    "id": "a0WfQ000003cYWnUAM",
-    "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
-    "max_limit": 150000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-27",
-    "end": "2026-10-05",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cYWnUAM",
-    "official_url": "https://soumu-contents.jp/oe-grant-2026/",
-    "catch": "",
-    "first_seen": "2026-09-29"
-  },
-  {
     "id": "a0WJ200000CDeZLMA1",
     "title": "「カーボンリサイクル・火力発電の脱炭素化技術等国際協力事業／カーボンマネジメントに係る国際連携事業／カーボンリサイクル関連技術及び脱炭素化技術等の海外展開可能性の調査」の公募について",
     "max_limit": 0,
@@ -1978,6 +1948,21 @@
     "official_url": "https://www.inpit.go.jp/shien/tokutei-chuuken/index.html",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WfQ000003cAFxUAM",
+    "title": "交通システムの省CO2 化に向けた設備整備事業（鉄道事業等におけるネットワーク型低炭素化促進事業）（三次公募）",
+    "max_limit": 0,
+    "area": "全国",
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-05",
+    "end": "2026-12-23",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cAFxUAM",
+    "official_url": "https://rcespa.jp/r08-kotsu/r08-kotsu-no3",
+    "catch": "鉄道（回生電力・車両省エネ・先進省エネ）",
+    "first_seen": "2026-10-06"
   },
   {
     "id": "a0WJ200000CDddWMAT",
