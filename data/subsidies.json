@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDe6PMAT",
-    "title": "【広島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "広島県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-10",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6PMAT",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
     "id": "a0W2x000007Cos5EAC",
     "title": "［第六回以降］事業再構築補助金（共同申請者）",
     "max_limit": 150000000,
@@ -1252,7 +1237,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-28",
     "end": "2026-11-10",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkJMAX",
     "official_url": "https://www.nedo.go.jp/koubo/FF2_100456.html",
@@ -1267,7 +1252,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-05-19",
     "end": "2026-11-10",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkiMAH",
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/gaikokujin/ukeiretaisei/taiseiseibi.html",
