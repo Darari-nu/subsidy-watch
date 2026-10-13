@@ -1,35 +1,5 @@
 [
   {
-    "id": "a0W2x000007Cos5EAC",
-    "title": "［第六回以降］事業再構築補助金（共同申請者）",
-    "max_limit": 150000000,
-    "area": "全国",
-    "employees": "従業員数の制約なし",
-    "start": "2022-09-15",
-    "end": "2026-10-12",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC",
-    "official_url": "https://jigyou-saikouchiku.go.jp/documents.html",
-    "catch": "事業再構築補助金",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0W5h00000UcWrwEAF",
-    "title": "東京都専門医認定支援事業補助金",
-    "max_limit": 0,
-    "area": "東京都",
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-02",
-    "end": "2026-10-12",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWrwEAF",
-    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/jinzai-senmoni_hojo.html",
-    "catch": "",
-    "first_seen": "2026-10-10"
-  },
-  {
     "id": "a0WJ200000CDdugMAD",
     "title": "【秋田】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
     "max_limit": 6000000,
@@ -675,6 +645,21 @@
     "first_seen": "2026-09-26"
   },
   {
+    "id": "a0WfQ000003oIxhUAE",
+    "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第６回公募）",
+    "max_limit": 3000000,
+    "area": "島根県",
+    "employees": "300名以下",
+    "start": "2026-09-30",
+    "end": "2026-10-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003oIxhUAE",
+    "official_url": "https://www.joho-shimane.or.jp/news/wanted_subsidy/11705",
+    "catch": "【島根県】外国出願補助金",
+    "first_seen": "2026-10-13"
+  },
+  {
     "id": "a0WJ200000CDaotMAD",
     "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業）",
     "max_limit": 300000000,
@@ -1095,6 +1080,21 @@
     "first_seen": "2026-09-05"
   },
   {
+    "id": "a0WJ200000CDapWMAT",
+    "title": "【令和８年度】先進的な資源循環投資促進事業（第２回）",
+    "max_limit": 36500000000,
+    "area": "全国 / 北海道 / 青森県 / 岩手県 / 宮城県 / 秋田県 / 山形県 / 福島県 / 茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 新潟県 / 山梨県 / 長野県 / 富山県 / 石川県 / 福井県 / 岐阜県 / 静岡県 / 愛知県 / 三重県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 奈良県 / 和歌山県 / 鳥取県 / 島根県 / 岡山県 / 広島県 / 山口県 / 徳島県 / 香川県 / 愛媛県 / 高知県 / 福岡県 / 佐賀県 / 長崎県 / 熊本県 / 大分県 / 宮崎県 / 鹿児島県 / 沖縄県",
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-13",
+    "end": "2026-11-06",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapWMAT",
+    "official_url": "https://www.env.go.jp/content/000335979.pdf",
+    "catch": "廃プラスチックや金属などの大規模で高度な分離回収設備や再資源化設備に対する実証・設備導入支援を実施する。",
+    "first_seen": "2026-10-13"
+  },
+  {
     "id": "a0WfQ000003N1RXUA0",
     "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(16次公募)_PMI推進枠(PMI専門家活用類型)",
     "max_limit": 1500000,
@@ -1267,12 +1267,27 @@
     "employees": "従業員数の制約なし",
     "start": "2026-09-29",
     "end": "2026-11-12",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdjfMAD",
     "official_url": "https://growth-100-oku.smrj.go.jp",
     "catch": "[３次公募]中小企業成長加速化補助金",
     "first_seen": "2026-09-30"
+  },
+  {
+    "id": "a0WJ200000CDdtCMAT",
+    "title": "令和8年度第2回 事業承継を契機とした成長支援事業(販路開拓コース)",
+    "max_limit": 3000000,
+    "area": "東京都",
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-13",
+    "end": "2026-11-12",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtCMAT",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/shokei-seicho-hanro/index.html",
+    "catch": "更なる企業の成長を目指す後継者が取り組む新規事業展開を支援します！！",
+    "first_seen": "2026-10-13"
   },
   {
     "id": "a0WfQ000003I7vlUAC",
@@ -1753,6 +1768,21 @@
     "official_url": "https://www.inpit.go.jp/shien/gaikoku/index.html",
     "catch": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WfQ000003ao2zUAA",
+    "title": "令和８年度 第３回 事業承継支援助成金",
+    "max_limit": 2000000,
+    "area": "東京都",
+    "employees": "300名以下",
+    "start": "2026-10-13",
+    "end": "2026-12-15",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ao2zUAA",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/shoukei.html",
+    "catch": "",
+    "first_seen": "2026-10-13"
   },
   {
     "id": "a0WJ200000CDX1KMAX",
