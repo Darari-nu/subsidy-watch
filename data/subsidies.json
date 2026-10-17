@@ -1,20 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDdujMAD",
-    "title": "【茨城】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "茨城県",
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-17",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdujMAD",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
     "id": "a0WJ200000CDeY0MAL",
     "title": "「水素社会モデル構築高度化技術開発・実証事業」の第2回公募",
     "max_limit": 0,
