@@ -906,6 +906,25 @@
     "first_seen": "2026-10-02"
   },
   {
+    "id": "jn-194666",
+    "title": "「生産資材価格高騰の影響を受けた生産者のみなさまへ」",
+    "area": "熊本県",
+    "areas": [
+      "熊本県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-09",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194666",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-24"
+  },
+  {
     "id": "a0WJ200000CDXkJMAX",
     "title": "「グリーンイノベーション基金事業／次世代型地熱技術の開発」の公募",
     "max_limit": 0,
@@ -2589,6 +2608,44 @@
     "first_seen": "2026-07-02"
   },
   {
+    "id": "jn-194698",
+    "title": "「令和8年度観音寺市漁業者物価高騰対策支援金のお知らせ」",
+    "area": "香川県",
+    "areas": [
+      "香川県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-11-02",
+    "end": "2027-01-29",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194698",
+    "official_url": null,
+    "catch": "",
+    "municipality": "観音寺市",
+    "first_seen": "2026-10-24"
+  },
+  {
+    "id": "jn-194685",
+    "title": "「令和8年度観音寺市農林業者物価高騰対策支援金のお知らせ」",
+    "area": "香川県",
+    "areas": [
+      "香川県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-11-02",
+    "end": "2027-01-29",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194685",
+    "official_url": null,
+    "catch": "",
+    "municipality": "観音寺市",
+    "first_seen": "2026-10-24"
+  },
+  {
     "id": "a0WJ200000CDVn4MAH",
     "title": "【畜産事業者向け】都城市農業資材等価格高騰緊急支援事業費補助金（令和８年度）",
     "max_limit": 1000000,
@@ -2788,6 +2845,25 @@
     "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/digital-tool.html",
     "catch": "都内中小企業の新たなデジタルツール導入・活用を支援します。",
     "first_seen": "2026-09-29"
+  },
+  {
+    "id": "jn-194582",
+    "title": "「長崎市宿泊税システム整備費補助金」",
+    "area": "長崎県",
+    "areas": [
+      "長崎県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-22",
+    "end": "2027-01-31",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194582",
+    "official_url": null,
+    "catch": "",
+    "municipality": "長崎市",
+    "first_seen": "2026-10-24"
   },
   {
     "id": "a0WJ200000CDYW6MAP",
@@ -3348,6 +3424,25 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "jn-194697",
+    "title": "【令和8年度】【事業者用】太陽光発電設備の設置費用の一部を補助します",
+    "area": "大阪府",
+    "areas": [
+      "大阪府"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-06-01",
+    "end": "2027-03-01",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194697",
+    "official_url": null,
+    "catch": "",
+    "municipality": "東大阪市",
+    "first_seen": "2026-10-24"
+  },
+  {
     "id": "a0WJ200000CDY6GMAX",
     "title": "川越市中小企業者等物価高騰対策経営改善支援金",
     "max_limit": 100000,
@@ -3544,6 +3639,25 @@
     "official_url": "https://www.kouwan.metro.tokyo.lg.jp/business/user/hojyo",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "jn-194584",
+    "title": "「鏡野町中山間特別地域訪問介護サービス等支援事業補助金について」",
+    "area": "岡山県",
+    "areas": [
+      "岡山県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-01",
+    "end": "2027-03-31",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194584",
+    "official_url": null,
+    "catch": "",
+    "municipality": "鏡野町",
+    "first_seen": "2026-10-24"
   },
   {
     "id": "a0WJ200000CDZz6MAH",
