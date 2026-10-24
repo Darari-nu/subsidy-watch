@@ -1,135 +1,176 @@
 ---
-interface Subsidy {
-  id: string;
-  title: string;
-  max_limit: number | null;
-  area: string;
-  employees: string;
-  start: string | null;
-  end: string;
-  status: "new" | "closing_soon" | "open";
-  source: "jgrants";
-  jgrants_url: string;
-  official_url: string | null;
-  catch: string;
-  first_seen: string;
-}
+import {
+  areaChips,
+  daysBetween,
+  formatAmount,
+  formatDate,
+  getSummary,
+  searchText,
+  type Subsidy
+} from "../lib/subsidy";
 
 interface Props {
   subsidy: Subsidy;
   today: string;
-  index: number;
 }
 
-const { subsidy, today, index } = Astro.props;
-const dayMs = 86_400_000;
-const daysLeft = Math.max(
-  0,
-  Math.floor(
-    (Date.parse(`${subsidy.end}T00:00:00Z`) -
-      Date.parse(`${today}T00:00:00Z`)) /
-      dayMs
-  )
-);
-const daysSinceFirstSeen = Math.floor(
-  (Date.parse(`${today}T00:00:00Z`) -
-    Date.parse(`${subsidy.first_seen}T00:00:00Z`)) /
-    dayMs
-);
-const isNew = daysSinceFirstSeen >= 0 && daysSinceFirstSeen <= 7;
+const { subsidy, today } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const summary = getSummary(subsidy.id);
+const daysLeft = Math.max(0, daysBetween(today, subsidy.end));
+const sinceFirstSeen = daysBetween(subsidy.first_seen, today);
+const isNew = sinceFirstSeen >= 0 && sinceFirstSeen <= 7;
 const isClosing = subsidy.status === "closing_soon";
-const formatDate = (date: string) =>
-  new Intl.DateTimeFormat("ja-JP", {
-    year: "numeric",
-    month: "long",
-    day: "numeric"
-  }).format(new Date(`${date}T00:00:00+09:00`));
-const formatAmount = (amount: number | null) =>
-  !amount
-    ? "本文参照"
-    : amount >= 100_000_000
-      ? `${(amount / 100_000_000).toLocaleString("ja-JP", { maximumFractionDigits: 1 })}億円`
-      : `${(amount / 10_000).toLocaleString("ja-JP", { maximumFractionDigits: 0 })}万円`;
+const { chips, more, national, all } = areaChips(subsidy.areas);
+const detailUrl = `${base}s/${subsidy.id}/`;
 ---
 
 <article
   class:list={[
-    "subsidy-card relative overflow-hidden rounded-xl border bg-panel shadow-sm transition hover:-translate-y-0.5 hover:shadow-md",
-    isClosing ? "border-danger/35" : "border-line",
-    index % 3 === 0 ? "lg:col-span-2" : ""
+    "subsidy-card border-t bg-transparent py-7 sm:py-9",
+    isClosing ? "border-vermilion" : "border-ink/20"
   ]}
-  data-area={subsidy.area}
+  data-areas={subsidy.areas.join("|")}
   data-employees={subsidy.employees}
   data-amount={subsidy.max_limit ?? ""}
-  data-title={subsidy.title.toLocaleLowerCase("ja")}
+  data-end={subsidy.end}
+  data-first-seen={subsidy.first_seen}
+  data-id={subsidy.id}
+  data-text={searchText(subsidy, summary)}
 >
-  <div class:list={["h-1.5", isClosing ? "bg-danger" : isNew ? "bg-gold" : "bg-green"]}></div>
-  <div class="p-5 sm:p-6">
-    <div class="mb-4 flex flex-wrap items-center gap-2">
-      <span
+  <div class="grid gap-5 sm:grid-cols-[9.5rem_1fr] sm:gap-10">
+    <div class="flex items-baseline gap-3 sm:block">
+      <p class="flex items-center gap-1.5 text-xs text-muted sm:mb-1">
+        <img src={`${base}icons/deadline.png`} alt="" width="16" height="16" class="size-4" />
+        締切まで
+      </p>
+      <p
         class:list={[
-          "inline-flex items-center rounded-full px-3 py-1 text-xs font-black",
-          isClosing ? "bg-danger-soft text-danger" : "bg-green/10 text-green"
+          "font-display leading-none font-bold",
+          isClosing ? "text-vermilion" : "text-ink"
         ]}
+        aria-label={daysLeft === 0 ? "本日締切" : `締切まであと${daysLeft}日`}
       >
-        {daysLeft === 0 ? "本日締切" : `あと${daysLeft}日`}
-      </span>
-      {isClosing && (
-        <span class="rounded-full border border-danger/25 px-2.5 py-1 text-[0.68rem] font-bold text-danger">
-          締切間近
-        </span>
-      )}
-      {isNew && (
-        <span class="rounded-full bg-gold-soft px-2.5 py-1 text-[0.68rem] font-bold text-gold">
-          NEW
-        </span>
-      )}
+        {
+          daysLeft === 0 ? (
+            <span class="text-3xl sm:text-4xl">本日</span>
+          ) : (
+            <>
+              <span class="text-5xl tabular-nums sm:text-6xl">{daysLeft}</span>
+              <span class="ml-1 text-base">日</span>
+            </>
+          )
+        }
+      </p>
+      <p class="text-xs text-muted sm:mt-3">{formatDate(subsidy.end)}</p>
+      {
+        (isClosing || isNew) && (
+          <p class="hidden gap-2 sm:mt-3 sm:flex">
+            {isClosing && (
+              <span class="border border-vermilion px-2 text-[0.7rem] font-medium text-vermilion-text">
+                締切間近
+              </span>
+            )}
+            {isNew && (
+              <span class="inline-flex items-center gap-1 bg-accent px-2 text-[0.7rem] font-medium text-white">
+                NEW
+              </span>
+            )}
+          </p>
+        )
+      }
     </div>
 
-    <p class="mb-2 text-xs font-bold text-muted">締切 {formatDate(subsidy.end)}</p>
-    <h2 class="text-lg leading-relaxed font-bold sm:text-xl">{subsidy.title}</h2>
-    {subsidy.catch && (
-      <p class="mt-3 line-clamp-2 text-sm leading-7 text-muted">{subsidy.catch}</p>
-    )}
+    <div class="min-w-0">
+      <div class="mb-2 flex flex-wrap items-center gap-1.5 sm:hidden">
+        {isClosing && (
+          <span class="border border-vermilion px-2 text-[0.7rem] font-medium text-vermilion-text">
+            締切間近
+          </span>
+        )}
+        {isNew && (
+          <span class="bg-accent px-2 text-[0.7rem] font-medium text-white">NEW</span>
+        )}
+      </div>
 
-    <dl class="mt-5 grid grid-cols-2 gap-x-4 gap-y-4 border-y border-line py-4 text-sm">
-      <div>
-        <dt class="mb-1 text-xs font-bold text-muted">補助上限</dt>
-        <dd class="text-lg font-black text-green-dark">{formatAmount(subsidy.max_limit)}</dd>
-      </div>
-      <div>
-        <dt class="mb-1 text-xs font-bold text-muted">対象地域</dt>
-        <dd class="font-bold">{subsidy.area}</dd>
-      </div>
-      <div>
-        <dt class="mb-1 text-xs font-bold text-muted">従業員規模</dt>
-        <dd class="font-bold">{subsidy.employees}</dd>
-      </div>
-      <div>
-        <dt class="mb-1 text-xs font-bold text-muted">受付開始</dt>
-        <dd class="font-bold">{subsidy.start ? formatDate(subsidy.start) : "本文参照"}</dd>
-      </div>
-    </dl>
+      <h2 class="font-display text-lg leading-relaxed font-bold sm:text-xl">
+        <a href={detailUrl} class="text-ink no-underline hover:text-accent hover:underline">
+          {subsidy.title}
+        </a>
+      </h2>
 
-    <div class="mt-5 flex flex-wrap gap-2">
-      <a
-        class="link-button bg-green text-white hover:bg-green-dark"
-        href={subsidy.jgrants_url}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        jGrantsで確認
-      </a>
-      {subsidy.official_url && (
+      <ul class="mt-3 flex flex-wrap items-center gap-1.5" aria-label="対象地域">
+        <li class="mr-0.5 flex items-center">
+          <img src={`${base}icons/area.png`} alt="" width="16" height="16" class="size-4" />
+        </li>
+        {
+          chips.map((chip) => (
+            <li class:list={["chip", national && "chip-national"]}>{chip}</li>
+          ))
+        }
+        {more > 0 && (
+          <li class="chip" title={all.join("、")}>
+            +{more}
+          </li>
+        )}
+        <li class="chip">{subsidy.employees}</li>
+      </ul>
+
+      <dl class="mt-5 flex flex-wrap items-baseline gap-x-8 gap-y-2">
+        <div>
+          <dt class="flex items-center gap-1.5 text-xs text-muted">
+            <img src={`${base}icons/amount.png`} alt="" width="16" height="16" class="size-4" />
+            補助上限
+          </dt>
+          <dd class="font-display text-2xl font-bold text-accent">
+            {formatAmount(subsidy.max_limit)}
+          </dd>
+        </div>
+      </dl>
+
+      {
+        summary && (
+          <details class="summary-block mt-3 border-t border-line pt-1">
+            <summary>
+              AI要約
+              <span class="text-xs font-normal text-muted">（自動生成・要確認）</span>
+            </summary>
+            <dl class="grid gap-x-5 gap-y-2 pb-2 text-sm leading-7 sm:grid-cols-[5.5rem_1fr]">
+              <dt class="text-xs text-muted sm:pt-0.5">対象者</dt>
+              <dd>{summary.who}</dd>
+              <dt class="text-xs text-muted sm:pt-0.5">使い道</dt>
+              <dd>{summary.what}</dd>
+              <dt class="text-xs text-muted sm:pt-0.5">金額</dt>
+              <dd>{summary.amount}</dd>
+              <dt class="text-xs text-muted sm:pt-0.5">注意点</dt>
+              <dd>{summary.note}</dd>
+            </dl>
+          </details>
+        )
+      }
+
+      <div class="mt-4 flex flex-wrap gap-2">
         <a
-          class="link-button border border-line bg-white text-green hover:border-green"
-          href={subsidy.official_url}
+          class="link-button link-primary"
+          href={subsidy.jgrants_url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          公式ページ
+          jGrantsで確認
         </a>
-      )}
+        {
+          subsidy.official_url && (
+            <a
+              class="link-button link-secondary"
+              href={subsidy.official_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              公式ページ
+            </a>
+          )
+        }
+      </div>
     </div>
   </div>
 </article>

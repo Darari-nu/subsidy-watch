@@ -3,27 +3,19 @@ import Layout from "../layouts/Layout.astro";
 import Filters from "../components/Filters.astro";
 import Footer from "../components/Footer.astro";
 import SubsidyCard from "../components/SubsidyCard.astro";
-import subsidies from "../../data/subsidies.json";
 import meta from "../../data/meta.json";
+import { getActiveSubsidies, getSummary, todayInJapan } from "../lib/subsidy";
 
-const today = new Intl.DateTimeFormat("en-CA", {
-  timeZone: "Asia/Tokyo",
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit"
-}).format(new Date());
-const activeSubsidies = subsidies
-  .filter((item) => item.end >= today)
-  .sort((a, b) => a.end.localeCompare(b.end, "ja"));
-const areas = [...new Set(activeSubsidies.map((item) => item.area))].sort((a, b) =>
-  a.localeCompare(b, "ja")
-);
+const base = import.meta.env.BASE_URL;
+const today = todayInJapan();
+const activeSubsidies = getActiveSubsidies();
 const employees = [
   ...new Set(activeSubsidies.map((item) => item.employees))
 ].sort((a, b) => a.localeCompare(b, "ja"));
 const closingCount = activeSubsidies.filter(
   (item) => item.status === "closing_soon"
 ).length;
+const summaryCount = activeSubsidies.filter((item) => getSummary(item.id)).length;
 const lastSweep = meta.last_sweep
   ? new Intl.DateTimeFormat("ja-JP", {
       timeZone: "Asia/Tokyo",
@@ -37,89 +29,177 @@ const lastSweep = meta.last_sweep
 ---
 
 <Layout>
-  <section class="border-b border-line bg-white">
-    <div class="container-page grid gap-8 py-10 lg:grid-cols-[1fr_auto] lg:items-end lg:py-14">
-      <div>
-        <p class="mb-3 text-xs font-black tracking-[0.18em] text-green">
-          中小企業向け・受付中の制度
-        </p>
-        <h1 class="max-w-3xl text-3xl leading-tight font-black tracking-tight sm:text-5xl">
-          締切から逆算して、<br class="hidden sm:block" />使える補助金を見つける。
-        </h1>
-        <p class="mt-5 max-w-2xl text-sm leading-7 text-muted sm:text-base">
-          jGrantsの公開情報を毎日取得し、受付中の補助金を締切が近い順に整理しています。
-        </p>
-      </div>
-      <dl class="grid min-w-64 grid-cols-2 overflow-hidden rounded-xl border border-line bg-paper">
-        <div class="border-r border-line p-4">
-          <dt class="text-xs font-bold text-muted">受付中</dt>
-          <dd class="mt-1 text-3xl font-black">{activeSubsidies.length}<small class="ml-1 text-sm">件</small></dd>
+  <div id="app" data-base={base} data-pagefind-ignore>
+    <section class="container-page py-12 sm:py-20">
+      <p class="eyebrow">SUBSIDY DEADLINE DASHBOARD</p>
+      <h1
+        class="font-display mt-5 max-w-3xl text-3xl leading-snug font-bold tracking-wide sm:text-5xl sm:leading-tight"
+      >
+        締切から逆算して、<br />使える補助金を見つける。
+      </h1>
+      <p class="mt-6 max-w-xl text-sm leading-8 text-muted sm:text-base">
+        jGrantsの公開情報を毎日取得し、受付中の補助金を締切の近い順に整理しています。
+      </p>
+      <dl class="mt-10 flex flex-wrap gap-x-12 gap-y-5">
+        <div>
+          <dt class="text-xs text-muted">受付中</dt>
+          <dd class="font-display text-4xl font-bold tabular-nums">
+            {activeSubsidies.length}<small class="ml-1 text-sm font-normal">件</small>
+          </dd>
         </div>
-        <div class="p-4">
-          <dt class="text-xs font-bold text-danger">30日以内</dt>
-          <dd class="mt-1 text-3xl font-black text-danger">{closingCount}<small class="ml-1 text-sm">件</small></dd>
+        <div>
+          <dt class="text-xs text-muted">30日以内に締切</dt>
+          <dd class="font-display text-4xl font-bold text-vermilion tabular-nums">
+            {closingCount}<small class="ml-1 text-sm font-normal text-ink">件</small>
+          </dd>
         </div>
       </dl>
-    </div>
-  </section>
+    </section>
 
-  <div class="container-page py-8">
-    <div class="mb-5 flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
-      <p>最終巡回：<strong class="text-ink">{lastSweep}</strong></p>
-      <p class:list={["font-bold", meta.status === "ok" ? "text-green" : "text-gold"]}>
-        取得状態：{meta.status === "ok" ? "正常" : meta.status === "partial" ? "一部取得" : "要確認"}
-      </p>
-    </div>
+    <Filters employees={employees} />
 
-    <Filters areas={areas} employees={employees} />
+    <section class="container-page pb-8" aria-label="補助金一覧">
+      <div class="mt-6 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+        <p class="text-sm" aria-live="polite">
+          <span id="result-count" class="font-display text-2xl font-bold tabular-nums"
+            >{activeSubsidies.length}</span
+          >
+          <span class="text-muted">件を表示</span>
+          <span id="search-status" class="ml-3 text-xs text-muted"></span>
+        </p>
+        <p class="text-xs text-muted">
+          最終巡回 {lastSweep}
+          <span class:list={["ml-2", meta.status === "ok" ? "text-accent" : "text-vermilion-text"]}>
+            ・取得{meta.status === "ok" ? "正常" : meta.status === "partial" ? "一部のみ" : "要確認"}
+          </span>
+          {summaryCount > 0 && <span class="ml-2">・AI要約 {summaryCount}件</span>}
+        </p>
+      </div>
 
-    <div class="mt-8 flex items-baseline justify-between gap-4">
-      <h2 class="text-xl font-black">締切が近い順</h2>
-      <p class="text-sm text-muted"><span id="result-count">{activeSubsidies.length}</span>件を表示</p>
-    </div>
+      <div id="subsidy-list" class="mt-4">
+        {activeSubsidies.map((subsidy) => <SubsidyCard subsidy={subsidy} today={today} />)}
+      </div>
 
-    <div id="subsidy-list" class="mt-4 grid gap-4 lg:grid-cols-2">
-      {
-        activeSubsidies.map((subsidy, index) => (
-          <SubsidyCard subsidy={subsidy} today={today} index={index} />
-        ))
-      }
-    </div>
+      <div id="load-more-wrap" class="mt-10 flex justify-center" hidden>
+        <button
+          id="load-more"
+          class="min-h-12 border border-accent px-8 text-sm font-medium text-accent hover:bg-accent-soft"
+        >
+          さらに表示<span class="ml-2 font-normal text-muted"
+            >（残り<span id="remaining">0</span>件）</span
+          >
+        </button>
+      </div>
 
-    <div id="load-more-wrap" class="mt-8 flex justify-center" hidden>
-      <button
-        id="load-more"
-        class="rounded-xl border border-line bg-white px-7 py-3 text-sm font-bold shadow-sm transition hover:bg-paper"
-      >
-        さらに表示<span class="ml-2 font-normal text-muted">（残り<span id="remaining">0</span>件）</span>
-      </button>
-    </div>
-
-    <div
-      id="empty-state"
-      class="mt-4 hidden rounded-xl border border-dashed border-line bg-white p-10 text-center"
-    >
-      <p class="font-bold">条件に一致する補助金はありません。</p>
-      <p class="mt-2 text-sm text-muted">条件を減らして、もう一度お試しください。</p>
-    </div>
+      <div id="empty-state" class="mt-6 hidden border border-dashed border-ink/20 p-10 text-center">
+        <p class="font-display text-lg font-bold">条件に一致する補助金はありません。</p>
+        <p class="mt-2 text-sm text-muted">キーワードや絞り込み条件を減らして、もう一度お試しください。</p>
+      </div>
+    </section>
   </div>
 
   <Footer />
 </Layout>
 
 <script>
-  const area = document.querySelector<HTMLSelectElement>("#filter-area");
-  const employees =
-    document.querySelector<HTMLSelectElement>("#filter-employees");
-  const amount = document.querySelector<HTMLSelectElement>("#filter-amount");
-  const keyword = document.querySelector<HTMLInputElement>("#filter-keyword");
-  const reset = document.querySelector<HTMLButtonElement>("#filter-reset");
-  const cards = [
-    ...document.querySelectorAll<HTMLElement>(".subsidy-card")
-  ];
-  const resultCount = document.querySelector<HTMLElement>("#result-count");
-  const emptyState = document.querySelector<HTMLElement>("#empty-state");
+  const app = document.querySelector<HTMLElement>("#app")!;
+  const base = app.dataset.base ?? "/";
+  const $ = <T extends HTMLElement>(selector: string) =>
+    document.querySelector<T>(selector);
 
+  const keyword = $<HTMLInputElement>("#filter-keyword");
+  const sort = $<HTMLSelectElement>("#filter-sort");
+  const region = $<HTMLSelectElement>("#filter-region");
+  const national = $<HTMLInputElement>("#filter-national");
+  const nationalWrap = $<HTMLElement>("#national-toggle-wrap");
+  const employees = $<HTMLSelectElement>("#filter-employees");
+  const amount = $<HTMLSelectElement>("#filter-amount");
+  const reset = $<HTMLButtonElement>("#filter-reset");
+  const list = $<HTMLElement>("#subsidy-list")!;
+  const resultCount = $<HTMLElement>("#result-count");
+  const searchStatus = $<HTMLElement>("#search-status");
+  const emptyState = $<HTMLElement>("#empty-state");
+  const loadMoreWrap = $<HTMLElement>("#load-more-wrap");
+  const loadMore = $<HTMLButtonElement>("#load-more");
+  const remaining = $<HTMLElement>("#remaining");
+  const cards = [...document.querySelectorAll<HTMLElement>(".subsidy-card")];
+
+  const INITIAL = 20;
+  const STEP = 20;
+  const STORE_REGION = "subsidy-watch:region";
+  const STORE_NATIONAL = "subsidy-watch:national";
+  let shownCount = INITIAL;
+  let matched: HTMLElement[] = cards;
+  // null = キーワード未入力（全件対象）
+  let searchIds: Set<string> | null = null;
+  let searchToken = 0;
+
+  // ---- 前回の地域を覚えておく（localStorage が使えなくても動く） ----
+  const readStore = (key: string) => {
+    try {
+      return localStorage.getItem(key);
+    } catch {
+      return null;
+    }
+  };
+  const writeStore = (key: string, value: string) => {
+    try {
+      localStorage.setItem(key, value);
+    } catch {
+      /* 保存できなくても問題なし */
+    }
+  };
+
+  // ---- 全文検索（Pagefind。使えなければ data-text の部分一致にフォールバック） ----
+  type PagefindResult = { id: string; data: () => Promise<{ meta?: { sid?: string } }> };
+  type Pagefind = { search: (query: string) => Promise<{ results: PagefindResult[] }> };
+  let pagefind: Pagefind | null | undefined;
+  const sidByResult = new Map<string, string>();
+
+  const loadPagefind = async () => {
+    if (pagefind !== undefined) return pagefind;
+    try {
+      pagefind = (await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`)) as Pagefind;
+    } catch {
+      pagefind = null;
+    }
+    return pagefind;
+  };
+
+  const fallbackIds = (query: string) => {
+    const terms = query.toLocaleLowerCase("ja").split(/\s+/).filter(Boolean);
+    return new Set(
+      cards
+        .filter((card) => terms.every((term) => card.dataset.text?.includes(term)))
+        .map((card) => card.dataset.id ?? "")
+    );
+  };
+
+  const searchSubsidyIds = async (query: string) => {
+    const engine = await loadPagefind();
+    if (!engine) return fallbackIds(query);
+    try {
+      const { results } = await engine.search(query);
+      const ids = new Set<string>();
+      for (let i = 0; i < results.length; i += 40) {
+        await Promise.all(
+          results.slice(i, i + 40).map(async (result) => {
+            let sid = sidByResult.get(result.id);
+            if (!sid) {
+              sid = (await result.data()).meta?.sid;
+              if (sid) sidByResult.set(result.id, sid);
+            }
+            if (sid) ids.add(sid);
+          })
+        );
+      }
+      return ids;
+    } catch {
+      return fallbackIds(query);
+    }
+  };
+
+  // ---- 絞り込み ----
   const amountMatches = (rawValue: string, filter: string) => {
     if (!filter) return true;
     if (!rawValue) return filter === "unknown";
@@ -131,17 +211,24 @@ const lastSweep = meta.last_sweep
     return true;
   };
 
-  const loadMoreWrap =
-    document.querySelector<HTMLElement>("#load-more-wrap");
-  const loadMore = document.querySelector<HTMLButtonElement>("#load-more");
-  const remaining = document.querySelector<HTMLElement>("#remaining");
+  const regionMatches = (areas: string[], selected: string) => {
+    if (!selected) return true;
+    const isNational = areas.length === 1 && areas[0] === "全国";
+    if (selected === "__national") return isNational;
+    return areas.includes(selected) || (isNational && (national?.checked ?? true));
+  };
 
-  const INITIAL = 5; // 初期表示件数
-  const STEP = 10; // 「さらに表示」1回で増える件数
-  let shownCount = INITIAL;
-  let matched: HTMLElement[] = cards;
+  const amountValue = (card: HTMLElement) => Number(card.dataset.amount || -1);
+  const comparators: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
+    deadline: (a, b) => (a.dataset.end ?? "").localeCompare(b.dataset.end ?? ""),
+    new: (a, b) =>
+      (b.dataset.firstSeen ?? "").localeCompare(a.dataset.firstSeen ?? "") ||
+      (a.dataset.end ?? "").localeCompare(b.dataset.end ?? ""),
+    amount: (a, b) =>
+      amountValue(b) - amountValue(a) ||
+      (a.dataset.end ?? "").localeCompare(b.dataset.end ?? "")
+  };
 
-  // 絞り込みに一致するカードだけ matched に入れ、上から shownCount 件だけ表示する
   const paint = () => {
     matched.forEach((card, i) => {
       card.hidden = i >= shownCount;
@@ -154,35 +241,86 @@ const lastSweep = meta.last_sweep
   };
 
   const applyFilters = () => {
-    const query = keyword?.value.trim().toLocaleLowerCase("ja") ?? "";
-    // まず全カードを隠し、一致分だけ matched に集める
-    for (const card of cards) card.hidden = true;
-    matched = cards.filter(
-      (card) =>
-        (!area?.value || card.dataset.area === area.value) &&
-        (!employees?.value || card.dataset.employees === employees.value) &&
-        amountMatches(card.dataset.amount ?? "", amount?.value ?? "") &&
-        (!query || card.dataset.title?.includes(query))
+    const selectedRegion = region?.value ?? "";
+    if (nationalWrap) {
+      nationalWrap.hidden = !selectedRegion || selectedRegion === "__national";
+    }
+    const matchedSet = new Set(
+      cards.filter(
+        (card) =>
+          (searchIds === null || searchIds.has(card.dataset.id ?? "")) &&
+          regionMatches((card.dataset.areas ?? "").split("|"), selectedRegion) &&
+          (!employees?.value || card.dataset.employees === employees.value) &&
+          amountMatches(card.dataset.amount ?? "", amount?.value ?? "")
+      )
     );
-    shownCount = INITIAL; // 絞り込みを変えたら1ページ目に戻す
+    const compare = comparators[sort?.value ?? "deadline"];
+    matched = cards.filter((card) => matchedSet.has(card)).sort(compare);
+    for (const card of cards) card.hidden = true;
+    // 並び替えを DOM にも反映（一致分を上に、順番通りに）
+    list.append(...matched, ...cards.filter((card) => !matchedSet.has(card)));
+    shownCount = INITIAL;
     paint();
+  };
+
+  let debounce: number | undefined;
+  const runSearch = () => {
+    window.clearTimeout(debounce);
+    debounce = window.setTimeout(async () => {
+      const query = keyword?.value.trim() ?? "";
+      const token = ++searchToken;
+      if (!query) {
+        searchIds = null;
+        if (searchStatus) searchStatus.textContent = "";
+        applyFilters();
+        return;
+      }
+      if (searchStatus) searchStatus.textContent = "検索中…";
+      const ids = await searchSubsidyIds(query);
+      if (token !== searchToken) return; // 古い検索結果は捨てる
+      searchIds = ids;
+      if (searchStatus) searchStatus.textContent = `「${query}」で検索`;
+      applyFilters();
+    }, 180);
   };
 
   loadMore?.addEventListener("click", () => {
     shownCount += STEP;
     paint();
   });
-
-  for (const control of [area, employees, amount]) {
+  keyword?.addEventListener("input", runSearch);
+  for (const control of [sort, employees, amount, national]) {
     control?.addEventListener("change", applyFilters);
   }
-  keyword?.addEventListener("input", applyFilters);
+  region?.addEventListener("change", () => {
+    writeStore(STORE_REGION, region.value);
+    applyFilters();
+  });
+  national?.addEventListener("change", () => {
+    writeStore(STORE_NATIONAL, national.checked ? "1" : "0");
+  });
   reset?.addEventListener("click", () => {
-    if (area) area.value = "";
+    if (region) region.value = "";
     if (employees) employees.value = "";
     if (amount) amount.value = "";
     if (keyword) keyword.value = "";
+    if (sort) sort.value = "deadline";
+    writeStore(STORE_REGION, "");
+    searchToken += 1;
+    searchIds = null;
+    if (searchStatus) searchStatus.textContent = "";
     applyFilters();
   });
+
+  // 保存済みの地域を復元
+  const savedRegion = readStore(STORE_REGION);
+  if (
+    region &&
+    savedRegion &&
+    [...region.options].some((option) => option.value === savedRegion)
+  ) {
+    region.value = savedRegion;
+  }
+  if (national && readStore(STORE_NATIONAL) === "0") national.checked = false;
   applyFilters();
 </script>

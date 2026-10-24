@@ -29,6 +29,9 @@ jobs:
       - name: Validate data and configuration
         run: npm run validate
 
+      - name: Unit tests
+        run: npm test
+
       - name: Build Astro
         env:
           BASE_PATH: /${{ github.event.repository.name }}

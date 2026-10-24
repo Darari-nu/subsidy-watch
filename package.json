@@ -14,7 +14,7 @@
     "validate": "node scripts/validate.mjs",
     "test": "node --test test/",
     "sweep": "npm run collect && npm run classify && npm run summarize && npm run validate",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview"
   },
   "dependencies": {
