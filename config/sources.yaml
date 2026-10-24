@@ -33,7 +33,7 @@ sources:
 
   - id: jnet21
     type: rss
-    enabled: false
+    enabled: true
     name: J-Net21 支援情報
     url: https://j-net21.smrj.go.jp/snavi/support/support.xml
     include_keywords:

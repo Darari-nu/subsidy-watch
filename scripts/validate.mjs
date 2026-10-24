@@ -50,7 +50,7 @@ if (new Set(subsidies.map((item) => item.id)).size !== subsidies.length) {
 }
 
 for (let index = 1; index < subsidies.length; index += 1) {
-  if (subsidies[index - 1].end > subsidies[index].end) {
+  if ((subsidies[index - 1].end ?? "9999-12-31") > (subsidies[index].end ?? "9999-12-31")) {
     failed = true;
     console.error("data/subsidies.json: 締切日の昇順になっていません");
     break;

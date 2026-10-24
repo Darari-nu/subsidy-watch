@@ -13,7 +13,7 @@ const employees = [
   ...new Set(activeSubsidies.map((item) => item.employees))
 ].sort((a, b) => a.localeCompare(b, "ja"));
 const closingCount = activeSubsidies.filter(
-  (item) => item.status === "closing_soon"
+  (item) => item.end !== null && item.status === "closing_soon"
 ).length;
 const summaryCount = activeSubsidies.filter((item) => getSummary(item.id)).length;
 const lastSweep = meta.last_sweep
@@ -38,7 +38,7 @@ const lastSweep = meta.last_sweep
         締切から逆算して、<br />使える補助金を見つける。
       </h1>
       <p class="mt-6 max-w-xl text-sm leading-8 text-muted sm:text-base">
-        jGrantsの公開情報を毎日取得し、受付中の補助金を締切の近い順に整理しています。
+        jGrantsとJ-Net21の公開情報を毎日取得し、受付中の補助金を締切の近い順に整理しています。
       </p>
       <dl class="mt-10 flex flex-wrap gap-x-12 gap-y-5">
         <div>
@@ -220,13 +220,13 @@ const lastSweep = meta.last_sweep
 
   const amountValue = (card: HTMLElement) => Number(card.dataset.amount || -1);
   const comparators: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
-    deadline: (a, b) => (a.dataset.end ?? "").localeCompare(b.dataset.end ?? ""),
+    deadline: (a, b) => (a.dataset.end || "9999-12-31").localeCompare(b.dataset.end || "9999-12-31"),
     new: (a, b) =>
       (b.dataset.firstSeen ?? "").localeCompare(a.dataset.firstSeen ?? "") ||
-      (a.dataset.end ?? "").localeCompare(b.dataset.end ?? ""),
+      (a.dataset.end || "9999-12-31").localeCompare(b.dataset.end || "9999-12-31"),
     amount: (a, b) =>
       amountValue(b) - amountValue(a) ||
-      (a.dataset.end ?? "").localeCompare(b.dataset.end ?? "")
+      (a.dataset.end || "9999-12-31").localeCompare(b.dataset.end || "9999-12-31")
   };
 
   const paint = () => {

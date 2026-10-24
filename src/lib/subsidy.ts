@@ -11,10 +11,12 @@ export interface Subsidy {
   area_flags?: string[];
   employees: string;
   start: string | null;
-  end: string;
+  end: string | null;
   status: "new" | "closing_soon" | "open";
-  source: "jgrants";
-  jgrants_url: string;
+  source: "jgrants" | "jnet21";
+  jgrants_url?: string;
+  source_url?: string;
+  municipality?: string | null;
   official_url: string | null;
   catch: string;
   first_seen: string;
@@ -43,8 +45,8 @@ export const todayInJapan = () =>
 export const getActiveSubsidies = (): Subsidy[] => {
   const today = todayInJapan();
   return (subsidiesRaw as Subsidy[])
-    .filter((item) => item.end >= today)
-    .sort((a, b) => a.end.localeCompare(b.end, "ja"));
+    .filter((item) => item.end === null || item.end >= today)
+    .sort((a, b) => (a.end ?? "9999-12-31").localeCompare(b.end ?? "9999-12-31", "ja"));
 };
 
 export const getSummary = (id: string): Summary | null => summaries[id] ?? null;
@@ -87,6 +89,7 @@ export const searchText = (subsidy: Subsidy, summary: Summary | null) =>
     subsidy.title,
     subsidy.areas.join(" "),
     subsidy.area,
+    subsidy.municipality,
     subsidy.employees,
     subsidy.catch,
     summary?.who,
