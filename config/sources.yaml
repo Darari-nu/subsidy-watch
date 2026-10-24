@@ -1,5 +1,17 @@
 version: 1
 
+# 地域スクリーニング（取り込み時）。既定は空配列＝全件残す。
+# 例: 全国 + 長野県だけにする → include_areas: ["全国", "長野県"]
+#   include_areas : 空でなければ、areas のどれかがここに含まれるものだけ残す
+#   exclude_areas : areas が全てここに含まれるものを落とす
+#   national_threshold : 都道府県がこの数以上並んでいたら「全国」とみなす
+#   title_prefix_wins  : タイトルの【鹿児島】等が単一県なら area より優先する
+screening:
+  include_areas: []
+  exclude_areas: []
+  national_threshold: 40
+  title_prefix_wins: true
+
 sources:
   - id: jgrants
     type: api

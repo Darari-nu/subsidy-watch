@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { parse } from "yaml";
+import { normalizeAreas, passesScreening } from "./lib/areas.mjs";
 import {
   buildPublicUrl,
   fetchSubsidiesByKeyword,
@@ -116,9 +117,25 @@ const today = todayInJapan();
 const collected = [];
 let detailFailures = 0;
 
+const screening = config.screening ?? {};
+let screenedOut = 0;
+
 for (const item of resultsById.values()) {
   const id = String(item.id);
   const old = previousById.get(id);
+
+  // 地域スクリーニング（詳細API取得の前に落として無駄な呼び出しを避ける）
+  const { areas, flags: areaFlags } = normalizeAreas(
+    {
+      area: asText(item.target_area_search, "全国"),
+      title: asText(item.title, "名称未設定")
+    },
+    screening
+  );
+  if (!passesScreening(areas, screening)) {
+    screenedOut += 1;
+    continue;
+  }
   let officialUrl = old?.official_url ?? null;
   let catchPhrase = old?.catch ?? asText(item.subsidy_catch_phrase, "");
 
@@ -150,6 +167,8 @@ for (const item of resultsById.values()) {
     title: asText(item.title, "名称未設定"),
     max_limit: asAmount(item.subsidy_max_limit),
     area: asText(item.target_area_search, "全国"),
+    areas,
+    ...(areaFlags.length > 0 ? { area_flags: areaFlags } : {}),
     employees: asText(item.target_number_of_employees, "規模指定なし"),
     start: dateOnly(item.acceptance_start_datetime),
     end,
@@ -193,6 +212,10 @@ if (successfulKeywords === 0) {
 
 await mkdir(CACHE_DIR, { recursive: true });
 await writeFile(COLLECTED_PATH, `${JSON.stringify(collected, null, 2)}\n`);
+
+if (screenedOut > 0) {
+  console.log(`collect: 地域スクリーニングで${screenedOut}件を除外`);
+}
 
 const status =
   successfulKeywords === 0
