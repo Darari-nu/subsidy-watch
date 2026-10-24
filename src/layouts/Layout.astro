@@ -6,45 +6,79 @@ interface Props {
   description?: string;
 }
 
+const SITE_NAME = "補助金ウォッチ";
+const PUBLIC_ORIGIN = "https://darari-nu.com";
+const OG_IMAGE = `${PUBLIC_ORIGIN}/subsidy-watch/og.png`;
+
 const {
-  title = "補助金ウォッチ",
-  description = "受付中の補助金を締切が近い順に確認できる、中小企業向け締切ダッシュボード"
+  title = `${SITE_NAME} | 締切が近い順に探す補助金ダッシュボード`,
+  description = "受付中の補助金を締切が近い順に確認できる、中小企業向けダッシュボード。キーワード検索・地域絞り込み・AI要約つき。"
 } = Astro.props;
 const base = import.meta.env.BASE_URL;
+// 正本URLは darari-nu.com 配下（GitHub Pages 側ではなく）
+const canonical = `${PUBLIC_ORIGIN}${Astro.url.pathname}`;
 ---
 
 <!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
-    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <meta name="theme-color" content="#F7F5F0" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href={`${base}brand/mark.png`} />
+    <link rel="apple-touch-icon" href={`${base}brand/mark.png`} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={OG_IMAGE} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={OG_IMAGE} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap"
+    />
     <title>{title}</title>
   </head>
   <body>
-    <header class="border-b border-line bg-green-dark text-white">
-      <div class="container-page flex min-h-16 items-center justify-between gap-4 py-3">
-        <a href={base} class="flex items-center gap-3 text-white no-underline">
-          <span
-            class="grid size-9 place-items-center rounded-md border border-white/30 bg-white/10 text-lg font-black"
-            aria-hidden="true">〆</span
-          >
-          <span>
-            <strong class="block text-base tracking-wide">補助金ウォッチ</strong>
-            <small class="hidden text-[0.68rem] text-white/70 sm:block"
-              >SUBSIDY DEADLINE DASHBOARD</small
-            >
-          </span>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2"
+      >本文へスキップ</a
+    >
+    <header class="border-b border-line">
+      <div class="container-page flex items-center justify-between gap-4 py-4">
+        <a href={base} class="block no-underline" aria-label="補助金ウォッチ トップへ">
+          <img
+            src={`${base}brand/logo.png`}
+            alt="補助金ウォッチ"
+            width="180"
+            height="48"
+            class="block h-10 w-auto sm:h-12"
+          />
         </a>
-        <nav aria-label="メインナビゲーション" class="flex gap-5 text-sm font-bold">
-          <a href={base} class="text-white/90 hover:text-white">一覧</a>
-          <a href={`${base}about/`} class="text-white/90 hover:text-white">このサイトについて</a>
+        <nav aria-label="メインナビゲーション" class="flex gap-6 text-sm">
+          <a href={base} class="py-2 text-ink no-underline hover:text-accent">一覧</a>
+          <a href={`${base}about/`} class="py-2 text-ink no-underline hover:text-accent"
+            >このサイトについて</a
+          >
         </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
       <slot />
     </main>
   </body>

@@ -1,4 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { parse } from "yaml";
+import { normalizeAreas, passesScreening } from "./lib/areas.mjs";
 
 const ROOT = new URL("../", import.meta.url);
 const COLLECTED_PATH = new URL(".cache/collected.json", ROOT);
@@ -19,8 +21,21 @@ const today = todayInJapan();
 const todayMs = utcDay(today);
 const collected = JSON.parse(await readFile(COLLECTED_PATH, "utf8"));
 
-const classified = collected
+const config = parse(
+  await readFile(new URL("config/sources.yaml", ROOT), "utf8")
+);
+const screening = config.screening ?? {};
+
+// 前回データの持ち越し分（areas 未付与）もここで正規化し、設定変更も反映する
+const withAreas = collected.map((record) => {
+  const { areas, flags } = normalizeAreas(record, screening);
+  const { area_flags: _drop, ...rest } = record;
+  return { ...rest, areas, ...(flags.length > 0 ? { area_flags: flags } : {}) };
+});
+
+const classified = withAreas
   .filter((record) => utcDay(record.end) >= todayMs)
+  .filter((record) => passesScreening(record.areas, screening))
   .map((record) => {
     const daysUntilDeadline = Math.floor((utcDay(record.end) - todayMs) / DAY_MS);
     const daysSinceFirstSeen = Math.floor(
@@ -49,5 +64,5 @@ await writeFile(
 );
 
 console.log(
-  `classify: ${classified.length}件（期限切れ${collected.length - classified.length}件を除外）`
+  `classify: ${classified.length}件（期限切れ・地域スクリーニングで${collected.length - classified.length}件を除外）`
 );

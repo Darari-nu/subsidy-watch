@@ -4,20 +4,27 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Hiragino Sans"', '"Yu Gothic"', "Meiryo", "sans-serif"]
+        sans: [
+          '"Noto Sans JP"',
+          '"Hiragino Sans"',
+          '"Yu Gothic"',
+          "Meiryo",
+          "sans-serif"
+        ],
+        serif: ['"Noto Serif JP"', '"Hiragino Mincho ProN"', '"Yu Mincho"', "serif"]
       },
       colors: {
-        ink: "#17221d",
-        muted: "#5e6b64",
-        paper: "#f4f5ef",
-        panel: "#ffffff",
-        line: "#d9ddd5",
-        green: "#145a42",
-        "green-dark": "#0d3f2e",
-        gold: "#a56d00",
-        "gold-soft": "#fff4cc",
-        danger: "#b42318",
-        "danger-soft": "#fff0ed"
+        paper: "#F7F5F0",
+        panel: "#FFFFFF",
+        ink: "#1A1A1A",
+        muted: "#6B6B6B",
+        line: "#E3DFD5",
+        accent: "#1F5C4A",
+        "accent-dark": "#154236",
+        "accent-soft": "#E6EFEA",
+        vermilion: "#C8452D",
+        "vermilion-text": "#AD3A25",
+        "vermilion-soft": "#F8E9E5"
       }
     }
   },

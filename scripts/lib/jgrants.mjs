@@ -5,6 +5,19 @@ const USER_AGENT = "subsidy-watch/1.0 (+https://github.com/)";
 export const delay = (milliseconds) =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+// 429 / 503 のときだけ指数バックオフで再試行する（既定は再試行なしの従来動作）
+export async function requestJsonWithRetry(url, { retries = 4, ...options } = {}) {
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      return await requestJson(url, options);
+    } catch (error) {
+      const retryable = /HTTP (429|503)/.test(error.message);
+      if (!retryable || attempt >= retries) throw error;
+      await delay(2_000 * 2 ** attempt);
+    }
+  }
+}
+
 async function requestJson(url, { delayMs = 250, timeoutMs = 20_000 } = {}) {
   await delay(delayMs);
   const controller = new AbortController();
@@ -49,10 +62,11 @@ export async function fetchSubsidiesByKeyword(
 
 export async function fetchSubsidyDetail(
   id,
-  { apiBase = DEFAULT_API_BASE } = {}
+  { apiBase = DEFAULT_API_BASE, delayMs } = {}
 ) {
-  const payload = await requestJson(
-    `${apiBase}/subsidies/id/${encodeURIComponent(id)}`
+  const payload = await requestJsonWithRetry(
+    `${apiBase}/subsidies/id/${encodeURIComponent(id)}`,
+    delayMs === undefined ? {} : { delayMs }
   );
   return payload.result[0] ?? null;
 }

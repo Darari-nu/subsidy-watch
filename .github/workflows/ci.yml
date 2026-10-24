@@ -24,10 +24,13 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Validate data and configuration
         run: npm run validate
+
+      - name: Unit tests
+        run: npm test
 
       - name: Build Astro
         env:

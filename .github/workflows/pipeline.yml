@@ -30,10 +30,20 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Collect, classify and validate
-        run: npm run sweep
+      - name: Collect and classify
+        run: npm run collect && npm run classify
+
+      # ANTHROPIC_API_KEY が無い／APIエラー・残高切れでも exit 0（要約ブロックが出ないだけ）
+      - name: Summarize new subsidies (Claude Haiku)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUMMARY_MAX_PER_RUN: "60"
+        run: npm run summarize
+
+      - name: Validate
+        run: npm run validate
 
       - name: Commit refreshed data
         run: |
