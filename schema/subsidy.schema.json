@@ -17,7 +17,6 @@
       "end",
       "status",
       "source",
-      "jgrants_url",
       "official_url",
       "catch",
       "first_seen"
@@ -121,19 +120,22 @@
         "format": "date"
       },
       "end": {
-        "type": "string",
+        "type": ["string", "null"],
         "format": "date"
       },
       "status": {
         "enum": [
           "new",
           "closing_soon",
+          "upcoming",
           "open"
         ]
       },
       "source": {
-        "const": "jgrants"
+        "enum": ["jgrants", "jnet21"]
       },
+      "source_url": { "type": "string", "format": "uri", "pattern": "^https://j-net21\\.smrj\\.go\\.jp/snavi/articles/[0-9]+$" },
+      "municipality": { "type": ["string", "null"] },
       "jgrants_url": {
         "type": "string",
         "format": "uri",
@@ -153,6 +155,10 @@
         "type": "string",
         "format": "date"
       }
-    }
+    },
+    "oneOf": [
+      { "properties": { "source": { "const": "jgrants" }, "jgrants_url": { "type": "string" } }, "required": ["jgrants_url"] },
+      { "properties": { "source": { "const": "jnet21" }, "source_url": { "type": "string" } }, "required": ["source_url"] }
+    ]
   }
 }

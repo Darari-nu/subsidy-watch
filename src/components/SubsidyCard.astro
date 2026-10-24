@@ -1,4 +1,5 @@
 ---
+import { upcomingLabel } from "../../scripts/lib/classification.mjs";
 import {
   areaChips,
   daysBetween,
@@ -17,7 +18,7 @@ interface Props {
 const { subsidy, today } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const summary = getSummary(subsidy.id);
-const daysLeft = Math.max(0, daysBetween(today, subsidy.end));
+const daysLeft = subsidy.end ? Math.max(0, daysBetween(today, subsidy.end)) : null;
 const sinceFirstSeen = daysBetween(subsidy.first_seen, today);
 const isNew = sinceFirstSeen >= 0 && sinceFirstSeen <= 7;
 const isClosing = subsidy.status === "closing_soon";
@@ -42,17 +43,19 @@ const detailUrl = `${base}s/${subsidy.id}/`;
     <div class="flex items-baseline gap-3 sm:block">
       <p class="flex items-center gap-1.5 text-xs text-muted sm:mb-1">
         <img src={`${base}icons/deadline.png`} alt="" width="16" height="16" class="size-4" />
-        締切まで
+        {daysLeft === null ? "締切" : "締切まで"}
       </p>
       <p
         class:list={[
           "font-display leading-none font-bold",
           isClosing ? "text-vermilion" : "text-ink"
         ]}
-        aria-label={daysLeft === 0 ? "本日締切" : `締切まであと${daysLeft}日`}
+        aria-label={daysLeft === null ? "締切は本文参照" : daysLeft === 0 ? "本日締切" : `締切まであと${daysLeft}日`}
       >
         {
-          daysLeft === 0 ? (
+          daysLeft === null ? (
+            <span class="text-base">本文参照</span>
+          ) : daysLeft === 0 ? (
             <span class="text-3xl sm:text-4xl">本日</span>
           ) : (
             <>
@@ -62,7 +65,7 @@ const detailUrl = `${base}s/${subsidy.id}/`;
           )
         }
       </p>
-      <p class="text-xs text-muted sm:mt-3">{formatDate(subsidy.end)}</p>
+      {subsidy.end && <p class="text-xs text-muted sm:mt-3">{formatDate(subsidy.end)}</p>}
       {
         (isClosing || isNew) && (
           <p class="hidden gap-2 sm:mt-3 sm:flex">
@@ -93,6 +96,7 @@ const detailUrl = `${base}s/${subsidy.id}/`;
         )}
       </div>
 
+      {subsidy.status === "upcoming" && subsidy.start && <p class="mb-2 text-sm font-medium text-accent">{upcomingLabel(subsidy.start)}</p>}
       <h2 class="font-display text-lg leading-relaxed font-bold sm:text-xl">
         <a href={detailUrl} class="text-ink no-underline hover:text-accent hover:underline">
           {subsidy.title}
@@ -113,6 +117,7 @@ const detailUrl = `${base}s/${subsidy.id}/`;
             +{more}
           </li>
         )}
+        {subsidy.municipality && <li class="chip">{subsidy.municipality}</li>}
         <li class="chip">{subsidy.employees}</li>
       </ul>
 
@@ -152,11 +157,11 @@ const detailUrl = `${base}s/${subsidy.id}/`;
       <div class="mt-4 flex flex-wrap gap-2">
         <a
           class="link-button link-primary"
-          href={subsidy.jgrants_url}
+          href={subsidy.source === "jnet21" ? subsidy.source_url : subsidy.jgrants_url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          jGrantsで確認
+          {subsidy.source === "jnet21" ? "J-Net21で確認" : "jGrantsで確認"}
         </a>
         {
           subsidy.official_url && (
@@ -171,6 +176,7 @@ const detailUrl = `${base}s/${subsidy.id}/`;
           )
         }
       </div>
+      {subsidy.source === "jnet21" && <p class="mt-2 text-xs text-muted">出典：J-Net21 支援情報</p>}
     </div>
   </div>
 </article>

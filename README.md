@@ -1,6 +1,6 @@
 # 補助金ウォッチ
 
-中小企業向けの受付中補助金を、締切が近い順に表示する静的ダッシュボードです。jGrants（デジタル庁）の公開APIを毎日巡回し、GitHub上のJSONを更新してAstroサイトをGitHub Pagesへ配布します。
+中小企業向けの受付中補助金を、締切が近い順に表示する静的ダッシュボードです。jGrants（デジタル庁）の公開APIとJ-Net21の支援情報RSSを毎日巡回し、GitHub上のJSONを更新してAstroサイトをGitHub Pagesへ配布します。J-Net21は市区町村の補助金情報も蓄積して掲載します。
 
 データベース、サーバーサイド処理は不要です。AI要約を使う場合のみ Anthropic APIキーが必要です（任意）。
 
@@ -57,10 +57,12 @@ GitHubのリポジトリ画面から設定する場合は、`Settings` → `Page
 | コマンド | 役割 |
 |---|---|
 | `npm run collect` | 設定済みキーワードでjGrants一覧を取得し、ID重複排除と新規詳細補完を行う |
+| `npm run collect:jnet21` | J-Net21支援情報RSSから補助金・助成金を取得し、`data/jnet21_items.json` に蓄積する |
+| `npm run extract:jnet21` | J-Net21本文から対象地域・締切などを抽出する（APIキーが無い場合はスキップ） |
 | `npm run classify` | 対象地域の正規化（`areas`）・地域スクリーニング・期限切れ除外・ステータス付与・締切順ソート |
 | `npm run summarize` | Claude Haiku で未要約の制度をAI要約する（`ANTHROPIC_API_KEY` が無ければスキップ） |
 | `npm run validate` | 補助金JSON・要約JSON・ソース設定をJSON Schemaで検証する |
-| `npm run sweep` | `collect` → `classify` → `summarize` → `validate` を順番に実行する |
+| `npm run sweep` | jGrants/J-Net21収集 → J-Net21抽出 → `classify` → `summarize` → `validate` を順番に実行する |
 | `npm test` | 地域正規化・要約ヘルパーの単体テスト（`node:test`） |
 | `npm run dev` | Astro開発サーバーを起動する（Pagefind検索は無く、画面内の部分一致で代用） |
 | `npm run build` | `astro build` のあと `pagefind --site dist` で全文検索インデックス（`dist/pagefind/`）を生成する |
@@ -68,7 +70,7 @@ GitHubのリポジトリ画面から設定する場合は、`Settings` → `Page
 
 ## データソースを追加する
 
-ソース定義は [`config/sources.yaml`](config/sources.yaml) に1ブロック追加します。RSSは将来取り込み用の定義で、現在の収集処理は `jgrants` タイプのみを対象にしています。
+ソース定義は [`config/sources.yaml`](config/sources.yaml) に追加します。J-Net21はRSSに当日分しか掲載されないため、記事を `data/jnet21_items.json` にIDで重複排除して蓄積し、抽出結果は `data/jnet21_extracted.json` に本文ハッシュ付きでキャッシュします。`include_keywords` はRSSの分類語を絞り込み、既定では融資・貸付を除外します。
 
 ```yaml
   - id: example-rss
@@ -91,6 +93,8 @@ npm run validate
 
 - `data/subsidies.json`: 受付中補助金の正規化レコード
 - `data/summaries.json`: AI要約キャッシュ（補助金IDをキーに `who/what/amount/note`＋元テキストのハッシュ。1制度1回だけ要約）
+- `data/jnet21_items.json`: J-Net21 RSS記事の蓄積（初回検知日を保持）
+- `data/jnet21_extracted.json`: J-Net21記事から抽出した締切・地域などのキャッシュ
 - `data/summary_usage.jsonl`: 要約の実行ごとのトークン使用量
 - `data/meta.json`: 最終巡回時刻、取得状態、件数、取得エラー
 - `schema/subsidy.schema.json`: 補助金レコードのJSON Schema
@@ -118,7 +122,7 @@ jGrantsの `target_area_search` は「全国」「単一県」「 / 区切りの
 
 ### AI要約
 
-`ANTHROPIC_API_KEY`（GitHub Secrets）がある場合のみ、`claude-haiku-5-5` で未要約の制度を1回の実行あたり `SUMMARY_MAX_PER_RUN`（既定60）件まで要約します。キー未設定・APIエラー・402は警告ログだけで正常終了し、要約ブロックが出ないだけでサイトは通常どおりビルドされます。
+`ANTHROPIC_API_KEY`（GitHub Secrets）がある場合のみ、`claude-haiku-5-5` で未要約の制度を1回の実行あたり `SUMMARY_MAX_PER_RUN`（既定60）件まで要約し、J-Net21記事も `JNET21_MAX_PER_RUN`（既定40）件まで抽出します。キー未設定・APIエラー・402は警告ログだけで正常終了し、要約ブロックが出ないだけでサイトは通常どおりビルドされます。
 
 収集時に一部キーワードや詳細APIが失敗しても、成功分は処理を継続し、`data/meta.json` の `status` を `partial` にします。全キーワードが失敗した場合は前回データを保持したまま `failed` を記録し、古い公開データを誤って空配列で上書きしません。
 
@@ -137,6 +141,7 @@ Pull Requestでは `.github/workflows/ci.yml` がスキーマ検証とAstroビ�
 | 2026-06-18 | 初版。GitHub Pages で公開開始 |
 | 2026-09-04 | darari-nu.com/subsidy-watch/ での配信を追加（ai-kaizen-hub の Pages Function で中継）。公開URLをREADMEに明記 |
 | 2026-10-24 | Pagefindによる全文検索、Claude HaikuによるAI要約（`summarize.mjs`）、対象地域の正規化・スクリーニング（`areas`）、エディトリアル調UI再設計（並び替え・地域フィルタ・OGP・詳細ページ）を追加 |
+| 2026-10-24 | J-Net21支援情報RSSを追加し、市区町村補助金の蓄積・抽出・表示に対応 |
 
 ## 免責
 

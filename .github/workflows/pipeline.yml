@@ -32,6 +32,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Collect J-Net21 RSS
+        run: npm run collect:jnet21
+
+      - name: Extract J-Net21 details
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          JNET21_MAX_PER_RUN: "40"
+        run: npm run extract:jnet21
+
       - name: Collect and classify
         run: npm run collect && npm run classify
 
