@@ -17,8 +17,16 @@ const sources = parse(
   await readFile(new URL("config/sources.yaml", ROOT), "utf8")
 );
 
+const summariesSchema = await readJson(
+  new URL("schema/summaries.schema.json", ROOT)
+);
+const summaries = await readJson(new URL("data/summaries.json", ROOT)).catch(
+  () => ({})
+);
+
 const validations = [
   ["data/subsidies.json", subsidySchema, subsidies],
+  ["data/summaries.json", summariesSchema, summaries],
   ["config/sources.yaml", sourcesSchema, sources]
 ];
 

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://subsidy-watch.local/schema/summaries.schema.json",
+  "title": "AI要約キャッシュ（補助金IDをキーとする）",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["hash", "who", "what", "amount", "note", "model", "at"],
+    "properties": {
+      "hash": { "type": "string", "minLength": 1 },
+      "who": { "type": "string", "minLength": 1 },
+      "what": { "type": "string", "minLength": 1 },
+      "amount": { "type": "string", "minLength": 1 },
+      "note": { "type": "string", "minLength": 1 },
+      "model": { "type": "string", "minLength": 1 },
+      "at": { "type": "string", "format": "date-time" }
+    }
+  }
+}
