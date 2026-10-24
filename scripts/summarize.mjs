@@ -79,7 +79,8 @@ for (const record of pending.slice(0, MAX_PER_RUN)) {
     const source = buildSourceText(record, detail);
     const response = await client.messages.create({
       model: MODEL,
-      max_tokens: 500,
+      // Haiku 5.5 は既定で考えてから答える（考えを切ると本文に無いことを書き足した・2026-10-24 実測）。考える分も max_tokens に含まれるので余裕を持たせる
+      max_tokens: 2000,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: source }]
     });
@@ -91,7 +92,7 @@ for (const record of pending.slice(0, MAX_PER_RUN)) {
       .map((block) => block.text)
       .join("");
     const summary = parseSummary(text);
-    if (!summary) throw new Error("要約のJSONを解釈できませんでした");
+    if (!summary) throw new Error(`要約のJSONを解釈できませんでした（stop_reason=${response.stop_reason}）`);
 
     cache[record.id] = {
       hash: hashSource(source),

@@ -37,7 +37,8 @@ export function buildSourceText(record, detail) {
   add("対象業種", detail?.industry);
   add("対象従業員規模", detail?.target_number_of_employees);
   add("補助率", detail?.subsidy_rate);
-  if (typeof detail?.subsidy_max_limit === "number") {
+  // 0 は jGrants で「上限なし／本文参照」（委託・調査系）。そのまま渡すと「上限0円」と要約される
+  if (typeof detail?.subsidy_max_limit === "number" && detail.subsidy_max_limit > 0) {
     add("補助上限額(円)", String(detail.subsidy_max_limit));
   }
   add("実施機関", detail?.institution_name);
