@@ -115,7 +115,8 @@ export function normalizeAreas({ area, title }, screening = {}) {
   }
 
   const prefix = options.title_prefix_wins ? titlePrefixPrefecture(title) : null;
-  if (prefix && !(areas.length === 1 && areas[0] === prefix)) {
+  // 接頭辞の県が area の中にあるなら複数県のまま残す（【長野県】で area が「長野県 / 山梨県」など）
+  if (prefix && !areas.includes(prefix)) {
     areas = [prefix];
     flags.push("title_prefix_override");
   }

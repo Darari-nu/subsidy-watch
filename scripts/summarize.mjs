@@ -109,7 +109,9 @@ for (const record of pending.slice(0, MAX_PER_RUN)) {
     const status = error?.status;
     console.warn(`summarize: skip ${record.id}: ${status ?? ""} ${error.message}`);
     // 課金・認証・権限の問題は何度やっても同じなので、その回の要約を打ち切る
-    if (status === 401 || status === 402 || status === 403) {
+    // 残高不足は 402 billing_error のほか、400 "credit balance is too low" で返ることもある
+    const billing = error?.error?.error?.type === "billing_error" || error?.error?.type === "billing_error" || /credit balance/i.test(error?.message ?? "");
+    if (status === 401 || status === 402 || status === 403 || billing) {
       stopReason = `api_status_${status}`;
       break;
     }

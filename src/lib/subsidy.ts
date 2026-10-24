@@ -54,6 +54,7 @@ export const daysBetween = (from: string, to: string) =>
 
 export const formatDate = (date: string) =>
   new Intl.DateTimeFormat("ja-JP", {
+    timeZone: "Asia/Tokyo", // ビルドは UTC のランナーで走る。指定しないと1日前の日付になる
     year: "numeric",
     month: "long",
     day: "numeric",
