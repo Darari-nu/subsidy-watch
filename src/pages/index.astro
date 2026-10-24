@@ -180,7 +180,7 @@ const lastSweep = meta.last_sweep
     if (!engine) return fallbackIds(query);
     try {
       const { results } = await engine.search(query);
-      const ids = new Set<string>();
+      const ids = fallbackIds(query); // 画面内の一致も足す（Pagefind が拾わない短い語の取りこぼし防止）
       for (let i = 0; i < results.length; i += 40) {
         await Promise.all(
           results.slice(i, i + 40).map(async (result) => {
@@ -267,7 +267,7 @@ const lastSweep = meta.last_sweep
   const runSearch = () => {
     window.clearTimeout(debounce);
     debounce = window.setTimeout(async () => {
-      const query = keyword?.value.trim() ?? "";
+      const query = (keyword?.value ?? "").normalize("NFKC").trim();
       const token = ++searchToken;
       if (!query) {
         searchIds = null;
@@ -276,6 +276,9 @@ const lastSweep = meta.last_sweep
         return;
       }
       if (searchStatus) searchStatus.textContent = "検索中…";
+      // 先に画面内の一致ですぐ絞り、Pagefind（詳細の中身まで）の結果が来たら差し替える
+      searchIds = fallbackIds(query);
+      applyFilters();
       const ids = await searchSubsidyIds(query);
       if (token !== searchToken) return; // 古い検索結果は捨てる
       searchIds = ids;
@@ -288,7 +291,26 @@ const lastSweep = meta.last_sweep
     shownCount += STEP;
     paint();
   });
-  keyword?.addEventListener("input", runSearch);
+  // 日本語入力の変換中は検索せず、確定・Enter・クリアで走らせる（Safari は変換中にも input が来る）
+  keyword?.addEventListener("input", (event) => {
+    if ((event as InputEvent).isComposing) return;
+    runSearch();
+  });
+  keyword?.addEventListener("compositionend", runSearch);
+  keyword?.addEventListener("search", runSearch);
+  keyword?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.isComposing) {
+      event.preventDefault();
+      runSearch();
+      // 入力中から絞り込みは効いているので、Enter では結果の先頭まで移動して「絞れた」ことを見せる
+      window.setTimeout(() => {
+        const target = document.querySelector("#result-count") ?? list;
+        const barHeight = document.querySelector("#search-bar")?.getBoundingClientRect().height ?? 0;
+        const top = target.getBoundingClientRect().top + window.scrollY - barHeight - 16; // 固定の検索バーに隠れないぶん上げる
+        window.scrollTo({ top, behavior: "smooth" });
+      }, 250);
+    }
+  });
   for (const control of [sort, employees, amount, national]) {
     control?.addEventListener("change", applyFilters);
   }

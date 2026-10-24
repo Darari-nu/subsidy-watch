@@ -96,4 +96,5 @@ export const searchText = (subsidy: Subsidy, summary: Summary | null) =>
   ]
     .filter(Boolean)
     .join(" ")
+    .normalize("NFKC") // 全角英数（ＡＩ）と半角（AI）を同じに扱う
     .toLocaleLowerCase("ja");
