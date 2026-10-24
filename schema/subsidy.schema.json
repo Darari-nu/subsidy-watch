@@ -127,13 +127,14 @@
         "enum": [
           "new",
           "closing_soon",
+          "upcoming",
           "open"
         ]
       },
       "source": {
         "enum": ["jgrants", "jnet21"]
       },
-      "source_url": { "type": "string", "format": "uri" },
+      "source_url": { "type": "string", "format": "uri", "pattern": "^https://j-net21\\.smrj\\.go\\.jp/snavi/articles/[0-9]+$" },
       "municipality": { "type": ["string", "null"] },
       "jgrants_url": {
         "type": "string",

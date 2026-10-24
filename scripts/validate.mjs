@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { todayInJapan } from "./lib/classification.mjs";
 import { parse } from "yaml";
 
 const ROOT = new URL("../", import.meta.url);
@@ -47,6 +48,15 @@ for (const [name, schema, data] of validations) {
 if (new Set(subsidies.map((item) => item.id)).size !== subsidies.length) {
   failed = true;
   console.error("data/subsidies.json: idが重複しています");
+}
+
+const today = todayInJapan();
+for (const record of subsidies) {
+  const future = Boolean(record.start && record.start > today);
+  if ((record.status === "upcoming") !== future) {
+    failed = true;
+    console.error(`data/subsidies.json: ${record.id}の受付前ステータスと開始日が一致しません`);
+  }
 }
 
 for (let index = 1; index < subsidies.length; index += 1) {

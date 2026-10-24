@@ -1,5 +1,6 @@
 import subsidiesRaw from "../../data/subsidies.json";
 import summariesRaw from "../../data/summaries.json";
+import { classifyStatus } from "../../scripts/lib/classification.mjs";
 import { PREFECTURES } from "../../scripts/lib/areas.mjs";
 
 export interface Subsidy {
@@ -12,7 +13,7 @@ export interface Subsidy {
   employees: string;
   start: string | null;
   end: string | null;
-  status: "new" | "closing_soon" | "open";
+  status: "new" | "closing_soon" | "open" | "upcoming";
   source: "jgrants" | "jnet21";
   jgrants_url?: string;
   source_url?: string;
@@ -46,6 +47,7 @@ export const getActiveSubsidies = (): Subsidy[] => {
   const today = todayInJapan();
   return (subsidiesRaw as Subsidy[])
     .filter((item) => item.end === null || item.end >= today)
+    .map((item) => ({ ...item, status: classifyStatus(item, today) as Subsidy["status"] }))
     .sort((a, b) => (a.end ?? "9999-12-31").localeCompare(b.end ?? "9999-12-31", "ja"));
 };
 

@@ -7,6 +7,8 @@ import {
   fetchSubsidyDetail
 } from "./lib/jgrants.mjs";
 
+import { validPreviousJgrants } from "./lib/classification.mjs";
+
 const ROOT = new URL("../", import.meta.url);
 const CONFIG_PATH = new URL("config/sources.yaml", ROOT);
 const DATA_PATH = new URL("data/subsidies.json", ROOT);
@@ -185,7 +187,7 @@ for (const item of resultsById.values()) {
 // 一部キーワードが失敗 or 取得が急減した場合、今回取得できなかった「前回のまだ有効なレコード」を保持してマージする。
 // 全失敗時は前回を丸ごと保持。全キーワード成功かつ件数も妥当なら、今回分を正とする（締切済み・受付終了が正しく落ちる）。
 const collectedIds = new Set(collected.map((record) => record.id));
-const previousValid = previous.filter((record) => record.end >= today);
+const previousValid = validPreviousJgrants(previous, today);
 const suddenDrop =
   previousValid.length > 0 && collected.length < previousValid.length * 0.5;
 

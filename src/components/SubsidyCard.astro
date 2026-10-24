@@ -1,4 +1,5 @@
 ---
+import { upcomingLabel } from "../../scripts/lib/classification.mjs";
 import {
   areaChips,
   daysBetween,
@@ -95,6 +96,7 @@ const detailUrl = `${base}s/${subsidy.id}/`;
         )}
       </div>
 
+      {subsidy.status === "upcoming" && subsidy.start && <p class="mb-2 text-sm font-medium text-accent">{upcomingLabel(subsidy.start)}</p>}
       <h2 class="font-display text-lg leading-relaxed font-bold sm:text-xl">
         <a href={detailUrl} class="text-ink no-underline hover:text-accent hover:underline">
           {subsidy.title}

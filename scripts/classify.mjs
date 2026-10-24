@@ -3,6 +3,8 @@ import { parse } from "yaml";
 import { normalizeAreas, passesScreening } from "./lib/areas.mjs";
 import { activeJnetRecords } from "./lib/jnet21.mjs";
 
+import { mergeCollected, classifyStatus } from "./lib/classification.mjs";
+
 const ROOT = new URL("../", import.meta.url);
 const COLLECTED_PATH = new URL(".cache/collected.json", ROOT);
 const DATA_PATH = new URL("data/subsidies.json", ROOT);
@@ -34,7 +36,7 @@ const todayJapan = todayInJapan();
 const jnetRecords = activeJnetRecords(jnetItems, extracted, todayJapan, screening);
 
 // 前回データの持ち越し分（areas 未付与）もここで正規化し、設定変更も反映する
-const withAreas = [...collected, ...jnetRecords].map((record) => {
+const withAreas = mergeCollected(collected, jnetRecords).map((record) => {
   const { areas, flags } = normalizeAreas(record, screening);
   const { area_flags: _drop, ...rest } = record;
   return { ...rest, areas, ...(flags.length > 0 ? { area_flags: flags } : {}) };
@@ -46,16 +48,7 @@ const classified = withAreas
     : utcDay(record.end) >= todayMs)
   .filter((record) => passesScreening(record.areas, screening))
   .map((record) => {
-    const daysUntilDeadline = record.end ? Math.floor((utcDay(record.end) - todayMs) / DAY_MS) : null;
-    const daysSinceFirstSeen = Math.floor(
-      (todayMs - utcDay(record.first_seen)) / DAY_MS
-    );
-    const status =
-      daysUntilDeadline !== null && daysUntilDeadline <= 30
-        ? "closing_soon"
-        : daysSinceFirstSeen >= 0 && daysSinceFirstSeen <= 7
-          ? "new"
-          : "open";
+    const status = classifyStatus(record, today);
     return { ...record, status };
   })
   .sort(
@@ -78,5 +71,5 @@ await writeFile(
 );
 
 console.log(
-  `classify: ${classified.length}件（期限切れ・地域スクリーニングで${collected.length - classified.length}件を除外）`
+  `classify: ${classified.length}件（期限切れ・地域スクリーニングで${withAreas.length - classified.length}件を除外）`
 );

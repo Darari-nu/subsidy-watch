@@ -14,7 +14,7 @@
     "classify": "node scripts/classify.mjs",
     "summarize": "node scripts/summarize.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "sweep": "npm run collect && npm run collect:jnet21 && npm run extract:jnet21 && npm run classify && npm run summarize && npm run validate",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview"

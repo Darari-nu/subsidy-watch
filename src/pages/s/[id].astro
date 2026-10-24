@@ -1,4 +1,5 @@
 ---
+import { upcomingLabel } from "../../../scripts/lib/classification.mjs";
 import Layout from "../../layouts/Layout.astro";
 import Footer from "../../components/Footer.astro";
 import {
@@ -43,6 +44,7 @@ const description = summary
   >
     <p class="mb-6 text-sm" data-pagefind-ignore><a href={base} class="text-accent">← 一覧へ戻る</a></p>
     <p class="eyebrow" data-pagefind-ignore>締切 {subsidy.end ? `${formatDate(subsidy.end)}・あと${daysLeft}日` : "本文参照"}</p>
+    {subsidy.status === "upcoming" && subsidy.start && <p class="mt-3 text-sm font-medium text-accent">{upcomingLabel(subsidy.start)}</p>}
     <h1 class="font-display mt-4 text-2xl leading-relaxed font-bold sm:text-3xl">
       {subsidy.title}
     </h1>

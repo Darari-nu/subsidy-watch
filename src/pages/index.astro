@@ -1,4 +1,5 @@
 ---
+import { subsidyCounts } from "../../scripts/lib/classification.mjs";
 import Layout from "../layouts/Layout.astro";
 import Filters from "../components/Filters.astro";
 import Footer from "../components/Footer.astro";
@@ -12,9 +13,7 @@ const activeSubsidies = getActiveSubsidies();
 const employees = [
   ...new Set(activeSubsidies.map((item) => item.employees))
 ].sort((a, b) => a.localeCompare(b, "ja"));
-const closingCount = activeSubsidies.filter(
-  (item) => item.end !== null && item.status === "closing_soon"
-).length;
+const counts = subsidyCounts(activeSubsidies);
 const summaryCount = activeSubsidies.filter((item) => getSummary(item.id)).length;
 const lastSweep = meta.last_sweep
   ? new Intl.DateTimeFormat("ja-JP", {
@@ -38,20 +37,24 @@ const lastSweep = meta.last_sweep
         締切から逆算して、<br />使える補助金を見つける。
       </h1>
       <p class="mt-6 max-w-xl text-sm leading-8 text-muted sm:text-base">
-        jGrantsとJ-Net21の公開情報を毎日取得し、受付中の補助金を締切の近い順に整理しています。
+        jGrantsとJ-Net21の公開情報を毎日取得し、受付中・受付前の補助金を締切の近い順に整理しています。
       </p>
       <dl class="mt-10 flex flex-wrap gap-x-12 gap-y-5">
         <div>
           <dt class="text-xs text-muted">受付中</dt>
           <dd class="font-display text-4xl font-bold tabular-nums">
-            {activeSubsidies.length}<small class="ml-1 text-sm font-normal">件</small>
+            {counts.open}<small class="ml-1 text-sm font-normal">件</small>
           </dd>
         </div>
         <div>
           <dt class="text-xs text-muted">30日以内に締切</dt>
           <dd class="font-display text-4xl font-bold text-vermilion tabular-nums">
-            {closingCount}<small class="ml-1 text-sm font-normal text-ink">件</small>
+            {counts.closing}<small class="ml-1 text-sm font-normal text-ink">件</small>
           </dd>
+        </div>
+        <div>
+          <dt class="text-xs text-muted">受付前</dt>
+          <dd class="font-display text-4xl font-bold tabular-nums">{counts.upcoming}<small class="ml-1 text-sm font-normal">件</small></dd>
         </div>
       </dl>
     </section>
