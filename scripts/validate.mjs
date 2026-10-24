@@ -1,7 +1,6 @@
 import { readFile } from "node:fs/promises";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
-import { todayInJapan } from "./lib/classification.mjs";
 import { parse } from "yaml";
 
 const ROOT = new URL("../", import.meta.url);
@@ -50,12 +49,11 @@ if (new Set(subsidies.map((item) => item.id)).size !== subsidies.length) {
   console.error("data/subsidies.json: idが重複しています");
 }
 
-const today = todayInJapan();
+// 受付前は開始日が必須。今日と比べるのは classify の役目（CI は古いデータのまま走るので、ここで日付比較すると開始日が来た日に落ちる）
 for (const record of subsidies) {
-  const future = Boolean(record.start && record.start > today);
-  if ((record.status === "upcoming") !== future) {
+  if (record.status === "upcoming" && !record.start) {
     failed = true;
-    console.error(`data/subsidies.json: ${record.id}の受付前ステータスと開始日が一致しません`);
+    console.error(`data/subsidies.json: ${record.id}は受付前なのに開始日がありません`);
   }
 }
 
