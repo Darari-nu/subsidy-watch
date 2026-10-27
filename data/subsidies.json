@@ -1,41 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDdl2MAD",
-    "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業」の2026年度第2回公募",
-    "max_limit": 0,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-25",
-    "end": "2026-10-26",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdl2MAD",
-    "official_url": "https://www.nedo.go.jp/koubo/GI2_100001_00028.html",
-    "catch": "",
-    "first_seen": "2026-09-26"
-  },
-  {
-    "id": "a0WfQ000003K34rUAC",
-    "title": "令和８年度地域資源活用製品等の開発・販売促進事業　開発・改良フェーズ",
-    "max_limit": 15000000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-10-01",
-    "end": "2026-10-26",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003K34rUAC",
-    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chiikishigen/index.html",
-    "catch": "東京の地域資源活用や東京の都市・地域課題の解決に資する製品・サービスの開発・改良、販売促進に係る経費を一部助成します。申請には「プラン作成支援」への申込後、専門家派遣による事業計画の策定や申請書類準備の伴走支援を受けることによる、事業計画の完成・申請書類準備完了の確認を得ている必要があります。",
-    "first_seen": "2026-10-01"
-  },
-  {
     "id": "a0WJ200000CDe6UMAT",
     "title": "【高知】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
     "max_limit": 6000000,
@@ -1293,7 +1257,7 @@
   },
   {
     "id": "a0WfQ000003myubUAA",
-    "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+    "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
     "max_limit": 0,
     "area": "全国",
     "areas": [
@@ -1329,7 +1293,7 @@
   },
   {
     "id": "a0WfQ000003mzyjUAA",
-    "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+    "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
     "max_limit": 0,
     "area": "全国",
     "areas": [
@@ -1464,7 +1428,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-18",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYeMAL",
     "official_url": "https://www.tcvb.or.jp/jp/project/infra/DXmgmt/",
@@ -1760,6 +1724,25 @@
     "first_seen": "2026-08-25"
   },
   {
+    "id": "jn-193132",
+    "title": "「令和8年度　農業経営支援事業補助金のお知らせ」",
+    "area": "沖縄県",
+    "areas": [
+      "沖縄県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-11-02",
+    "end": "2026-12-10",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/193132",
+    "official_url": null,
+    "catch": "",
+    "municipality": "豊見城市",
+    "first_seen": "2026-10-27"
+  },
+  {
     "id": "a0WJ200000CDXmVMAX",
     "title": "【令和８年度】INPIT外国出願補助金（中間手続補助）",
     "max_limit": 500000,
@@ -1902,6 +1885,25 @@
     "official_url": "https://rcespa.jp/r08-kotsu/r08-kotsu-no3",
     "catch": "鉄道（回生電力・車両省エネ・先進省エネ）",
     "first_seen": "2026-10-06"
+  },
+  {
+    "id": "jn-194743",
+    "title": "「令和8年度EVワイヤレス給電技術に係る実証支援事業補助金の公募を開始します」",
+    "area": "大阪府",
+    "areas": [
+      "大阪府"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194743",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-27"
   },
   {
     "id": "a0WJ200000CDddWMAT",
@@ -4779,6 +4781,31 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDXoBMAX",
+    "title": "設備投資支援事業_事業完了後申請（令和８年）",
+    "max_limit": 200000000,
+    "area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+    "areas": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "山梨県"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-04-01",
+    "end": "2027-03-31",
+    "status": "open",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXoBMAX",
+    "official_url": null,
+    "catch": "",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": "a0WJ200000CDYvXMAX",
     "title": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
     "max_limit": 0,
@@ -4978,31 +5005,6 @@
     "official_url": "https://www.digitalservice.metro.tokyo.lg.jp/business/2030vision/kodomodx/pmh/hojokin",
     "catch": "【東京都】（令和７年度）医療機関等におけるマイナンバーカード利活用推進事業",
     "first_seen": "2026-07-23"
-  },
-  {
-    "id": "a0WJ200000CDXoBMAX",
-    "title": "令和８年_設備投資_事業完了後申請",
-    "max_limit": 200000000,
-    "area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
-    "areas": [
-      "茨城県",
-      "栃木県",
-      "群馬県",
-      "埼玉県",
-      "千葉県",
-      "東京都",
-      "神奈川県",
-      "山梨県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-01",
-    "end": "2027-03-31",
-    "status": "open",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXoBMAX",
-    "official_url": null,
-    "catch": "",
-    "first_seen": "2026-06-18"
   },
   {
     "id": "a0WfQ000003poQrUAI",
