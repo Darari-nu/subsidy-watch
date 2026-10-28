@@ -399,24 +399,6 @@
     "first_seen": "2026-06-18"
   },
   {
-    "id": "a0WJ200000CDeT5MAL",
-    "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
-    "max_limit": 8440000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-10-09",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeT5MAL",
-    "official_url": "https://wakajo-shotengai.com/flow/",
-    "catch": "都内商店街での開業助成金！",
-    "first_seen": "2026-10-09"
-  },
-  {
     "id": "a0WJ200000CDY6uMAH",
     "title": "令和8年度医療機関診療情報デジタル導入支援事業",
     "max_limit": 0,
@@ -667,6 +649,24 @@
     "official_url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/overview/disclosure/index.html",
     "catch": "",
     "first_seen": "2026-09-05"
+  },
+  {
+    "id": "a0WJ200000CDeT5MAL",
+    "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
+    "max_limit": 8440000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-09",
+    "end": "2026-11-04",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeT5MAL",
+    "official_url": "https://wakajo-shotengai.com/flow/",
+    "catch": "都内商店街での開業助成金！",
+    "first_seen": "2026-10-09"
   },
   {
     "id": "a0WJ200000CDapWMAT",
@@ -1123,6 +1123,25 @@
     "first_seen": "2026-09-16"
   },
   {
+    "id": "jn-194813",
+    "title": "（第5回）令和8年度大分県農林水産業就労環境改善補助金の募集について）",
+    "area": "大分県",
+    "areas": [
+      "大分県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-16",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194813",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
     "id": "a0WfQ000003CYIjUAO",
     "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（g12-2：部素材）の追加公募",
     "max_limit": 0,
@@ -1139,6 +1158,62 @@
     "official_url": "https://www.nedo.go.jp/koubo/CD2_100453.html",
     "catch": "",
     "first_seen": "2026-10-15"
+  },
+  {
+    "id": "jn-194890",
+    "title": "【追加募集】看護職員の資質向上支援事業補助金に係る令和8年度事業計画調査",
+    "area": "岡山県",
+    "areas": [
+      "岡山県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-18",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194890",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "a0WJ200000CDaSdMAL",
+    "title": "令和8年度製品開発着手支援助成事業",
+    "max_limit": 1000000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-27",
+    "end": "2026-11-18",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSdMAL",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chakushu.html",
+    "catch": "～チャレンジを応援！～\n新たな製品・技術の開発にあたって必要な技術検討を支援します",
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194808",
+    "title": "（二次公募）医療・ヘルスケア関連機器開発支援事業補助金の募集について",
+    "area": "宮崎県",
+    "areas": [
+      "宮崎県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-20",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194808",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
   },
   {
     "id": "a0WfQ000003ENsfUAG",
@@ -1256,6 +1331,25 @@
     "first_seen": "2026-10-20"
   },
   {
+    "id": "jn-194836",
+    "title": "「令和8年度福島県地域医療復興事業補助金の交付要綱改正・申請受付開始について」",
+    "area": "福島県",
+    "areas": [
+      "福島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-27",
+    "end": "2026-11-27",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194836",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
     "id": "a0WfQ000003myubUAA",
     "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
     "max_limit": 0,
@@ -1266,7 +1360,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-22",
     "end": "2026-11-27",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003myubUAA",
     "official_url": "https://business.form-mailer.jp/lp/267e04a7349191",
@@ -1284,7 +1378,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-03-24",
     "end": "2026-11-27",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY5GMAX",
     "official_url": null,
@@ -1302,7 +1396,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-22",
     "end": "2026-11-27",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003mzyjUAA",
     "official_url": "https://business.form-mailer.jp/lp/267e04a7349191",
@@ -1326,6 +1420,44 @@
     "official_url": "http://www.heco-hojo.jp",
     "catch": "",
     "first_seen": "2026-06-23"
+  },
+  {
+    "id": "jn-194799",
+    "title": "「茨城県特別高圧受電施設等電気料金支援事業」",
+    "area": "茨城県",
+    "areas": [
+      "茨城県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-26",
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194799",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194811",
+    "title": "「令和8年度熊本県サービス付き高齢者向け住宅整備事業補助金（追加募集）令和8年度熊本県サービス付き高齢者向け住宅整備事業補助金」",
+    "area": "熊本県",
+    "areas": [
+      "熊本県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": 5,
+    "start": null,
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194811",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
   },
   {
     "id": "a0WJ200000CDe6cMAD",
@@ -1398,6 +1530,44 @@
     "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/saiseikanou_hojo_h31.html",
     "catch": "",
     "first_seen": "2026-07-23"
+  },
+  {
+    "id": "jn-194810",
+    "title": "【追加募集】令和8年度熊本県見守り付き住宅確保用配慮者専用賃貸住宅改修事業補助金【事業者募集】令和8年度熊本県見守り付き住宅確保要配慮者専用賃貸住宅等改修事業補助金",
+    "area": "熊本県",
+    "areas": [
+      "熊本県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": 8,
+    "start": null,
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194810",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194775",
+    "title": "【特別高圧電力・LPガス利用事業者向け】第6弾エネルギー価格高騰に対する事業者支援の申請受付を開始します",
+    "area": "熊本県",
+    "areas": [
+      "熊本県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-30",
+    "end": "2026-11-30",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194775",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
   },
   {
     "id": "a0WJ200000CDYEGMA5",
@@ -1608,7 +1778,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-06",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL",
     "official_url": "https://logoform.jp/form/tmgform/1521068",
@@ -1887,6 +2057,43 @@
     "first_seen": "2026-10-06"
   },
   {
+    "id": "a0WfQ000003rYGLUA2",
+    "title": "令和８年度_グリーンスローモビリティ等導入促進事業（三次公募）",
+    "max_limit": 0,
+    "area": "全国",
+    "areas": [
+      "全国"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-27",
+    "end": "2026-12-23",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rYGLUA2",
+    "official_url": "http://www.mlit.go.jp/sogoseisaku/environment/sosei_environment_fr_000139.html",
+    "catch": "グリスロ",
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194796",
+    "title": "「兵庫県地場産業等LPガス価格高騰対策一時支援金（令和8年度6月補正）」",
+    "area": "兵庫県",
+    "areas": [
+      "兵庫県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-26",
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194796",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
     "id": "jn-194743",
     "title": "「令和8年度EVワイヤレス給電技術に係る実証支援事業補助金の公募を開始します」",
     "area": "大阪府",
@@ -2098,6 +2305,25 @@
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/gyoukai/index.html",
     "catch": "観光産業の活性化を促進するため、観光関連業界団体等が行う生産性向上・新サービス開発、情報発信等の取組を支援します。",
     "first_seen": "2026-07-30"
+  },
+  {
+    "id": "jn-194774",
+    "title": "「平塚市貨物運送事業者燃料高騰対策支援金」",
+    "area": "神奈川県",
+    "areas": [
+      "神奈川県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-19",
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194774",
+    "official_url": null,
+    "catch": "",
+    "municipality": "平塚市",
+    "first_seen": "2026-10-28"
   },
   {
     "id": "a0WJ200000CDYTvMAP",
@@ -2592,6 +2818,25 @@
     "first_seen": "2026-07-02"
   },
   {
+    "id": "jn-194921",
+    "title": "「佐久市農業者生産資材価格高騰緊急支援事業補助金について」",
+    "area": "長野県",
+    "areas": [
+      "長野県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-23",
+    "end": "2027-01-29",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194921",
+    "official_url": null,
+    "catch": "",
+    "municipality": "佐久市",
+    "first_seen": "2026-10-28"
+  },
+  {
     "id": "jn-194698",
     "title": "「令和8年度観音寺市漁業者物価高騰対策支援金のお知らせ」",
     "area": "香川県",
@@ -3046,6 +3291,44 @@
     "official_url": "https://gbiz-id.go.jp/top/",
     "catch": "自立・帰還支援雇用創出企業立地補助金（商業施設等復興整備補助事業）では、福島県の避難指示区域等を対象に、住民生活を支える商業機能の回復を支援し、住民の自立・帰還や産業立地の促進等を図る補助金です。",
     "first_seen": "2026-07-31"
+  },
+  {
+    "id": "jn-194812",
+    "title": "「物流効率化支援に係る補助事業について」",
+    "area": "宮崎県",
+    "areas": [
+      "宮崎県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2027-02-26",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194812",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194894",
+    "title": "「令和8年度　福島県ロボット関連技術実証等支援補助金募集のお知らせ」",
+    "area": "福島県",
+    "areas": [
+      "福島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2027-02-26",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194894",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-28"
   },
   {
     "id": "a0WJ200000CDYCmMAP",
@@ -5930,5 +6213,43 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "jn-194858",
+    "title": "「上小阿仁村小規模事業者経営改善資金利子補給」",
+    "area": "秋田県",
+    "areas": [
+      "秋田県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194858",
+    "official_url": null,
+    "catch": "",
+    "municipality": "上小阿仁村",
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194916",
+    "title": "「八幡浜市事業承継補助金のご案内」",
+    "area": "愛媛県",
+    "areas": [
+      "愛媛県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194916",
+    "official_url": null,
+    "catch": "",
+    "municipality": "八幡浜市",
+    "first_seen": "2026-10-28"
   }
 ]
