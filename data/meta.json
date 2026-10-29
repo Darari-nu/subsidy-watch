@@ -1,11 +1,6 @@
 {
-  "last_sweep": "2026-10-28T00:22:58.272Z",
-  "status": "partial",
-  "count": 343,
-  "errors": [
-    "\"事業\": HTTP 429 Too Many Requests",
-    "\"中小\": HTTP 429 Too Many Requests",
-    "\"雇用\": This operation was aborted",
-    "キーワード3件失敗のため前回の有効データ24件を保持（消失防止）"
-  ]
+  "last_sweep": "2026-10-29T00:41:59.913Z",
+  "status": "ok",
+  "count": 341,
+  "errors": []
 }
