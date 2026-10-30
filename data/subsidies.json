@@ -1,59 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDPyeMAH",
-    "title": "［第十三回］事業再構築補助金_GX進出類型（交付申請等）",
-    "max_limit": 150000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2025-06-30",
-    "end": "2026-10-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPyeMAH",
-    "official_url": "https://jigyou-saikouchiku.go.jp/documents.html",
-    "catch": "事業再構築補助金",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDduhMAD",
-    "title": "【山形】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "山形県",
-    "areas": [
-      "山形県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDduhMAD",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
-    "id": "a0WJ200000CDXscMAH",
-    "title": "IP360 海外展開支援（ローカライズ支援）",
-    "max_limit": 40000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-10-08",
-    "end": "2026-10-29",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXscMAH",
-    "official_url": "https://www.meti.go.jp/policy/mono_info_service/contents/menu_contents.html",
-    "catch": "海外展開支援（ローカライズ支援）",
-    "first_seen": "2026-10-09"
-  },
-  {
     "id": "a0WfQ000003a9flUAA",
     "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（三次公募）",
     "max_limit": 3000000,
@@ -142,24 +88,6 @@
     "official_url": "https://www.heco-spc.or.jp/nprs2026_joshitsu/kobo02.html",
     "catch": "",
     "first_seen": "2026-07-07"
-  },
-  {
-    "id": "a0WJ200000CDYh2MAH",
-    "title": "2026年度「海外出願支援事業」（3次募集）",
-    "max_limit": 3000000,
-    "area": "北海道",
-    "areas": [
-      "北海道"
-    ],
-    "employees": "300名以下",
-    "start": "2026-09-29",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH",
-    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
-    "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
-    "first_seen": "2026-09-29"
   },
   {
     "id": "a0WJ200000CDYzVMAX",
@@ -850,6 +778,25 @@
     "first_seen": "2026-10-13"
   },
   {
+    "id": "jn-194937",
+    "title": "「業務改善助成金のご案内」",
+    "area": "佐賀県",
+    "areas": [
+      "佐賀県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-13",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194937",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-30"
+  },
+  {
     "id": "a0WfQ000003I7vlUAC",
     "title": "【岩手県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）３次公募",
     "max_limit": 3000000,
@@ -902,6 +849,24 @@
     "official_url": "https://www.env.go.jp/content/000335998.pdf",
     "catch": "地域貢献等の要件を満たす事業の廃熱を高効率で熱回収する設備（熱や電気等を施設外でも確実に利用すること）及び廃棄物から燃料を製造する設備（燃料が地域内産業で確実に使用されること）の費用の一部を補助します。",
     "first_seen": "2026-10-23"
+  },
+  {
+    "id": "a0WJ200000CDYh2MAH",
+    "title": "2026年度「海外出願支援事業」（3次募集）",
+    "max_limit": 3000000,
+    "area": "北海道",
+    "areas": [
+      "北海道"
+    ],
+    "employees": "300名以下",
+    "start": "2026-09-29",
+    "end": "2026-11-13",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH",
+    "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
+    "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
+    "first_seen": "2026-09-29"
   },
   {
     "id": "a0WJ200000CDZDHMA5",
@@ -1348,6 +1313,44 @@
     "first_seen": "2026-10-28"
   },
   {
+    "id": "jn-195033",
+    "title": "「中小企業なりわい再建被災資産復旧事業補助金（社会福祉）について」",
+    "area": "青森県",
+    "areas": [
+      "青森県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-30",
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195033",
+    "official_url": null,
+    "catch": "",
+    "municipality": "八戸市",
+    "first_seen": "2026-10-30"
+  },
+  {
+    "id": "jn-195032",
+    "title": "「民間特別養護老人ホーム緊急支援金を交付します」",
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195032",
+    "official_url": null,
+    "catch": "",
+    "municipality": "目黒区",
+    "first_seen": "2026-10-30"
+  },
+  {
     "id": "jn-194811",
     "title": "「令和8年度熊本県サービス付き高齢者向け住宅整備事業補助金（追加募集）令和8年度熊本県サービス付き高齢者向け住宅整備事業補助金」",
     "area": "熊本県",
@@ -1365,6 +1368,25 @@
     "catch": "",
     "municipality": null,
     "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194893",
+    "title": "「令和8年度農業経営継続緊急支援事業」",
+    "area": "新潟県",
+    "areas": [
+      "新潟県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-30",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194893",
+    "official_url": null,
+    "catch": "",
+    "municipality": "燕市",
+    "first_seen": "2026-10-30"
   },
   {
     "id": "a0WJ200000CDe6cMAD",
@@ -1468,7 +1490,7 @@
     "max_limit": null,
     "start": "2026-10-30",
     "end": "2026-11-30",
-    "status": "upcoming",
+    "status": "new",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194775",
     "official_url": null,
@@ -2214,6 +2236,25 @@
     "first_seen": "2026-07-30"
   },
   {
+    "id": "jn-195124",
+    "title": "「札幌市先端設備等導入促進補助金（令和8年度事業）」",
+    "area": "北海道",
+    "areas": [
+      "北海道"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-04-01",
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195124",
+    "official_url": null,
+    "catch": "",
+    "municipality": "札幌市",
+    "first_seen": "2026-10-30"
+  },
+  {
     "id": "jn-194774",
     "title": "「平塚市貨物運送事業者燃料高騰対策支援金」",
     "area": "神奈川県",
@@ -2651,6 +2692,25 @@
     "official_url": "https://www.hataraku.metro.tokyo.lg.jp/jinzai/kakuho/gaikokujinkenshu/",
     "catch": "中小企業における外国人従業員の定着を促進します！",
     "first_seen": "2026-08-14"
+  },
+  {
+    "id": "jn-195034",
+    "title": "「2027年度あいち中小企業応援ファンド新事業展開応援助成金（地場産業枠・農商工連携枠）」",
+    "area": "愛知県",
+    "areas": [
+      "愛知県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-12-01",
+    "end": "2027-01-15",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195034",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
+    "first_seen": "2026-10-30"
   },
   {
     "id": "a0WJ200000CDWZ9MAP",
@@ -3202,6 +3262,25 @@
     "first_seen": "2026-10-29"
   },
   {
+    "id": "jn-195031",
+    "title": "「三田市小規模事業者物価高騰対策助成金（R8）」",
+    "area": "兵庫県",
+    "areas": [
+      "兵庫県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-11-01",
+    "end": "2027-02-12",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195031",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三田市",
+    "first_seen": "2026-10-30"
+  },
+  {
     "id": "a0WfQ000003Bf7lUAC",
     "title": "令和８年度介護・障害福祉サービス等事業所における育業・介護休業等両立支援事業費補助金",
     "max_limit": 0,
@@ -3472,6 +3551,24 @@
     "official_url": "https://kosodate-sc.jp/",
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDc0YMAT",
+    "title": "令和８年度都市ガス分野の災害対応・レジリエンス強化に係る支援事業費補助金",
+    "max_limit": 130502000,
+    "area": "全国",
+    "areas": [
+      "全国"
+    ],
+    "employees": "300名以下",
+    "start": "2026-10-07",
+    "end": "2027-02-26",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0YMAT",
+    "official_url": "https://www.gasproc.or.jp/",
+    "catch": "都市ガス分野の災害対応・レジリエンス強化を目的に、中小の一般ガス導管事業者に、ガバナ遠隔監視システム導入を支援します。",
+    "first_seen": "2026-10-30"
   },
   {
     "id": "a0WJ200000CDY1VMAX",
@@ -5649,6 +5746,24 @@
     "first_seen": "2026-10-01"
   },
   {
+    "id": "a0WfQ000003vH2PUAU",
+    "title": "中東情勢による原材料価格高騰に伴う経営基盤安定化緊急対策事業【変更承認申請/変更届/中止申請/実績報告】",
+    "max_limit": 0,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-29",
+    "end": "2028-03-31",
+    "status": "new",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003vH2PUAU",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chuto-kinkyu/index.html",
+    "catch": "中東情勢による原材料価格高騰の影響を受ける中小企業の原材料費の縮減や価格転嫁等に向けた取組を支援します",
+    "first_seen": "2026-10-30"
+  },
+  {
     "id": "a0WJ200000CDOrTMAX",
     "title": "東京都中小企業障害者雇用スタート支援奨励金",
     "max_limit": 1200000,
@@ -6176,6 +6291,25 @@
     "official_url": null,
     "catch": "",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": "jn-195064",
+    "title": "「三次市小規模事業者持続化補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195064",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-30"
   },
   {
     "id": "jn-194858",
