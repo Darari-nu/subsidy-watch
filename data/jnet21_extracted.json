@@ -832,5 +832,50 @@
     "page_text": "",
     "model": "claude-haiku-5-5",
     "at": "2026-10-31T00:36:12.687Z"
+  },
+  "jn-195059": {
+    "hash": "0d4c8bade16dd502",
+    "prefecture": "茨城県",
+    "municipality": "神栖市",
+    "deadline": "2027-03-17",
+    "start": null,
+    "max_limit": null,
+    "who": "神栖市の地域特産品に認定された商品をPRする事業を行う者",
+    "what": "神栖市の魅力を発信する商品のPRや販路拡大",
+    "amount": "不明",
+    "note": "申請方法ほか詳細は記事の「詳細情報を見る」から確認が必要",
+    "page_text": "",
+    "model": "claude-haiku-5-5",
+    "at": "2026-10-31T23:59:14.115Z"
+  },
+  "jn-195200": {
+    "hash": "eee38267b456f718",
+    "prefecture": "北海道",
+    "municipality": "小樽市",
+    "deadline": "2026-11-20",
+    "start": null,
+    "max_limit": null,
+    "who": "市内で現在営農活動をしている農業者",
+    "what": "物価高騰対策の一環として、営農活動に必要な経費（原材料費・燃料費等）への支援",
+    "amount": "経費の額に応じて支援金を給付（具体的な金額は記載なし）",
+    "note": "申込方法ほか詳細情報は「詳細情報を見る」から確認が必要",
+    "page_text": "",
+    "model": "claude-haiku-5-5",
+    "at": "2026-10-31T23:59:17.161Z"
+  },
+  "jn-194801": {
+    "hash": "21fd5da44ceec9c2",
+    "prefecture": "茨城県",
+    "municipality": null,
+    "deadline": "2026-12-25",
+    "start": null,
+    "max_limit": null,
+    "who": "県内中小企業",
+    "what": "適切な価格転嫁を実現し、経営改善を図るための取組に要する経費",
+    "amount": "不明",
+    "note": "申込方法ほか詳細は「詳細情報を見る」から確認が必要",
+    "page_text": "",
+    "model": "claude-haiku-5-5",
+    "at": "2026-10-31T23:59:22.849Z"
   }
 }

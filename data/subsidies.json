@@ -1,185 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDe6TMAT",
-    "title": "【愛媛】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "愛媛県",
-    "areas": [
-      "愛媛県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6TMAT",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
-    "id": "a0WJ200000CDe65MAD",
-    "title": "【山梨】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "山梨県",
-    "areas": [
-      "山梨県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe65MAD",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
-    "id": "a0WJ200000CDe6ZMAT",
-    "title": "【大分】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "大分県",
-    "areas": [
-      "大分県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6ZMAT",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
-    "id": "a0WJ200000CDe6RMAT",
-    "title": "【徳島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "徳島県",
-    "areas": [
-      "徳島県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6RMAT",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
-    "id": "a0WJ200000CDXjwMAH",
-    "title": "【福井県】令和８年度企業の太陽光・蓄電池設備導入促進事業補助金",
-    "max_limit": 11300000,
-    "area": "福井県",
-    "areas": [
-      "福井県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-16",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjwMAH",
-    "official_url": "https://www.pref.fukui.lg.jp/doc/dengen/shin-energy/fukui-taiyokou.html",
-    "catch": "福井の企業を脱炭素化へ！太陽光＆蓄電池導入で最大1,130万円の支援チャンス",
-    "first_seen": "2026-09-17"
-  },
-  {
-    "id": "a0WJ200000CDaTDMA1",
-    "title": "女性の活躍推進に向けた職場環境改善奨励金　支給申請",
-    "max_limit": 1800000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "300名以下",
-    "start": "2026-10-01",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTDMA1",
-    "official_url": "https://jyokatsu-project.jp/program/",
-    "catch": "女性が活躍できる職場づくりを全力でサポート",
-    "first_seen": "2026-08-02"
-  },
-  {
-    "id": "a0WJ200000CDaTFMA1",
-    "title": "女性活躍情報公開促進奨励金　支給申請",
-    "max_limit": 200000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "100名以下",
-    "start": "2026-10-01",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTFMA1",
-    "official_url": "https://jyokatsu-project.jp/program/",
-    "catch": "女性が活躍できる職場づくりを全力でサポート",
-    "first_seen": "2026-08-02"
-  },
-  {
-    "id": "a0WfQ000003aUAjUAM",
-    "title": "東京都若者世代職場定着促進助成金（令和８年度第６回申請受付）",
-    "max_limit": 1260000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-30",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aUAjUAM",
-    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/wakamonosedai/",
-    "catch": "若者世代の早期職場定着化支援",
-    "first_seen": "2026-10-01"
-  },
-  {
-    "id": "a0WfQ000003aN9KUAU",
-    "title": "東京都就職氷河期世代等安定就業サポート助成金（令和８年度第６回申請受付）",
-    "max_limit": 2400000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-30",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aN9KUAU",
-    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/hyogaki/",
-    "catch": "就職氷河期世代の方を正社員として採用し、定着を図るために計画的な指導育成の取組を行った企業に対し助成金を交付します！",
-    "first_seen": "2026-10-01"
-  },
-  {
-    "id": "a0WfQ000003aSfBUAU",
-    "title": "東京都正規雇用転換安定化支援助成金（令和８年度第６回申請受付）",
-    "max_limit": 1900000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-30",
-    "end": "2026-10-31",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aSfBUAU",
-    "official_url": "https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/anteika/",
-    "catch": "企業内で非正規から正規雇用に転換した従業員の方々が安心して働き続けられるよう、正社員としてのキャリアアップの研修や指導育成の取組をした企業に対し助成金を交付します！",
-    "first_seen": "2026-10-01"
-  },
-  {
     "id": "a0WJ200000CDe6XMAT",
     "title": "【長崎】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
     "max_limit": 6000000,
@@ -744,6 +564,24 @@
     "first_seen": "2026-10-15"
   },
   {
+    "id": "a0WJ200000CDXkTMAX",
+    "title": "令和８年度展示会出展助成事業",
+    "max_limit": 1500000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-10-31",
+    "end": "2026-11-16",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/tenjikai/r8/index.html",
+    "catch": "ＢtoＢの展示会への出展費用等を助成します",
+    "first_seen": "2026-11-01"
+  },
+  {
     "id": "jn-194890",
     "title": "【追加募集】看護職員の資質向上支援事業補助金に係る令和8年度事業計画調査",
     "area": "岡山県",
@@ -798,6 +636,25 @@
     "catch": "",
     "municipality": null,
     "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-195200",
+    "title": "「小樽市農業者物価高騰対応支援金を給付します」",
+    "area": "北海道",
+    "areas": [
+      "北海道"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-11-20",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195200",
+    "official_url": null,
+    "catch": "",
+    "municipality": "小樽市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "a0WfQ000003ENsfUAG",
@@ -1583,7 +1440,7 @@
     "employees": "従業員数の制約なし",
     "start": "2025-12-16",
     "end": "2026-12-01",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5",
     "official_url": "https://www.maff.go.jp/j/nousin/tiiki/sesaku/syotoku_kakuho.html",
@@ -1601,7 +1458,7 @@
     "employees": "300名以下",
     "start": "2026-04-10",
     "end": "2026-12-01",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYR2MAP",
     "official_url": "https://www.tokyo-kosha.or.jp/chizai/josei/syouhyoutaisaku/",
@@ -1805,6 +1662,25 @@
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rYGLUA2",
     "official_url": "http://www.mlit.go.jp/sogoseisaku/environment/sosei_environment_fr_000139.html",
     "catch": "グリスロ",
+    "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-194801",
+    "title": "「茨城県価格交渉サポート補助金」",
+    "area": "茨城県",
+    "areas": [
+      "茨城県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-12-25",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194801",
+    "official_url": null,
+    "catch": "",
+    "municipality": null,
     "first_seen": "2026-10-28"
   },
   {
@@ -2933,7 +2809,7 @@
     "max_limit": null,
     "start": "2026-10-22",
     "end": "2027-01-31",
-    "status": "new",
+    "status": "open",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194582",
     "official_url": null,
@@ -3152,7 +3028,7 @@
     "max_limit": null,
     "start": "2026-11-01",
     "end": "2027-02-12",
-    "status": "upcoming",
+    "status": "new",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195031",
     "official_url": null,
@@ -3642,7 +3518,7 @@
     "max_limit": null,
     "start": "2026-06-01",
     "end": "2027-03-01",
-    "status": "new",
+    "status": "open",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194697",
     "official_url": null,
@@ -3722,6 +3598,25 @@
     "official_url": "https://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/18761.html",
     "catch": "国の助成金に10万円を上乗せ！橿原市の中小企業向け生産性向上・賃上げサポート",
     "first_seen": "2026-06-26"
+  },
+  {
+    "id": "jn-195059",
+    "title": "「地域特産品開発事業補助金」",
+    "area": "茨城県",
+    "areas": [
+      "茨城県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2027-03-17",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195059",
+    "official_url": null,
+    "catch": "",
+    "municipality": "神栖市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "a0WJ200000CDY1kMAH",
@@ -3896,7 +3791,7 @@
     "max_limit": null,
     "start": "2026-10-01",
     "end": "2027-03-31",
-    "status": "new",
+    "status": "open",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194584",
     "official_url": null,
