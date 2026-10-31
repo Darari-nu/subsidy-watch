@@ -1,275 +1,5 @@
 [
   {
-    "id": "a0WfQ000003a9flUAA",
-    "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（三次公募）",
-    "max_limit": 3000000,
-    "area": "鳥取県",
-    "areas": [
-      "鳥取県"
-    ],
-    "employees": "300名以下",
-    "start": "2026-09-23",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003a9flUAA",
-    "official_url": "https://www.toriton.or.jp/subsidiary-aid/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6%e4%b8%ad%e5%b0%8f%e4%bc%81%e6%a5%ad%e7%ad%89%e6%b5%b7%e5%a4%96%e5%b1%95%e9%96%8b%e6%94%af%e6%8f%b4%e4%ba%8b%e6%a5%ad%e8%b2%bb%e8%a3%9c%e5%8a%a9%e9%87%91-3/",
-    "catch": "【鳥取県】外国出願補助金",
-    "first_seen": "2026-09-26"
-  },
-  {
-    "id": "a0WfQ000003oIxhUAE",
-    "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第６回公募）",
-    "max_limit": 3000000,
-    "area": "島根県",
-    "areas": [
-      "島根県"
-    ],
-    "employees": "300名以下",
-    "start": "2026-09-30",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003oIxhUAE",
-    "official_url": "https://www.joho-shimane.or.jp/news/wanted_subsidy/11705",
-    "catch": "【島根県】外国出願補助金",
-    "first_seen": "2026-10-13"
-  },
-  {
-    "id": "a0WJ200000CDaotMAD",
-    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業）",
-    "max_limit": 300000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-06-22",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaotMAD",
-    "official_url": "https://www.ipa.go.jp/security/jc-star/list/jc-star-product-list/index.html",
-    "catch": "",
-    "first_seen": "2026-06-23"
-  },
-  {
-    "id": "a0WJ200000CDczMMAT",
-    "title": "【令和８年度２次公募】国立公園等多言語解説等整備事業（国立公園等資源整備事業費補助金）",
-    "max_limit": 0,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-06",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczMMAT",
-    "official_url": "https://www.heco-spc.or.jp/nprs2025_tagengo/index.html",
-    "catch": "",
-    "first_seen": "2026-07-07"
-  },
-  {
-    "id": "a0WJ200000CDczHMAT",
-    "title": "【令和８年度２次公募】国立公園等利用拠点滞在環境等上質化事業（国立公園等資源整備事業費補助金）",
-    "max_limit": 0,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-06",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczHMAT",
-    "official_url": "https://www.heco-spc.or.jp/nprs2026_joshitsu/kobo02.html",
-    "catch": "",
-    "first_seen": "2026-07-07"
-  },
-  {
-    "id": "a0WJ200000CDYzVMAX",
-    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業① 空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
-    "max_limit": 150000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-21",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX",
-    "official_url": "https://www.heco-hojo.jp/",
-    "catch": "APU等（移動式GPU含む）から再生可能エネルギー由来電力の活用が可能なGPUへの切り替えを行う事業",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDZ1GMAX",
-    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
-    "max_limit": 0,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-21",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX",
-    "official_url": "https://www.heco-hojo.jp/",
-    "catch": "空港内専用車両を電気自動車又は燃料電池自動車へ改造を行う事業",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDZ04MAH",
-    "title": "産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
-    "max_limit": 100000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-05-21",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH",
-    "official_url": "https://www.heco-hojo.jp/",
-    "catch": "船舶へ電力を供給する陸上電力供給設備の導入事業、ハイブリッド型・水素換装型・水素燃料型・電気自動車型のコンテナ貨物を取り扱う荷役機械の導入事業、また既存のコンテナ貨物を取り扱う荷役機械をハイブリッド型・水素換装型・水素燃料型・電気自動車型へ改造を行う事業",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0W5h00000UcDDXEA3",
-    "title": "東京都広域団体認定訓練助成金",
-    "max_limit": 0,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-30",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcDDXEA3",
-    "official_url": null,
-    "catch": "",
-    "first_seen": "2026-10-01"
-  },
-  {
-    "id": "a0WfQ000003IBL3UAO",
-    "title": "令和６年度　勤務環境改善医師派遣等推進事業【仕入控除税額報告】",
-    "max_limit": 0,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2025-10-29",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003IBL3UAO",
-    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/isihaken",
-    "catch": "",
-    "first_seen": "2026-09-16"
-  },
-  {
-    "id": "a0WfQ000003I9xZUAS",
-    "title": "令和６年度地域医療勤務環境改善体制整備特別事業【仕入控除税額報告】",
-    "max_limit": 0,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2025-10-29",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003I9xZUAS",
-    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/taiseiseibitokubetu",
-    "catch": "",
-    "first_seen": "2026-09-16"
-  },
-  {
-    "id": "a0WJ200000CDVu7MAH",
-    "title": "令和７年度勤務環境改善体制医師派遣等推進事業",
-    "max_limit": 0,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2025-10-29",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVu7MAH",
-    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/isihaken",
-    "catch": "医師派遣事業",
-    "first_seen": "2026-09-17"
-  },
-  {
-    "id": "a0WJ200000CDY4mMAH",
-    "title": "令和７年度補正 業務産業用蓄電システム導入支援事業",
-    "max_limit": 15000000,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-03-24",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY4mMAH",
-    "official_url": null,
-    "catch": "DR業務産業用蓄電池",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WJ200000CDY6uMAH",
-    "title": "令和8年度医療機関診療情報デジタル導入支援事業",
-    "max_limit": 0,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-04-14",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6uMAH",
-    "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/digital_dounyu.html",
-    "catch": "",
-    "first_seen": "2026-06-18"
-  },
-  {
-    "id": "a0WfQ000003Bwa1UAC",
-    "title": "令和８年度第２回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
-    "max_limit": 20000000,
-    "area": "東京都",
-    "areas": [
-      "東京都"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-09-13",
-    "end": "2026-10-30",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bwa1UAC",
-    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/kadai-kaihatsu/index.html",
-    "catch": "東京の都市課題解決に向けた製品・サービス等の開発・改良を支援（助成限度額2,000万円、助成率２／３以内）",
-    "first_seen": "2026-09-14"
-  },
-  {
     "id": "a0WJ200000CDe6TMAT",
     "title": "【愛媛】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
     "max_limit": 6000000,
@@ -869,24 +599,6 @@
     "first_seen": "2026-09-29"
   },
   {
-    "id": "a0WJ200000CDZDHMA5",
-    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
-    "max_limit": 0,
-    "area": "全国",
-    "areas": [
-      "全国"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-07-02",
-    "end": "2026-11-13",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5",
-    "official_url": "https://www.heco-hojo.jp/",
-    "catch": "空港内専用車両における電気自動車又は燃料電池自動車の導入を行う事業",
-    "first_seen": "2026-07-03"
-  },
-  {
     "id": "a0WJ200000CDNDnMAP",
     "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
     "max_limit": 1500000000,
@@ -1304,13 +1016,32 @@
     "max_limit": null,
     "start": "2026-10-26",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194799",
     "official_url": null,
     "catch": "",
     "municipality": null,
     "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-195201",
+    "title": "「中小企業なりわい再建被災資産復旧事業補助金（医療業）について」",
+    "area": "青森県",
+    "areas": [
+      "青森県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-30",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195201",
+    "official_url": null,
+    "catch": "",
+    "municipality": "八戸市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "jn-195033",
@@ -1323,13 +1054,32 @@
     "max_limit": null,
     "start": "2026-10-30",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195033",
     "official_url": null,
     "catch": "",
     "municipality": "八戸市",
     "first_seen": "2026-10-30"
+  },
+  {
+    "id": "jn-195132",
+    "title": "「中小企業なりわい再建被災資産復旧事業補助金（農林水産業）について」",
+    "area": "青森県",
+    "areas": [
+      "青森県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-30",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195132",
+    "official_url": null,
+    "catch": "",
+    "municipality": "八戸市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "jn-195032",
@@ -1342,7 +1092,7 @@
     "max_limit": null,
     "start": null,
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195032",
     "official_url": null,
@@ -1361,7 +1111,7 @@
     "max_limit": 5,
     "start": null,
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194811",
     "official_url": null,
@@ -1380,7 +1130,7 @@
     "max_limit": null,
     "start": null,
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194893",
     "official_url": null,
@@ -1399,7 +1149,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-31",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6cMAD",
     "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
@@ -1417,7 +1167,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-31",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdueMAD",
     "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
@@ -1435,7 +1185,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-31",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6YMAT",
     "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
@@ -1453,7 +1203,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-16",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddVMAT",
     "official_url": "https://www.pref.yamagata.jp/050016/kurashi/kankyo/energy/saiseikanou/saiseikanou_hojo_h31.html",
@@ -1471,7 +1221,7 @@
     "max_limit": 8,
     "start": null,
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194810",
     "official_url": null,
@@ -1490,7 +1240,7 @@
     "max_limit": null,
     "start": "2026-10-30",
     "end": "2026-11-30",
-    "status": "new",
+    "status": "closing_soon",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194775",
     "official_url": null,
@@ -1509,7 +1259,7 @@
     "employees": "300名以下",
     "start": "2026-04-12",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEGMA5",
     "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000120692_00001.html",
@@ -1527,7 +1277,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-18",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYeMAL",
     "official_url": "https://www.tcvb.or.jp/jp/project/infra/DXmgmt/",
@@ -1545,7 +1295,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-03-13",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYfxMAH",
     "official_url": "https://www.city.koga.fukuoka.jp/cityhall/work/kankyo/013.php",
@@ -1553,21 +1303,75 @@
     "first_seen": "2026-06-18"
   },
   {
-    "id": "a0WJ200000CDZIAMA5",
-    "title": "埼玉県中小企業等奨学金返還支援事業補助金（令和８年度）",
-    "max_limit": 0,
-    "area": "埼玉県",
+    "id": "a0WJ200000CDYzVMAX",
+    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業① 空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
+    "max_limit": 150000000,
+    "area": "全国",
     "areas": [
-      "埼玉県"
+      "全国"
     ],
     "employees": "従業員数の制約なし",
-    "start": "2026-06-01",
+    "start": "2026-05-21",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIAMA5",
-    "official_url": "https://saitama-shougakukinhojyo.com/",
-    "catch": "奨学金を返還する従業員に手当を支給する中小企業等へ補助します！\n若者から選ばれる魅力ある企業を目指して取り組みませんか！",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX",
+    "official_url": "https://www.heco-hojo.jp/",
+    "catch": "APU等（移動式GPU含む）から再生可能エネルギー由来電力の活用が可能なGPUへの切り替えを行う事業",
+    "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDZDHMA5",
+    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
+    "max_limit": 0,
+    "area": "全国",
+    "areas": [
+      "全国"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-07-02",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5",
+    "official_url": "https://www.heco-hojo.jp/",
+    "catch": "空港内専用車両における電気自動車又は燃料電池自動車の導入を行う事業",
+    "first_seen": "2026-07-03"
+  },
+  {
+    "id": "a0WJ200000CDZ1GMAX",
+    "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
+    "max_limit": 0,
+    "area": "全国",
+    "areas": [
+      "全国"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-05-21",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX",
+    "official_url": "https://www.heco-hojo.jp/",
+    "catch": "空港内専用車両を電気自動車又は燃料電池自動車へ改造を行う事業",
+    "first_seen": "2026-06-18"
+  },
+  {
+    "id": "a0WJ200000CDZ04MAH",
+    "title": "産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
+    "max_limit": 100000000,
+    "area": "全国",
+    "areas": [
+      "全国"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-05-21",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH",
+    "official_url": "https://www.heco-hojo.jp/",
+    "catch": "船舶へ電力を供給する陸上電力供給設備の導入事業、ハイブリッド型・水素換装型・水素燃料型・電気自動車型のコンテナ貨物を取り扱う荷役機械の導入事業、また既存のコンテナ貨物を取り扱う荷役機械をハイブリッド型・水素換装型・水素燃料型・電気自動車型へ改造を行う事業",
     "first_seen": "2026-06-18"
   },
   {
@@ -1581,7 +1385,7 @@
     "employees": "100名以下",
     "start": "2026-07-14",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYxMAL",
     "official_url": "https://jyokatsu-project.jp/program/",
@@ -1599,7 +1403,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-13",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsRMAX",
     "official_url": "https://www.pref.shizuoka.jp/kurashikankyo/recycle/1040876/1077141.html",
@@ -1617,7 +1421,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-09-30",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aZqLUAU",
     "official_url": "https://www.city.narita.chiba.jp/business/page0101_00103.html",
@@ -1635,7 +1439,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-06-14",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ot1BUAQ",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/shoko/chiiki/jyosei#9",
@@ -1653,7 +1457,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-14",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXyuMAH",
     "official_url": "https://www.jwrf.or.jp/individual/prj_000369.html?20250401133227",
@@ -1671,7 +1475,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-06-04",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1bMAD",
     "official_url": "https://bl-renos.jp/r8/",
@@ -1689,7 +1493,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-01",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDderMAD",
     "official_url": "https://www.zeneiren.or.jp/",
@@ -1707,7 +1511,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-08-06",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL",
     "official_url": "https://logoform.jp/form/tmgform/1521068",
@@ -1725,7 +1529,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-01",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUmMAP",
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/beauty/",
@@ -1743,7 +1547,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-04-14",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXvUMAX",
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/h_gaiyou/dx_zinzai",
@@ -1761,7 +1565,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-07-07",
     "end": "2026-11-30",
-    "status": "open",
+    "status": "closing_soon",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1gMAD",
     "official_url": "https://www.jataff.or.jp/project/dendo-nouki/index.html",
@@ -2253,6 +2057,63 @@
     "catch": "",
     "municipality": "札幌市",
     "first_seen": "2026-10-30"
+  },
+  {
+    "id": "jn-195149",
+    "title": "「所得向上補助金のご案内」",
+    "area": "和歌山県",
+    "areas": [
+      "和歌山県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195149",
+    "official_url": null,
+    "catch": "",
+    "municipality": "和歌山市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195198",
+    "title": "「小竹町化学肥料購入費補助金の交付について」",
+    "area": "福岡県",
+    "areas": [
+      "福岡県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195198",
+    "official_url": null,
+    "catch": "",
+    "municipality": "小竹町",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195199",
+    "title": "「小竹町畜産配合飼料購入費補助金の交付について」",
+    "area": "福岡県",
+    "areas": [
+      "福岡県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2026-12-28",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195199",
+    "official_url": null,
+    "catch": "",
+    "municipality": "小竹町",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "jn-194774",
@@ -2842,6 +2703,25 @@
     "first_seen": "2026-10-24"
   },
   {
+    "id": "jn-195151",
+    "title": "「和歌山市展示会等開催支援事業補助金」",
+    "area": "和歌山県",
+    "areas": [
+      "和歌山県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2027-01-29",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195151",
+    "official_url": null,
+    "catch": "",
+    "municipality": "和歌山市",
+    "first_seen": "2026-10-31"
+  },
+  {
     "id": "a0WJ200000CDVn4MAH",
     "title": "【畜産事業者向け】都城市農業資材等価格高騰緊急支援事業費補助金（令和８年度）",
     "max_limit": 1000000,
@@ -3317,6 +3197,25 @@
     "first_seen": "2026-07-31"
   },
   {
+    "id": "jn-195105",
+    "title": "「三次市ラジコン草刈機・法面草刈機導入支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": "2027-02-26",
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195105",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
     "id": "jn-194812",
     "title": "「物流効率化支援に係る補助事業について」",
     "area": "宮崎県",
@@ -3786,6 +3685,25 @@
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/sustainability-management",
     "catch": "サステナビリティ経営　SLL　サステナビリティリンクローン　ポジティブ・インパクト・ファイナンス　PIF 連携金融機関　中堅・中小企業　中堅中小企業　東京都　補助金",
     "first_seen": "2026-07-02"
+  },
+  {
+    "id": "jn-195196",
+    "title": "「水田農業構造改革対策事業補助金について」",
+    "area": "兵庫県",
+    "areas": [
+      "兵庫県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2027-02-01",
+    "end": "2027-03-10",
+    "status": "upcoming",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195196",
+    "official_url": null,
+    "catch": "",
+    "municipality": "高砂市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "a0WJ200000CDbyzMAD",
@@ -5360,7 +5278,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-22",
     "end": "2027-03-31",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003poQrUAI",
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/tiikiiryoukinmukankyoukaizen",
@@ -5378,7 +5296,7 @@
     "employees": "従業員数の制約なし",
     "start": "2026-10-19",
     "end": "2027-03-31",
-    "status": "new",
+    "status": "open",
     "source": "jgrants",
     "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qEuoUAE",
     "official_url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/sonota/kinmukankyoukaizen/taiseiseibitokubetu",
@@ -6293,6 +6211,139 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "jn-195108",
+    "title": "「外部人材活用支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195108",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195113",
+    "title": "「三次市チャレンジショップ運営支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195113",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195116",
+    "title": "「三次市起業支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195116",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195115",
+    "title": "「三次市空店舗出店支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195115",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195111",
+    "title": "「三次市三次ブランド販路拡大支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195111",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195110",
+    "title": "「三次市事業承継支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195110",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195112",
+    "title": "「三次市商店街活性化支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195112",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
     "id": "jn-195064",
     "title": "「三次市小規模事業者持続化補助金」",
     "area": "広島県",
@@ -6310,6 +6361,63 @@
     "catch": "",
     "municipality": "三次市",
     "first_seen": "2026-10-30"
+  },
+  {
+    "id": "jn-195114",
+    "title": "「三次市新規開業支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195114",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195109",
+    "title": "「三次市人材確保支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195109",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195121",
+    "title": "「小規模事業者経営改善資金（マル経融資）利子補給金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195121",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
   },
   {
     "id": "jn-194858",
@@ -6331,6 +6439,82 @@
     "first_seen": "2026-10-28"
   },
   {
+    "id": "jn-195126",
+    "title": "「新商品開発調査研究・販路開拓支援補助金」の募集について",
+    "area": "北海道",
+    "areas": [
+      "北海道"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195126",
+    "official_url": null,
+    "catch": "",
+    "municipality": "壮瞥町",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195106",
+    "title": "「多様な人材確保環境整備事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195106",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195107",
+    "title": "「多様な人材確保支援事業補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195107",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
+    "id": "jn-195122",
+    "title": "「中小企業信用保証料補助金」",
+    "area": "広島県",
+    "areas": [
+      "広島県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": null,
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195122",
+    "official_url": null,
+    "catch": "",
+    "municipality": "三次市",
+    "first_seen": "2026-10-31"
+  },
+  {
     "id": "jn-194916",
     "title": "「八幡浜市事業承継補助金のご案内」",
     "area": "愛媛県",
@@ -6348,5 +6532,24 @@
     "catch": "",
     "municipality": "八幡浜市",
     "first_seen": "2026-10-28"
+  },
+  {
+    "id": "jn-195148",
+    "title": "「和歌山市生産性向上ツール導入補助金」",
+    "area": "和歌山県",
+    "areas": [
+      "和歌山県"
+    ],
+    "employees": "規模指定なし",
+    "max_limit": null,
+    "start": "2026-10-01",
+    "end": null,
+    "status": "new",
+    "source": "jnet21",
+    "source_url": "https://j-net21.smrj.go.jp/snavi/articles/195148",
+    "official_url": null,
+    "catch": "",
+    "municipality": "和歌山市",
+    "first_seen": "2026-10-31"
   }
 ]
