@@ -1,23 +1,5 @@
 [
   {
-    "id": "a0WJ200000CDe6XMAT",
-    "title": "【長崎】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-    "max_limit": 6000000,
-    "area": "長崎県",
-    "areas": [
-      "長崎県"
-    ],
-    "employees": "従業員数の制約なし",
-    "start": "2026-08-31",
-    "end": "2026-11-01",
-    "status": "closing_soon",
-    "source": "jgrants",
-    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6XMAT",
-    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
-    "catch": "",
-    "first_seen": "2026-09-01"
-  },
-  {
     "id": "a0WJ200000CDe4JMAT",
     "title": "令和７年度補正　再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金　系統用蓄電システム等導入支援事業",
     "max_limit": 4000000000,
@@ -417,6 +399,31 @@
     "official_url": "https://6ba0e801.form.kintoneapp.com/public/grants-form",
     "catch": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
     "first_seen": "2026-09-29"
+  },
+  {
+    "id": "a0WfQ000003pt0jUAA",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（業務改善コース）【令和8年度第3回】",
+    "max_limit": 6000000,
+    "area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+    "areas": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "山梨県"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-11-02",
+    "end": "2026-11-13",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003pt0jUAA",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/soui-challenge/ippan/index.html",
+    "catch": "物価高騰などに創意工夫で強みを伸ばし、立ち向かう企業を応援",
+    "first_seen": "2026-11-02"
   },
   {
     "id": "a0WJ200000CDNDnMAP",
@@ -1068,6 +1075,24 @@
     "first_seen": "2026-07-23"
   },
   {
+    "id": "a0WfQ000003ohEXUAY",
+    "title": "【第３回】中東情勢による原材料価格高騰に伴う経営基盤安定化緊急対策事業",
+    "max_limit": 20000000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "従業員数の制約なし",
+    "start": "2026-11-02",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ohEXUAY",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chuto-kinkyu/index.html",
+    "catch": "中東情勢による原材料価格高騰の影響を受ける中小企業の原材料費の縮減や価格転嫁等に向けた取組を支援します",
+    "first_seen": "2026-11-02"
+  },
+  {
     "id": "jn-194810",
     "title": "【追加募集】令和8年度熊本県見守り付き住宅確保用配慮者専用賃貸住宅改修事業補助金【事業者募集】令和8年度熊本県見守り付き住宅確保要配慮者専用賃貸住宅等改修事業補助金",
     "area": "熊本県",
@@ -1232,6 +1257,42 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": "a0WJ200000CDaTDMA1",
+    "title": "女性の活躍推進に向けた職場環境改善奨励金　支給申請",
+    "max_limit": 1800000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "300名以下",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTDMA1",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-11-02"
+  },
+  {
+    "id": "a0WJ200000CDaTFMA1",
+    "title": "女性活躍情報公開促進奨励金　支給申請",
+    "max_limit": 200000,
+    "area": "東京都",
+    "areas": [
+      "東京都"
+    ],
+    "employees": "100名以下",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTFMA1",
+    "official_url": "https://jyokatsu-project.jp/program/",
+    "catch": "女性が活躍できる職場づくりを全力でサポート",
+    "first_seen": "2026-11-02"
+  },
+  {
     "id": "a0WJ200000CDbYxMAL",
     "title": "女性活躍情報公開促進奨励金　中止届",
     "max_limit": 200000,
@@ -1302,6 +1363,24 @@
     "official_url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/shoko/chiiki/jyosei#9",
     "catch": "",
     "first_seen": "2026-10-14"
+  },
+  {
+    "id": "a0WfQ000003ykxVUAQ",
+    "title": "福島県中小企業特別高圧電気料金支援補助金（第８次）",
+    "max_limit": 0,
+    "area": "福島県",
+    "areas": [
+      "福島県"
+    ],
+    "employees": "300名以下",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "status": "closing_soon",
+    "source": "jgrants",
+    "jgrants_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ykxVUAQ",
+    "official_url": "https://www.pref.fukushima.lg.jp/sec/32011b/ehvp-subsidy.html",
+    "catch": "特別高圧電気料金補助金",
+    "first_seen": "2026-11-02"
   },
   {
     "id": "a0WJ200000CDXyuMAH",
@@ -1494,7 +1573,7 @@
     "max_limit": null,
     "start": "2026-11-02",
     "end": "2026-12-10",
-    "status": "upcoming",
+    "status": "new",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/193132",
     "official_url": null,
@@ -2551,7 +2630,7 @@
     "max_limit": null,
     "start": "2026-11-02",
     "end": "2027-01-29",
-    "status": "upcoming",
+    "status": "open",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194698",
     "official_url": null,
@@ -2570,7 +2649,7 @@
     "max_limit": null,
     "start": "2026-11-02",
     "end": "2027-01-29",
-    "status": "upcoming",
+    "status": "open",
     "source": "jnet21",
     "source_url": "https://j-net21.smrj.go.jp/snavi/articles/194685",
     "official_url": null,
